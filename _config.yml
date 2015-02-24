@@ -1,0 +1,15 @@
+# Site settings
+title: Sai Revanth Revoori
+email: revanth001reva@gmail.com
+description: Revanth Revoori is a developer, photographer, and self-proclaimed music connoisseur.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.rrevan.com" # the base hostname & protocol for your site
+
+twitter_username: revanth001reva
+github_username:  5ud0
+instagram_username: revanth001reva
+dribbble_username: revanth001reva
+linkedin_username: revanthrevoori
+
+# Build settings
+markdown: kramdown
