@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "First Read"
+date:   2015-01-17 17:44:34
+categories: reads
+---
+Will be posting Articles Links and All Here!
