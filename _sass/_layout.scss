@@ -39,7 +39,7 @@
 nav {
   float: right;
   padding-top: 18px;
-  width: 40%;
+  width: 60%;
   text-align: right;
   ul {
     list-style-type: none;
@@ -62,6 +62,7 @@ nav {
     padding: 0 0 20px;
     ul {
       li {
+        padding-right: 1px;
         &:first-child {
           padding-left: 0;
         }
