@@ -1,3 +1,2 @@
-_site/*
-!_site/tag
+_site
 .sass-cache
