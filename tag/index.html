@@ -23,7 +23,7 @@ li { display: block; }
 	      <br><br>
 	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
 	      {% for tag in post.tags %}
-	      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+	      	<a class="tags" href="{{site.path}}/tag/{{ tag }}">{{ tag }}</a>
 	      {% endfor %}
 	      <br>
 	      {{ post.date | date: "%b %-d, %Y" }}
