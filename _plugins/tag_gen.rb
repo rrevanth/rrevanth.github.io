@@ -19,7 +19,7 @@ module Jekyll
     
     def generate(site)
       if site.layouts.key? 'tag_index'
-        dir = site.baseurl+'/tag'
+        dir = 'tag'
         site.tags.keys.each do |tag|
           write_tag_index(site, File.join(dir, tag), tag)
         end
