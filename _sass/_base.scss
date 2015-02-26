@@ -106,6 +106,14 @@ a {
     &.instagram {
         color: $linkblue;
     }
+    &.tags {
+        font-style: italic;
+        font-size: $small-font-size;
+    }
+    &.title {
+        color: $instablue;
+        font-size: $base-font-size*1.5;
+    }
 
   &.link-border {
     color: $text-color;
