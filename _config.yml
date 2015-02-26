@@ -14,3 +14,4 @@ linkedin_username: revanthrevoori
 
 # Build settings
 markdown: kramdown
+baseurl: /rrevanth.github.io
