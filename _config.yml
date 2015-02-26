@@ -15,3 +15,5 @@ linkedin_username: revanthrevoori
 # Build settings
 markdown: kramdown
 path: /rrevanth.github.io
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
