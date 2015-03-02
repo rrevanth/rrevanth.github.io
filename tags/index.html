@@ -4,6 +4,18 @@ layout: blog
 
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
+<style type="text/css">
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+li { display: block; }
+/*li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
+}*/
+</style>
+
 <div>
 
 	{% capture tags %}
@@ -14,13 +26,11 @@ layout: blog
 	{% assign sortedtags = tags | split:' ' | sort %}
 
 	{% for tag in sortedtags %}
+		<h3 id="{{ tag }}">{{ tag }}</h3>
 	  {% for post in site.tags[tag] %}
-	  	{% if post.categories[0] != 'reads' %}
-	  		<h3 id="{{ tag }}">{{ tag }}</h3>
 	  		<ul>
 	    		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	    	</ul>
-	    {% endif %}
 	  {% endfor %}
 	{% endfor %}
 

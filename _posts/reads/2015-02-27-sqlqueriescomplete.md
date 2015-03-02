@@ -4,7 +4,8 @@ title:  "Complete SQL Queries"
 date:   2015-02-27 17:44:34
 categories: reads
 tags:
-- SQL
+- reads
+- sql
 - interview
 ---
 <a class="embedly-card" href="http://www.bullraider.com/database/sql-tutorial">SQL Tutorial Home</a>
