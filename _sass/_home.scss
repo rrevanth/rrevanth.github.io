@@ -1,6 +1,29 @@
 .home {
   text-align: center;
 
+  #m1,#m2,#m3,#m4,#m5,#m6 {
+    display: none;
+  }
+
+  #m{
+    &:hover {
+          ~ #m1 {display: block;
+          transition: display 0s 9999999s;}
+          }
+  }
+
+  #m1{
+    &:hover {
+          ~#m2 {display: block;}
+          }
+  }
+
+  #m2{
+    &:hover {
+          ~#m3 {display: block;}
+          }
+  }
+
   h2 {
     margin: 20% 0 5%;
     font-size: 35px;
