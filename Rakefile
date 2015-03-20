@@ -23,11 +23,11 @@
         system "rm -rf *"
         system "mv #{tmp}/* ."
         message = "Site updated at #{Time.now.utc}"
-        # system "git add ."
-        # system "git commit -am #{message.shellescape}"
-        # system "git push origin master --force"
-        # system "git checkout master"
-        # system "echo yolo"
+        system "git add ."
+        system "git commit -am #{message.shellescape}"
+        system "git push origin master --force"
+        system "git checkout master"
+        system "echo yolo"
       end
     end
 
