@@ -18,10 +18,11 @@
     desc "Generate and publish blog to master"
     task :publish => [:generate] do
       Dir.mktmpdir do |tmp|
-        system "mv _site/* #{tmp}"
+        system "mkdir $HOME/_site"
+        system "mv _site/* $HOME/_site"
         system "git checkout -B master"
         system "rm -rf *"
-        system "mv #{tmp}/* ."
+        system "mv $HOME/_site/* ."
         message = "Site updated at #{Time.now.utc}"
         system "git add ."
         system "git commit -am #{message.shellescape}"
