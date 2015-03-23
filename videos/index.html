@@ -1,0 +1,34 @@
+---
+layout: blog
+---
+
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+<style type="text/css">
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+li { display: block; }
+/*li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
+}*/
+</style>
+
+<div class="blog">
+	<ul>
+	  {% for post in site.categories.tidbit %}
+	    <li>
+	      <br><br>
+	      <a class="title" href="{{ post.url }}" font-weight="bold">{{ post.title }}</a><br>
+	      {% for tag in post.tags %}
+	      	<a class="tags" href="/tag/{{ tag }}">#{{ tag }}</a>
+	      {% endfor %}
+	      <br>
+	      {{ post.excerpt }}
+	      <br><br>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>
