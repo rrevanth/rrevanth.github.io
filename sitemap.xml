@@ -8,128 +8,222 @@
 
 <url>
   <loc>http://rrevanth.github.io/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/reads/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/blog/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/videos/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/photos/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/musings/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/resume/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/tags/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://rrevanth.github.io/reads/2015/02/27/2.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rrevanth.github.io/reads/2015/03/23/facebookltesimulate.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://rrevanth.github.io/tag/SQL/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rrevanth.github.io/tag/reads/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/facebook/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/opensource/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/technology/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/joinssqlinterview.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/sql/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/tag/interview/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://rrevanth.github.io/reads/2015/02/27/5.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/tagsinjekyllcharlieparker.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/tag/jekyll/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/tag/github%20pages/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/reads/2015/02/27/4.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/tag/Java/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/reads/2015/02/27/3.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rrevanth.github.io/reads/2015/02/27/1.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/tag/code/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://rrevanth.github.io/blog/2015/01/17/1.html</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/sqlqueriescomplete.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://rrevanth.github.io/tag/helloworld/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/microsoftdesign.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/java/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/jekyllpluginsongithub.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/github/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/reads/2015/02/27/javainterviewset.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/blog/2015/03/11/unityGameDev.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://rrevanth.github.io/tag/blog/</loc>
-  <lastmod>2015-02-26T10:47:24+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/unity/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/game/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/study/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/blog/2015/03/11/sailsjs_study.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/sailsjs/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/startup/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/blog/2015/03/02/pythonsnippets.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/python/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/snippets/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/blog/2015/03/02/bashsnippets.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/bash/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tidbit/2015/03/23/tedtalkpranavmistery.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/videos/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/tedtalks/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/sixthsense/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tidbit/2015/03/23/microsoftchangingdesign.html</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/design/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://rrevanth.github.io/tag/microsoft/</loc>
+  <lastmod>2015-03-23T16:45:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
