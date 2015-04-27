@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: tags
 ---
 
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
@@ -27,11 +27,11 @@ li { display: block; }
 
 	{% for tag in sortedtags %}
 		<h3 id="{{ tag }}">#{{ tag }}</h3>
-	  {% for post in site.tags[tag] %}
-	  		<ul>
+		<ul>
+	  		{% for post in site.tags[tag] %}
 	    		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	    	</ul>
-	  {% endfor %}
+	  		{% endfor %}
+	  	</ul>
 	{% endfor %}
 
 </div>
