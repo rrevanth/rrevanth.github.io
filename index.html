@@ -1,23 +1,35 @@
 ---
-layout: home
+layout: blog
 ---
 
-<div class="home">
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-  <div id="m"><p>Hi,I'm Revanth</p></div>
+<style type="text/css">
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+li { display: block; }
+/*li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
+}*/
+</style>
 
-  <div id="m1"><p>Urbanite. Foodie. Explorer. Aspiring guitarist.</p></div>
-
-  <div id="m2"><p>Born in India, Alumna of Indian Institute of Technology,Kharagpur.</p></div>
-
-  <div id="m3"><p>Intrigued by design, traveling, photography, music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.</p></div>
-
-  <div id="m4"><p>Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me. </p></div>
-
-  <div id="m5"><p>Worked as Data Scientist at <a href="http://www.htmedia.in/" target="_blank">HTMedia</a>[<a href="http://www.digitalquotient.com/" target="_blank">DQ</a>] and Full Stack Developer at <a href="http://www.gridants.com" target="_blank">Gridants</a>.</p></div>
-
-  <div id="m6"><p>Check out my resume <a class="instagram" href="/resume"><h1>HERE</h1></a></p></div>
-
-  <div><p>Say hi on Twitter <a class="twitter" href="https://twitter.com/revanth001reva">@revanth001reva</a></p></div>
-
+<div>
+	<ul>
+	  {% for post in site.categories.blog %}
+	    <li>
+	      <br><br>
+	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
+	      {% for tag in post.tags %}
+	      	<a class="tags" href="/tag/{{ tag }}">#{{ tag }}</a>
+	      {% endfor %}
+	      <br>
+	      {{ post.date | date: "%b %-d, %Y" }}
+	      {{ post.excerpt }}
+	      <br><br>
+	    </li>
+	  {% endfor %}
+	</ul>
 </div>
