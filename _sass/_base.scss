@@ -109,10 +109,11 @@ a {
         color: $linkblue;
     }
     &.tags {
-        font-style: italic;
         font-size: $small-font-size;
     }
     &.title {
+        font-family: "etica", Helvetica, sans-serif;
+        font-weight: 600;
         color: $instablue;
         font-size: $base-font-size*1.5;
     }

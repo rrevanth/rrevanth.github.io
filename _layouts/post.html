@@ -4,7 +4,6 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h3><a href="/">&lt&lt&lt</a></h3>
     <h1 class="post-title">{{ page.title }}</h1>
     {% for tag in page.tags %}
       	<a class="tags" href="/tag/{{ tag }}">#{{ tag }}</a>
@@ -16,6 +15,8 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  <h4><a href="/">&lt-Back to Blog</a></h4>
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
