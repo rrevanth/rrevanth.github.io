@@ -90,31 +90,33 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $red;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
+    transition: color;
+    transition-duration: 0.5s;
 
     &:visited {
         color: $red;
     }
 
     &:hover {
-        color: darken($red, 10%);
-        font-weight: bold;
+        color: $coral;
     }
 
     &.twitter {
         color: $twitblue;
     }
     &.instagram {
-        color: $linkblue;
+        color: $instablue;
+        &:hover {
+          color: $linkblue;
+        }
     }
     &.tags {
         font-size: $small-font-size;
     }
     &.title {
-        font-family: "etica", Helvetica, sans-serif;
-        font-weight: 600;
-        color: $instablue;
+        color: $linkblue;
         font-size: $base-font-size*1.5;
     }
 
