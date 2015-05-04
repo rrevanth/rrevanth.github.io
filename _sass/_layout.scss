@@ -185,18 +185,25 @@ nav {
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    text-align: center;
+    margin-bottom: $spacing-unit*1.5;
 }
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
+
+//Video element style
+.video {
+    text-align: center;
+}
+
 
 .post-content {
     margin-bottom: $spacing-unit;
