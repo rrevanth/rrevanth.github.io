@@ -100,7 +100,7 @@ a {
     }
 
     &:hover {
-        color: $coral;
+        color: $orange;
     }
 
     &.twitter {
@@ -114,10 +114,19 @@ a {
     }
     &.tags {
         font-size: $small-font-size;
+        &:hover{
+            color: $red;
+            border-bottom: 1px solid $red;
+            padding-bottom: 1px;
+            border-top: 1px solid $red;
+        }
     }
     &.title {
-        color: $linkblue;
+        color: $instablue;
         font-size: $base-font-size*1.5;
+        &:hover {
+          color: darken($instablue,10);
+        }
     }
 
   &.link-border {
