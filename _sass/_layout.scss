@@ -6,7 +6,7 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 2%;
-    border-bottom: 5px solid $grey-color-light;
+    border-bottom: 2px solid rgba(228,229,233,0.96);
     max-width: (#{$content-width});
 }
 
@@ -76,7 +76,7 @@ nav {
  * Site footer
  */
 .site-footer {
-    border-top: 5px solid $grey-color-light;
+    border-top: 1px solid rgba(228,229,233,0.96);
     max-width: (#{$content-width});
     margin: 0 auto;
     padding: $spacing-unit 0;
@@ -207,6 +207,7 @@ nav {
 
 .post-content {
     margin-bottom: $spacing-unit;
+    border-top: 1px solid rgba(228,229,233,0.96);
 
     h2 {
         font-size: 32px;

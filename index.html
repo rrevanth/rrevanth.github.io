@@ -19,17 +19,16 @@ li { display: block; }
 <div>
 	<ul>
 	  {% for post in site.categories.blog %}
-	    <li>
-	      <br>
+	    <li class='post-list'>
+	      
 	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
-	      {% for tag in post.tags %}
-	      	<a class="tags" href="/tag/{{ tag }}">#{{ tag }}</a>
-	      {% endfor %}
-	      <br>
-	      {{ post.date | date: "%b %-d, %Y" }}
+	      {{ post.date | date: "%b %-d, %Y" }}<br><br>
 	      {{ post.excerpt }}
-	      <br>
+	      {% for tag in post.tags %}
+	      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+	      {% endfor %}
 	    </li>
+	    <br>
 	  {% endfor %}
 	</ul>
 </div>

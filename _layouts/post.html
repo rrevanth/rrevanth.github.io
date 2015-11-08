@@ -4,20 +4,20 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    <br>
     <h1 class="post-title"><b>{{ page.title }}</b></h1>
     {% for tag in page.tags %}
-      	<a class="tags" href="/tag/{{ tag }}">#{{ tag }}</a>
+      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
       <br>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
+    <br>
     {{ content }}
   </article>
-
-  <h4><a href="/">&lt-Back to Blog</a></h4>
-
+  
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES * * */
