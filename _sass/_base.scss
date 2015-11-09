@@ -218,9 +218,10 @@ blockquote {
 /**
  * Code formatting
  */
-
-figure  {
-    overflow: hidden;
+td  {
+    &.code   {
+        width:  100%;
+    }
 }
 
 code {
@@ -239,8 +240,8 @@ pre {
 
 
 ::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
+  width: 10px;
+  height: 4px;
 }
 ::-webkit-scrollbar-button {
   width: 0px;
