@@ -2,6 +2,7 @@
 layout: post
 title:  "Facebook open sources Augmented Traffic Control"
 date:   2015-03-23 17:44:34
+author: "Revanth Revoori"
 categories: reads
 tags:
 - reads

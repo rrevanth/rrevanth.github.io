@@ -2,6 +2,7 @@
 layout: post
 title:  "SailsJS Pros & Cons"
 date:   2015-03-11 17:44:34
+author: "Revanth Revoori"
 categories: blog
 tags:
 - blog

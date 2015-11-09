@@ -2,6 +2,7 @@
 layout: post
 title:  "Python Snippets"
 date:   2015-03-02 17:44:34
+author: "Revanth Revoori"
 categories: blog
 tags:
 - blog
@@ -14,9 +15,9 @@ Here is a set of small scripts, which demonstrate some features of
 Python programming.
 
 
-{% highlight ruby %}
+{% highlight python linenos=table %}
 
-# this is the first comment
+# this is a comment
 
 
 #! python
@@ -24,6 +25,8 @@ Python programming.
 # integer variables
 SPAM = 1       
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -37,7 +40,8 @@ STRING = "# This is not a comment."
 
 print STRING
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -60,7 +64,8 @@ print c
 i = 256*256
 print 'The value of i is', i
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -131,7 +136,8 @@ for n in range(2, 1000):
         # loop fell through without finding a factor
         print n, 'is a prime number'
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -158,6 +164,8 @@ def fib(n):    # write Fibonacci series up to n
 # Now call the function we just defined:
 fib(2000)
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 ! python
 
@@ -176,6 +184,8 @@ def fib2(n): # return Fibonacci series up to n
 f100 = fib2(100)    # call it
 print f100          # write the result
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 # work with strings
@@ -275,7 +285,8 @@ s = 'supercalifragilisticexpialidocious'
 print s
 print len(s)
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -306,6 +317,8 @@ z=ask_ok('really quit???')
 if z==False :
 	print "bad"
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 
 #! python
@@ -358,7 +371,8 @@ print math.cos(math.pi / 4.0)
 
 print math.log(1024, 2)
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -433,6 +447,8 @@ except:
     print "Unexpected error:", sys.exc_info()[0]
     raise
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 # work with lists
@@ -570,6 +586,8 @@ print s
 print queue
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 
 #! python
@@ -619,6 +637,8 @@ r=reduce(add, range(1, 11))
 print r # 55
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -635,6 +655,8 @@ u = t, (1, 2, 3, 4, 5)
 print u     #  ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -666,7 +688,8 @@ vec=[1,2,3,4,5]
 dd=dict([(x, x**2) for x in vec])     # use a list comprehension
 print dd
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -696,6 +719,8 @@ print dir(sys)
 
 # Without arguments, dir() lists the names you have defined currently
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -727,6 +752,8 @@ print repr((x, y, ('spam', 'eggs')))
 print `x, y, ('spam', 'eggs')`
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -744,6 +771,8 @@ for x in range(1,11):
     print '%2d %3d %4d' % (x, x*x, x*x*x)
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -754,7 +783,8 @@ import sys
 print sys.argv[]  #  ['demo.py', 'one', 'two', 'three']
 
 
-
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -793,6 +823,8 @@ print age.days # 14368
 
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 
@@ -815,6 +847,8 @@ Beware the Ides of March.
 """)
 server.quit()
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 # work with files
 
@@ -902,6 +936,8 @@ f.seek(-3, 2) # Go to the 3rd byte before the end
 print f.read(1)
 
 
+{% endhighlight %}
+{% highlight python linenos=table %}
 
 #! python
 

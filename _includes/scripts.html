@@ -16,11 +16,22 @@
  }
 </script>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ee6d84709a90fa" async="async"></script>
-
-
-
+<script src="https://carnivalapp.io/sites/454/init.js"></script>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	Carnival.init({
+	  article_author: "Revanth Revoori",
+	  article_selector: "article",
+	  block_selector: ":scope > p, :scope > pre, :scope li",
+	  onNewComment: function(comment) {
+	    [].slice.call(comment.element.querySelectorAll("pre code")).map(
+	      function(e) { hljs.highlightBlock(e); }
+	    );
+	  }
+	});
+	});
+</script>
+<noscript>There should be nothing without Javascript</noscript>
 
 <!-- Google Tag Manager 
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NGHKWG"

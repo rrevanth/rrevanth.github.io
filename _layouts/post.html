@@ -6,11 +6,10 @@ layout: default
   <header class="post-header">
     <br>
     <h1 class="post-title"><b>{{ page.title }}</b></h1>
+    <p class="post-meta"><a class="author" href="/">{% if page.author %}{{ page.author }}{% endif %}</a>  -  {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% for tag in page.tags %}
       	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
-      <br>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
@@ -18,13 +17,6 @@ layout: default
     {{ content }}
   </article>
   
-  <script src="https://carnivalapp.io/sites/454/init.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", Carnival.init);
-  </script>
-  <noscript>Please enable JavaScript to view comments</noscript>
-
-	<!-- Go to www.addthis.com/dashboard to customize your tools -->
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ee6d84709a90fa" async="async"></script>
+  {% include share-page.html %}
 
 </div>

@@ -2,6 +2,7 @@
 layout: post
 title:  "TED Talk about Sixth Sense"
 date:   2015-03-23 17:44:34
+author: "Revanth Revoori"
 categories: tidbit
 tags:
 - videos

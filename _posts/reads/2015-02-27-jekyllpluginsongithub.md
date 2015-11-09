@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Jekyll Plugins on Github Pages"
 date:   2015-02-27 17:44:34
+author: "Revanth Revoori"
 categories: reads
 tags:
 - reads

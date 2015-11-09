@@ -2,6 +2,7 @@
 layout: post
 title:  "SQL COMPLEX JOINS QUERIES INTERVIEW"
 date:   2015-02-27 17:44:35
+author: "Revanth Revoori"
 categories: reads
 tags:
 - reads

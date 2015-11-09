@@ -8,6 +8,30 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+/**
+ * Share Page Styling
+ */
+.share-page {
+    text-align: center;
+    background: $red;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            color: #fff;
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
+
+
 
 
 /**
@@ -97,15 +121,15 @@ a {
     font-weight: bold;
     text-decoration: none;
     transition: color;
-    transition-duration: 0.5s;
-    box-shadow: 0 1px 0 0 rgba(173,20,30,0.1);
-
-    &:visited {
-        color: #ad141e;
-    }
+    transition-duration: 0.1s;
+    -webkit-box-shadow: 0 2px 0 0 rgba(173,20,30,0.1);
+    -moz-box-shadow: 0 2px 0 0 rgba(173,20,30,0.1);
+    box-shadow: 0 2px 0 0 rgba(173,20,30,0.1);
 
     &:hover {
         color: #ad141e;
+        -webkit-box-shadow: 0 2px 0 0 #ad141e;
+        -moz-box-shadow: 0 2px 0 0 #ad141e;
         box-shadow: 0 2px 0 0 #ad141e;
     }
 
@@ -120,8 +144,19 @@ a {
     }
     &.tags {
         font-size: $small-font-size;
+        margin-right: 5px;
         &:hover{
             color: #ad141e;
+            padding-bottom: 1px;
+        }
+    }
+    &.author {
+        font-weight: 100;
+        font-style: italic;
+        font-size: $small-font-size;
+        box-shadow: none;
+        &:hover{
+            color: darken($red, 10%);
             padding-bottom: 1px;
         }
     }
@@ -183,12 +218,9 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+
+figure  {
+    overflow: hidden;
 }
 
 code {
@@ -197,8 +229,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
-
+    overflow-x: auto;
     > code {
         border: 0;
         padding-right: 0;
@@ -206,6 +237,40 @@ pre {
     }
 }
 
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e1e1e1;
+}
+::-webkit-scrollbar-track:active {
+  background: #e1e1e1;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
 
 
 /**

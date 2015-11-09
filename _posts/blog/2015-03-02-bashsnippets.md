@@ -2,6 +2,7 @@
 layout: post
 title:  "Bash Snippets"
 date:   2015-03-02 17:40:34
+author: "Revanth Revoori"
 categories: blog
 tags:
 - blog
@@ -12,7 +13,7 @@ tags:
 Set of small scripts, which demonstrate some features of bash programming.
 
 
-{% highlight ruby %}
+{% highlight bash linenos=table %}
 
 
 //===================================================================================
@@ -24,6 +25,8 @@ PS1="[${LOGNAME}@$(hostname)] # "
 PS1="[${LOGNAME}] # "
 PS1='$PWD $ '
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // set (and automatically create) shell variable
@@ -35,6 +38,8 @@ $ homedir='pwd'
 
 string="The man said \" hello \"."
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // To use the variable within the shell, it is preceded by a $
@@ -42,6 +47,8 @@ string="The man said \" hello \"."
 homedir=$HOME
 cd $homedir
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // how to print shell variable
@@ -53,6 +60,8 @@ echo $PS1
 
 echo $USERNAME
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // predefined shell variables
@@ -65,6 +74,8 @@ OSTYPE
 USERNAME
 SHELL 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // The shell supports pattern matching
@@ -74,12 +85,16 @@ SHELL
 
 ls *.dat
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 // Command Substitution
 //===================================================================================
 today=`date`
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 //===================================================================================
 #---------------------------------------------------
@@ -87,6 +102,8 @@ today=`date`
 #---------------------------------------------------
 #!/bin/sh
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # comments
@@ -94,6 +111,8 @@ today=`date`
 #!/bin/sh
 # this is comment
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # printing of string constant
@@ -103,6 +122,8 @@ echo 'hello'
 echo "hello"
 echo hello
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # declaration and printing of string variable
@@ -114,6 +135,8 @@ echo $x
 echo x # just string 'x'
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # call of other programs
@@ -121,6 +144,8 @@ echo x # just string 'x'
 #!/bin/sh
 ls
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # indirect call of other programs
@@ -133,6 +158,8 @@ $x
 x='ls -l'
 $x
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # indirect call with indirect parameters
@@ -144,6 +171,8 @@ x='ls '
 
 $x $u
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # print current shell name ???
@@ -152,6 +181,8 @@ $x $u
 
 echo $SHELL
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # Anything enclosed in double quotes is passed on exactly 
@@ -164,6 +195,8 @@ v1="abc "
 v2="$v1 d"
 echo $v1 $v2
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # Any matter enclosed in single quotes is passed on 
@@ -176,6 +209,8 @@ v1="abc"
 v2='$v1 d'
 echo $v1 $v2
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # Back quotes are used to enclose commands. An item
@@ -188,6 +223,8 @@ echo $v1 $v2
 date=`date`
 echo the date is $date
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # escaping
@@ -198,6 +235,8 @@ msg=`echo Your Current Directory is \`pwd\``
 
 echo $msg
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # reading of text line from keyboard
@@ -209,6 +248,8 @@ read x
 echo $x
 echo $x
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # reading of text line from keyboard with help comment
@@ -222,6 +263,8 @@ read x
 echo $x
 echo $x
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # syntax:  many commands in one line !!!!
@@ -232,6 +275,8 @@ echo "a"; echo "b"; echo "c"
 
 var=5; echo `expr $var + $var` 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # integer variable and its increment
@@ -246,6 +291,8 @@ echo $var
 v=12345
 v=$v+1 # result "12345+1"
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # integer arithmetics - bash only !
@@ -262,6 +309,8 @@ let y=$x/3 ; echo 'x/3=' $y
 
 let y=$x%7 ; echo 'x%7=' $y
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # integer arithmetics in sh !!! using expr - slow
@@ -283,6 +332,8 @@ echo $c
 c=`expr $a % $b` # residual
 echo $c
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # very simple 'if' 
@@ -297,6 +348,8 @@ then
   echo "five"
 fi  
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # if ... else
@@ -313,6 +366,8 @@ else
   echo "not 5"  
 fi  
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # if ... elif ... else
@@ -332,6 +387,8 @@ else
   echo "not 5 and not 7"  
 fi  
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # comparison -lt  and  -gt, nested if
@@ -349,6 +406,8 @@ then
   fi
 fi
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # while loop - print first 10 integers from 0
@@ -363,6 +422,8 @@ do
   let x=$x+1
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # 10 random numbers generation
@@ -377,6 +438,8 @@ do
   let i=$i+1
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # endless loop: interrupting by ctrl-c
@@ -389,6 +452,8 @@ do
   echo $x$x
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # divisors of integer number
@@ -413,6 +478,8 @@ do
   let i=$i+1
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # simple use of  for ... in ...
@@ -424,6 +491,8 @@ do
   echo $i
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # use for as in C-programming
@@ -443,6 +512,8 @@ done
 
 echo "sum= "$s
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # operator case for selection of logical branches
@@ -461,6 +532,8 @@ case "$str" in
   *)   echo "not abc, not zyz" ;;
 esac
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # exit operator
@@ -478,6 +551,8 @@ do
   fi
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # string comparing
@@ -494,6 +569,8 @@ else
   echo "Its not 'abc'"
 fi
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # simple strings concatenation
@@ -509,6 +586,8 @@ echo $s2
 s3="XXX"$s2
 echo $s3
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # strings concatenation
@@ -527,6 +606,8 @@ echo $s3
 s4=${str1}${str2} # it works too!
 echo $s4
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # testing whether a string is null
@@ -543,6 +624,8 @@ else
   echo "Empty"
 fi
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # length of string
@@ -555,6 +638,8 @@ read str
 leng=`expr length $str`
 echo "length= "$leng
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # how to insert string to constant string
@@ -565,6 +650,8 @@ var="good"
 
 echo "This is $var test"
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # simplest function example
@@ -582,6 +669,8 @@ echo "Now function call..."
 func
 echo "end of main"
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # function can see variables of main program
@@ -598,6 +687,8 @@ func()
 var="test of global "
 func
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # pass of parameters to function
@@ -619,6 +710,8 @@ func()
 
 func  123  "abc"
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # passing variable parameters
@@ -636,6 +729,8 @@ var=123
 func2 $var
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # recursive function example
@@ -660,6 +755,8 @@ read x
 factorial $x
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # using of function library ????????
@@ -689,6 +786,8 @@ func2 123
 func3 123
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # floating point numbers
@@ -697,6 +796,8 @@ func3 123
 
 # does not support !!!!
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # simpiest array : declaration, element access and assignment
@@ -713,6 +814,8 @@ echo ${arr[3]}
 arr[2]="CCCCCCC"
 echo ${arr[2]}
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # number of elements in array
@@ -724,6 +827,8 @@ arr=(aa bb cc dd)
 n=${#arr[@]}
 echo $n
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # array with filenames of current directory
@@ -738,6 +843,8 @@ echo "number of files and dirs "$n
 echo ${arr[0]}
 echo ${arr[1]}
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # print all array elements -not good
@@ -754,6 +861,8 @@ do
   let i=$i+1
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # dynamic expansion of array
@@ -788,6 +897,8 @@ echo ${arr[10]}
 echo ${arr[4]} # empty string
 echo ${arr[6]} # empty string
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # get all array and print it
@@ -809,6 +920,8 @@ do
   echo $i
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # adding element to array
@@ -827,6 +940,8 @@ arr=( "newElem" "${arr[@]}" ) # from left
 
 echo ${arr[*]}
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # move last element from array
@@ -841,6 +956,8 @@ echo ${arr[*]}
 unset arr[${#arr[@]}-1] #  move last element
 echo ${arr[*]}
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # copying of array
@@ -855,6 +972,8 @@ arr2=( "${arr[@]}" )
 
 echo ${arr2[*]}
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # get substring from string
@@ -868,6 +987,8 @@ st2=${st:2:4}
 
 echo $st2
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # substring replacement "abc" to "xyz"
@@ -881,6 +1002,8 @@ st2=${str/abc/xyz} # only ones
 
 echo $st2
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # search of character 'a' in a string
@@ -894,6 +1017,8 @@ pos=`expr index $str a`
 
 echo "position of the first 'a' = "$pos
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # string list counting
@@ -905,6 +1030,8 @@ do
   echo $i
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # command line arguments
@@ -918,6 +1045,8 @@ echo $1  # first argument
 echo $2  # second argument
 echo $3  # third argument
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # command line arguments without script name number
@@ -932,6 +1061,8 @@ echo $*  # command line
 echo $@
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # get all files and dir names
@@ -949,6 +1080,8 @@ echo ../* # file and dir names of parent dir
 
 */ just close comments
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # file search from root dir      ???????
@@ -960,6 +1093,8 @@ start=$HOME
 date
 find $start -name $1 -print
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # list of all files with extension .txt     !!!!!!
@@ -968,6 +1103,8 @@ find $start -name $1 -print
 
 echo *.txt
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # combine a set of text files in one file use
@@ -986,6 +1123,8 @@ do
   cat <$i
 done
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # create new file and write string to it
@@ -998,6 +1137,8 @@ read str
 
 echo $str >$1
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # read textlines from console and add them to file
@@ -1015,6 +1156,8 @@ do
 done
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # read first string from text file
@@ -1025,6 +1168,8 @@ read str <$1
 echo $str
 
 
+{% endhighlight %}
+{% highlight bash linenos=table %}
 
 #---------------------------------------------------
 # text file reading

@@ -16,3 +16,9 @@ linkedin_username: revanthrevoori
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
+# paginate: 2
+# paginate_path: "/page:num/"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
