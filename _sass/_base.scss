@@ -225,6 +225,7 @@ td  {
 }
 
 code {
+    white-space: pre;
     padding: 1px 5px;
 }
 
@@ -237,7 +238,6 @@ pre {
         padding-left: 0;
     }
 }
-
 
 ::-webkit-scrollbar {
   width: 10px;
