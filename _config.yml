@@ -1,10 +1,12 @@
 # Site settings
+name: Revanth's Blog
 pagetitle: Revanth Revoori
 title: Sai Revanth Revoori
 email: revanth001reva@gmail.com
-description: Revanth Revoori is a developer, photographer, and self-proclaimed music connoisseur.
+description: Where I write about awesome things that intrigue me
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rrevanth.github.io" # the base hostname & protocol for your site
+url: "rrevanth.github.io" # the base hostname & protocol for your site
+author: "Revanth Revoori"
 
 twitter_username: revanth001reva
 github_username:  rrevanth
@@ -24,6 +26,7 @@ kramdown:
   syntax_highlighter: rouge
 
 gems:
+- jemoji
 - jekyll-mentions
 - jekyll-redirect-from
 - jekyll-sitemap

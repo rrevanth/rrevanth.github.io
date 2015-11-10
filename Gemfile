@@ -1,0 +1,5 @@
+gem 'jemoji'
+gem 'jekyll-mentions'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jekyll-redirect-from'

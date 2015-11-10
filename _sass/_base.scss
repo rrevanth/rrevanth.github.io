@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
     border-radius: 5px;
     margin: 1.5 * $spacing-unit 0;
     ul {
-        margin-left : 0;
+        margin-left : 0px;
         display: inline-flex;
         list-style-type: none;
     }
@@ -328,5 +328,20 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+/**
+ * Rss
+ */
+.fa-rss {
+    position: absolute;
+    color:$red;
+    font-size: 2rem !important;
+    background: #fff;
+    margin-top: -45px;
+    margin-left: -13px;
+    &:hover {
+        text-shadow: 0px 0px 1px #2A2A2A;
     }
 }
