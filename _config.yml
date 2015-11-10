@@ -1,12 +1,10 @@
 # Site settings
-name: Revanth's Blog
 pagetitle: Revanth Revoori
 title: Sai Revanth Revoori
 email: revanth001reva@gmail.com
-description: Where I write about awesome things that intrigue me
+description: I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "rrevanth.github.io" # the base hostname & protocol for your site
-author: "Revanth Revoori"
+url: "http://rrevanth.github.io" # the base hostname & protocol for your site
 
 twitter_username: revanth001reva
 github_username:  rrevanth
@@ -24,6 +22,9 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+name: Revanth's Blog
+author: "Revanth Revoori"
 
 gems:
 - jemoji
