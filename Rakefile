@@ -46,6 +46,7 @@
       end
     end
 
-task :default => [:publish_master, :publish_ghpages] do
-    system "Published to GH-Pages! 凸(+_+}凸 "
-end
+    task :publish => [:publish_master, :publish_ghpages] do
+        system "Published to GH-Pages!"
+    end
+task :default => :publish
