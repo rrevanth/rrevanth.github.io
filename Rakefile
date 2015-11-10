@@ -26,15 +26,8 @@
         system "git add ."
         system "git commit -am #{message.shellescape}"
         system "git push origin master --force"
-        system "git checkout -B gh-pages"
-        system "rm -rf *"
-        system "mv #{tmp}/* ."
-        message = "Site updated at #{Time.now.utc}"
-        system "git add ."
-        system "git commit -am #{message.shellescape}"
-        system "git push origin gh-pages --force"
         system "git checkout source"
-        system "echo published to master and gh-pages"
+        system "echo published to master"
       end
     end
 
