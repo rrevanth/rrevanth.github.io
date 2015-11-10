@@ -18,7 +18,11 @@ dl, dd, ol, ul, figure {
     padding: 8px 15px;
     border-radius: 5px;
     margin: 1.5 * $spacing-unit 0;
-
+    ul {
+        margin-left : 0;
+        display: inline-flex;
+        list-style-type: none;
+    }
     a {
         font-weight: 700;
         color: #fff;
