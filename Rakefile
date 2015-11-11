@@ -24,6 +24,7 @@
         system "mv #{tmp}/* ."
         message = "Site updated at #{Time.now.utc}"
         system "git add ."
+        system "git rm .deploy_key.enc"
         system "git commit -am #{message.shellescape}"
         system "git push origin master --force"
         system "git checkout source"

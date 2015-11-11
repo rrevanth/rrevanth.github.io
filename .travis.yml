@@ -1,13 +1,7 @@
 language: ruby
 cache: bundler
-script:
-- bundle exec rake
-branches:
-  only:
-  - source
-rvm:
-- 2.2.1
 before_install:
+- bundle install
 - openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
   -in .deploy_key.enc -out ~/.ssh/deploy_key -d
 - chmod u=rw,og= ~/.ssh/deploy_key
@@ -18,6 +12,13 @@ before_install:
 - git config user.email "revanth001reva@gmail.com"
 - git remote set-url origin git@github.com:rrevanth/rrevanth.github.io.git
 - git remote -v
+script:
+- bundle exec rake
+branches:
+  only:
+  - source
+rvm:
+- 2.2.1
 notifications:
   email:
     recipients:
