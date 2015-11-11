@@ -16,7 +16,15 @@ permalink: /:categories/:title
 
 # Build settings
 markdown: kramdown
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
 
 # paginate: 2
 # paginate_path: "/page:num/"

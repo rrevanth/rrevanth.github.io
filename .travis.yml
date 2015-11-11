@@ -1,7 +1,6 @@
 language: ruby
-before_script:
-- chmod +x ./build.sh
-script: "./build.sh"
+script:
+- bundle exec rake
 branches:
   only:
   - source
