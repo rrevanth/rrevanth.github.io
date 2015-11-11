@@ -12,6 +12,8 @@ instagram_username: revanth001reva
 dribbble_username: revanth001reva
 linkedin_username: revanthrevoori
 
+permalink: /:categories/:title
+
 # Build settings
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']

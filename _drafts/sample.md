@@ -1,8 +1,14 @@
 <!-- ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-01-17 17:44:34
-categories: jekyll update
+title:  "My Experience with Unity"
+date:   2015-03-11 17:44:34
+author: "Revanth Revoori"
+categories: blog
+tags:
+- blog
+- unity
+- game
+- study
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
