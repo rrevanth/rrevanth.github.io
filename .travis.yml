@@ -13,3 +13,4 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
   -in .deploy_key.enc -out .deploy_key -d
 - chmod 600 .deploy_key
+- git remote set-url git@github.com:rrevanth/rrevanth.github.io.git
