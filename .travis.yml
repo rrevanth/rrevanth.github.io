@@ -18,3 +18,9 @@ before_install:
 - git config user.email "revanth001reva@gmail.com"
 - git remote set-url origin git@github.com:rrevanth/rrevanth.github.io.git
 - git remote -v
+notifications:
+  email:
+    recipients:
+      - revanth001reva@gmail.com
+    on_success: change
+    on_failure: always
