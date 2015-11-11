@@ -11,6 +11,11 @@ env:
     secure: fG5Kb+XTyJOoXQzWLsKrf1LZ763GjibQFTvgNF8nXZ/3T4fUOQ1ZLj4J7XIzw5Zqv2mUT+6G6Rdfr1m3prxwcqokdW8jt25E2ZLRq6sWb7HaUySDlP+z1WZ7UwuOvCEH1iFREI6LhJhcMbaGtZy1I8dlRIUSglzhHByhuB2M+houo9P1O2LHCwo2WOSXSu4ennoUnOGWri37Ae5nOtfu79ip2xP5ect+oHzEYeF8aDEXDav0uZ9thi2UJYilcgs9k8dVFwktdtpRTl3IfCxJUSs1iBTgS8Tz0KBM124MTEE4/pNCTEg3ocPdz0jYHlp2zK7LDUtzyQCdSx8eALfE+j3JqIZPdUCJhf4xgPeCKQjATusbFRxkPLo9XKq17zWTvao8Zu2Zuiay01ruSzoCwya0Y+ojhTZIBB/hqSCOu98r1sLSt+jeivbtNU+cCaV/+G5LMnGgndXkYd/vb/WayvsbsA1Avs+eUTC2xxJMj6NKDN8AlmRZZnHE+VW6Y+XPv/6c11X6hKH11sh3UbaVb3fdfI9S2on18nNjJdyruzXNnap3PrC8FS+05dJzfe547LlhTke1RN2RQ4Kl8oEK7AuMyn9NXE4qxNfBUoRwIorKgnL/PwM8TTnErXuj/R/co/nl25qqVkDVtpuk5sLCG/ZN5yhLD1bDswZpUZ6dMWs=
 before_install:
 - openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
-  -in .deploy_key.enc -out .deploy_key -d
-- chmod 600 .deploy_key
+  -in .deploy_key.enc -out ~/.ssh/deploy_key -d
+- chmod u=rw,og= ~/.ssh/deploy_key
+- echo "Host github.com" >> ~/.ssh/config
+- echo "  IdentityFile ~/.ssh/deploy_key" >> ~/.ssh/config
+- git --version
+- git config user.name "Travis"
 - git remote set-url origin git@github.com:rrevanth/rrevanth.github.io.git
+- git remote -v
