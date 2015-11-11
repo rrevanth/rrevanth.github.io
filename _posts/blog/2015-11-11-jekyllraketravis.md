@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: "Automate Jekyll Blog to Github with Travis CI"
 date: 2015-11-11T17:44:34.000Z
 author: Revanth Revoori
 categories: blog
@@ -13,11 +14,7 @@ tags:
   - automate
 ---
 
-## Automate Jekyll Blog to Github with Travis CI
-
-Jekyll is awesome,so it github for hosting a static blog build in jekyll for free :smile: .
-
-In this post,I will explain 
+Jekyll is awesome,so it github for hosting a static blog build in jekyll for free.In this post,I will explain 
 1. Deploying a jekyll blog to github with rake
 2. Automate the build process with Travis CI
 

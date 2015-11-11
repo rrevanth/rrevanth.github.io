@@ -1,7 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-Gemfile.lock
 .deploy_key
 .deploy_key.pub
 *.gem
