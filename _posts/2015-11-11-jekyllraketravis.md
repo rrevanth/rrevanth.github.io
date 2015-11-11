@@ -1,5 +1,16 @@
 ---
-published: false
+published: true
+layout: post
+date: 2015-11-11T17:44:34.000Z
+author: Revanth Revoori
+categories: blog
+tags: 
+  - blog
+  - jekyll
+  - rake
+  - travis
+  - deploy
+  - automate
 ---
 
 ## Automate Jekyll Blog to Github with Travis CI
