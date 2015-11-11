@@ -1,5 +1,4 @@
 language: ruby
-before_script: "./travis/gem_install.sh"
 script: "./build.sh"
 branches:
   only:
