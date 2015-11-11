@@ -1,5 +1,4 @@
 language: ruby
-cache: bundler
 before_script: "./travis/gem_install.sh"
 script: "./build.sh"
 branches:
