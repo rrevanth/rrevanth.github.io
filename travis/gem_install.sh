@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 gem install jemoji
 gem install jekyll-mentions
