@@ -20,6 +20,9 @@ exclude:
   - README.md
   - Rakefile
   - Gemfile
+  - .deploy_key.enc
+  - publish.bat
+  - travis
   - Gemfile.lock
   - changelog.md
   - "*.Rmd"
