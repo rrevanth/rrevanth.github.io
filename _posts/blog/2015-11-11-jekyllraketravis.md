@@ -14,7 +14,9 @@ tags:
   - automate
 ---
 
-Jekyll is awesome,so it github for hosting a static blog build in jekyll for free.In this post,I will explain 
+Jekyll is awesome,so it github for hosting a static blog build in jekyll for free.
+In this post,I will explain 
+
 1. Deploying a jekyll blog to github with rake
 2. Automate the build process with Travis CI
 
@@ -74,45 +76,6 @@ That's it.So simple,right.Not so fast.We just don't wanna run this command every
 
 ## Enter Travis,the saviour
 
-### Setting Travis in the project
-
-As you might know,Travis CI is used for testing and deploying automatically for git repositories.We are gonna use this feature to automatically build and deploy the site to master whenever we push any changes to source.
-
-Adding Travis integration is simple,add .travis.yml file to source root dir.
-
-.travis.yml
-{% highlight ruby linenos=table %}
-
-language: ruby
-branches:
-  only:
-  - source  # branch that contains source files
-rvm:
-- 2.2.3
-before_install:
-- openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
-  -in .deploy_key.enc -out ~/.ssh/deploy_key -d
-- chmod u=rw,og= ~/.ssh/deploy_key
-- echo "Host github.com" >> ~/.ssh/config
-- echo "  IdentityFile ~/.ssh/deploy_key" >> ~/.ssh/config
-- git --version
-- git config user.name "{GIT_UNAME}"
-- git config user.email "{GIT_EMAIL}"
-- git remote set-url origin git@github.com:{GIT_UNAME}/{GIT_UNAME}.github.io.git
-- git remote -v
-script:
-- bundle exec rake
-notifications:
-  email:
-    recipients:
-      - {GIT_EMAIL}
-    on_success: change
-    on_failure: always
-    
-{% endhighlight %}
-
-Replace {GIT_UNAME},{GIT_EMAIL} with their appropriate values.
-
 ### Travis SSH setup
 
 For travis to have git repo permissions,you can do this two ways
@@ -137,7 +100,12 @@ Encrypt the SSH key to generate **deploy_key.enc**.
 
 > travis encrypt-file deploy_key
 
-** Add private deploy key files to .gitignore **
+This should modify your .travis.yml file adding the openssh keys to before_install property like this
+
+> before_install:
+> - openssl aes-256-cbc -K {blah blah blah}
+
+**Add private deploy key files to .gitignore**
 {% highlight ruby linenos=table %}
 
 # make sure you ignore the SSH keys and only commit the
@@ -147,6 +115,45 @@ deploy_key
 deploy_key.pub
 
 {% endhighlight %}
+
+### Setting Travis in the project
+
+As you might know,Travis CI is used for testing and deploying automatically for git repositories.We are gonna use this feature to automatically build and deploy the site to master whenever we push any changes to source.
+
+Adding Travis integration is simple,add .travis.yml file to source root dir.
+
+.travis.yml
+{% highlight ruby linenos=table %}
+
+language: ruby
+branches:
+  only:
+  - source  # branch that contains source files
+rvm:
+- 2.2.3
+before_install:
+- openssl aes-256-cbc -K $encrypted_{blah blah blah}
+- chmod u=rw,og= ~/.ssh/deploy_key
+- echo "Host github.com" >> ~/.ssh/config
+- echo "  IdentityFile ~/.ssh/deploy_key" >> ~/.ssh/config
+- git --version
+- git config user.name "{GIT_UNAME}"
+- git config user.email "{GIT_EMAIL}"
+- git remote set-url origin git@github.com:{GIT_UNAME}/{GIT_UNAME}.github.io.git
+- git remote -v
+script:
+- bundle exec rake
+notifications:
+  email:
+    recipients:
+      - {GIT_EMAIL}
+    on_success: change
+    on_failure: always
+    
+{% endhighlight %}
+
+Replace {GIT_UNAME},{GIT_EMAIL} with their appropriate values.
+
 
 Now Signin to Travis CI and add your site repo for watching the repo to Automatically build.
 
