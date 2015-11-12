@@ -16,8 +16,7 @@ linkedin_username: revanthrevoori
 defaults:
   -
     scope:
-      path: "_posts/blog/"
-      type: "posts"
+      path: "blog"
     values:
       category:  "blog"
       categories:  "blog"
@@ -27,8 +26,7 @@ defaults:
       published: "true"
   -
     scope:
-      path: "_posts/reads/"
-      type: "posts"
+      path: "reads"
     values:
       category:  "reads"
       categories:  "reads"
@@ -38,8 +36,7 @@ defaults:
       published: "true"
   -
     scope:
-      path: "_posts/videos/"
-      type: "posts"
+      path: "video"
     values:
       category:  "tidbit"
       categories:  "tidbit"
@@ -49,8 +46,7 @@ defaults:
       published: "true"
   -
     scope:
-      path: "_drafts/blog/"
-      type: "posts"
+      path: "blog"
     values:
       category:  "blog"
       categories:  "blog"
@@ -58,24 +54,21 @@ defaults:
       layout:    "post"
       title:     ""
       published: "false"
-  -
     scope:
-      path: "_drafts/blog/"
-      type: "posts"
+      path: "reads"
     values:
-      category:  "blog"
-      categories:  "blog"
+      category:  "reads"
+      categories:  "reads"
       author:    "Revanth Revoori"
       layout:    "post"
       title:     ""
       published: "false"
   -
     scope:
-      path: "_drafts/blog/"
-      type: "posts"
+      path: "video"
     values:
-      category:  "blog"
-      categories:  "blog"
+      category:  "tidbit"
+      categories:  "tidbit"
       author:    "Revanth Revoori"
       layout:    "post"
       title:     ""
