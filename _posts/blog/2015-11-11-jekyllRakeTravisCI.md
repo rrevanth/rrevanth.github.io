@@ -15,12 +15,16 @@ tags:
 ---
 
 Jekyll is awesome,so it github for hosting a static blog build in jekyll for free.
+
+
 In this post,I will explain 
 
 1. Deploying a jekyll blog to github with rake
 2. Automate the build process with Travis CI
 
-### Deploying with Rake
+<!--more-->
+
+### **Deploying with Rake**
 
 This post assumes that your jekyll blog git repo contains two branches
 - source branch - contains the source files for blog.
@@ -74,9 +78,9 @@ After adding this,you can build and deploy the updated source code to master jus
 
 That's it.So simple,right.Not so fast.We just don't wanna run this command every time we create to post.We need something much better.
 
-## Enter Travis,the saviour
+## **Enter Travis,the saviour**
 
-### Travis SSH setup
+### **Travis SSH setup**
 
 For travis to have git repo permissions,you can do this two ways
 1. Using Git access tokens (Less secure method)
@@ -116,7 +120,7 @@ deploy_key.pub
 
 {% endhighlight %}
 
-### Setting Travis in the project
+### **Setting Travis in the project**
 
 As you might know,Travis CI is used for testing and deploying automatically for git repositories.We are gonna use this feature to automatically build and deploy the site to master whenever we push any changes to source.
 
@@ -161,7 +165,7 @@ In the project settings,Turn OFF **Build pull requests** and **Build only if .tr
 
 Now,whenever your push any changes to source branch,Travis should automatically build and deploy the site to master branch.
 
-### Post Editing
+### **Post Editing**
 
 Recently,I found a great site for post editing,checkout out [Prose](http://prose.io/ "Prose").It has a awesome Markdown editor that accessess your repo and you can add posts,drafts to your source repo from there.
 

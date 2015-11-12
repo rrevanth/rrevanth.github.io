@@ -12,7 +12,11 @@ instagram_username: revanth001reva
 dribbble_username: revanth001reva
 linkedin_username: revanthrevoori
 
+# Specific settings
+# @URL Setting
 permalink: /:categories/:title
+# Excerpt Setting
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
