@@ -17,6 +17,9 @@ linkedin_username: revanthrevoori
 permalink: /:categories/:title
 # Excerpt Setting
 excerpt_separator: <!--more-->
+# Sass style for minimum space
+sass:
+    style: compressed
 
 # Build settings
 markdown: kramdown
