@@ -12,69 +12,6 @@ instagram_username: revanth001reva
 dribbble_username: revanth001reva
 linkedin_username: revanthrevoori
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: "blog"
-    values:
-      category:  "blog"
-      categories:  "blog"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "true"
-  -
-    scope:
-      path: "reads"
-    values:
-      category:  "reads"
-      categories:  "reads"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "true"
-  -
-    scope:
-      path: "video"
-    values:
-      category:  "tidbit"
-      categories:  "tidbit"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "true"
-  -
-    scope:
-      path: "blog"
-    values:
-      category:  "blog"
-      categories:  "blog"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "false"
-    scope:
-      path: "reads"
-    values:
-      category:  "reads"
-      categories:  "reads"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "false"
-  -
-    scope:
-      path: "video"
-    values:
-      category:  "tidbit"
-      categories:  "tidbit"
-      author:    "Revanth Revoori"
-      layout:    "post"
-      title:     ""
-      published: "false"
-
-
 # Specific settings
 # @URL Setting
 permalink: /:categories/:title
