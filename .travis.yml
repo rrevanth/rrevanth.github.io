@@ -5,7 +5,7 @@ branches:
   - source
 rvm:
 - 2.2.3
-install: bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+install: bundle install
 before_install:
 - openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
   -in .deploy_key.enc -out ~/.ssh/deploy_key -d
