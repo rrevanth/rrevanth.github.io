@@ -13,4 +13,3 @@ tags:
 <div class="video">
 <iframe src="https://embed-ssl.ted.com/talks/pattie_maes_demos_the_sixth_sense.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
-<!--more-->

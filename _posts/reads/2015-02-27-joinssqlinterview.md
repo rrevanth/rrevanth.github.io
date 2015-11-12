@@ -11,4 +11,3 @@ tags:
 ---
 <a class="embedly-card" href="http://www.interviewquestionspdf.com/2014/07/complex-joins-sql-joins-queries.html">COMPLEX JOINS : SQL SERVER JOINS QUERIES INTERVIEW QUESTIONS AND ANSWERS EXAMPLES FOR EXPERIENCED SET-7</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-<!--more-->

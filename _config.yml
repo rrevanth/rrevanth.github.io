@@ -15,8 +15,6 @@ linkedin_username: revanthrevoori
 # Specific settings
 # @URL Setting
 permalink: /:categories/:title
-# Excerpt Setting
-excerpt_separator: <!--more-->
 # Sass style for minimum space
 sass:
     style: compressed

@@ -11,4 +11,3 @@ tags:
 ---
 <a class="embedly-card" href="http://charliepark.org/tags-in-jekyll/">Tags In Jekyll</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-<!--more-->

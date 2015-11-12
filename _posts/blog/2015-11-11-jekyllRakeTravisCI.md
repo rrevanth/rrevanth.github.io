@@ -22,7 +22,7 @@ In this post,I will explain
 1. Deploying a jekyll blog to github with rake
 2. Automate the build process with Travis CI
 
-<!--more-->
+
 
 ### **Deploying with Rake**
 

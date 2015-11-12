@@ -11,4 +11,3 @@ tags:
 ---
 <a class="embedly-card" href="http://blog.nitrous.io/2013/08/30/using-jekyll-plugins-on-github-pages.html">Using Jekyll Plugins on Github Pages</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-<!--more-->

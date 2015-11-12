@@ -26,7 +26,7 @@ Python programming.
 SPAM = 1       
 
 {% endhighlight %}
-<!--more-->
+
 {% highlight python linenos=table %}
 
 #! python

@@ -13,4 +13,3 @@ tags:
 <div class="video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WOVmr6CjgNw" frameborder="0" allowfullscreen></iframe>
 </div>
-<!--more-->

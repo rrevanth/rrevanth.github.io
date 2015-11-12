@@ -27,7 +27,7 @@ PS1='$PWD $ '
 
 {% endhighlight %}
 
-<!--more-->
+
 
 {% highlight bash linenos=table %}
 
