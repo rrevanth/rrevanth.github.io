@@ -14,14 +14,15 @@ tags:
   - automate
 ---
 
-Jekyll is awesome,so it github for hosting a static blog build in jekyll for free.
+In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a simple, blog-aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers some other advanced templating features.
 
+Every GitHub Page runs through Jekyll when you push content to a specially named branch within your repository. For User Pages, use the master branch in your username.github.io repository. For Project Pages, use the gh-pages branch in your project's repository. Creating blog in Jekyll is awesome but it comes with a catch.Everytime we publish a post,we need to update the master branch with compiled website. Also, post editing is a horror if you are a person who likes to do it in editor.
 
-In this post,I will explain 
+In this post,we will go through 
 
 1. Deploying a jekyll blog to github with rake
 2. Automate the build process with Travis CI
-
+3. Github content editor Prose
 
 
 ### **Deploying with Rake**

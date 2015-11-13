@@ -10,4 +10,3 @@ tags:
 - interview
 ---
 <a class="embedly-card" href="http://www.bullraider.com/java/core-java/33-interview-questions">Java Programming Interview Questions</a>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
