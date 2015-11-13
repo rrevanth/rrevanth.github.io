@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'i18n'
 gem 'rake'
 gem 'jemoji'
 gem 'jekyll-mentions'
