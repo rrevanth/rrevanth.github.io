@@ -62,10 +62,11 @@ prose:
     _posts/blog:
       - name: "published"
         field:
-          element: "checkbox"
+          element: "button"
           label: "Publish now"
-          help: "Keep this unchecked if you do not want to   publish the article right now"
-          value: "true"
+          help: "Keep this On if you do not want to   publish the article right now"
+          on: "Publish this"
+          off: "Don't Publish"
       - name: "layout"
         field:
           element: "hidden"
@@ -105,10 +106,11 @@ prose:
     _posts/reads:
       - name: "published"
         field:
-          element: "checkbox"
+          element: "button"
           label: "Publish now"
-          help: "Keep this unchecked if you do not want to   publish the article right now"
-          value: "true"
+          help: "Keep this On if you do not want to   publish the article right now"
+          on: "Publish this"
+          off: "Don't Publish"
       - name: "layout"
         field:
           element: "hidden"
@@ -148,10 +150,11 @@ prose:
     _posts/videos:
       - name: "published"
         field:
-          element: "checkbox"
+          element: "button"
           label: "Publish now"
-          help: "Keep this unchecked if you do not want to   publish the article right now"
-          value: "true"
+          help: "Keep this On if you do not want to   publish the article right now"
+          on: "Publish this"
+          off: "Don't Publish"
       - name: "layout"
         field:
           element: "hidden"

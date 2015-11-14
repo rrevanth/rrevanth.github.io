@@ -2,7 +2,7 @@
 categories: blog
 author: Revanth Revoori
 layout: post
-published: false
+published: true
 date: "2015-11-14 15:43 +0530"
 tags: 
   - blog
@@ -48,66 +48,63 @@ Prose provides specific features to Jekyll sites
 
 ### **Prose Config Options**
 
-Descriptions with \* are jekyll specific
+Descriptions with **\*** are jekyll specific
 
-> #### rooturl: "DIRECTORY NAME"
+##### **rooturl: "DIRECTORY NAME"**
 Adding this option will restrict the prose access to the specific directory of the repo.
 
-> #### ignore: ['file_a.html', '_config.yml']
+##### **ignore: ['file_a.html', '_config.yml']**
 This option will ignore the files and do not show the files for edit.
 
-> #### siteurl: "http://domain-name.com"
+##### **siteurl: "http://domain-name.com"**
 \* Set this to your site and it will show live previews rather than inhouse previews of prose.
 
-> #### site:
+##### **site:**
 \* This field accepts a list of absolute .JSONP paths to content that is loaded during Jekyll live previews. This is particularly useful for building out tags or categories that should be present during preview.
 
-> #### media: "DIRECTORY NAME"
+##### **media: "DIRECTORY NAME"**
 Specify a media directory uploading images defaults to. When media is added to this directory, a listing of available assets is populated from the image dropdown link on markdown files.
 
-> #### relativeLinks: "ABSOLUTE-URL.JSONP"
+##### **relativeLinks: "ABSOLUTE-URL.JSONP"**
 Displays a list of links to a user from the link dropdown on markdown files.
 
-> #### metadata:
+##### **metadata:**
 \* This adds YAML frontmatter to jekyll posts automatically.
 
 ## Metadata Configuration
-Each jekyll post must contain frontmatter such as layout,date.Other options such as title,category,tags helps us organize site better.
-
-Prose helps us to add such front matter automatically when creating posts so you can concentrate on the content rather than structure :+1:
+Each jekyll post must contain frontmatter such as layout,date.Other options such as title,category,tags helps us organize site better.Prose helps us to add such front matter automatically when creating posts so you can concentrate on the content rather than structure.
 
 prose options can be added to it's own specific file _\_prose.yml_ or can be added to jekyll's _\_config.yml_ .
 
 metadata should be of format :
 
-> metadata:
+{% highlight python linenos %}
 
->   _posts:
+metadata:
+  _posts:
+    - # Elements ..
 
->     - # Elements ..
+{% endhighlight %}
 
 For each front matter you need in your post,you can add metadata element as name of the frontmatter key and a field object that describes what html element is used and how this should be displayed to the user.
 
 For example,an entry like `layout:blog` in file can be configured as :
 
-> - name: "layout"
+{% highlight python linenos %}
 
->    field:
+- name: "layout"
+      field:
+          element: "hidden"
+          value: "blog"
 
->      element: "hidden"
-
->      value: "blog"
+{% endhighlight %}
 
 where 
 
 `name` is exact match of frontmatter key
-
 `field` is where values and display options are set.
-
 `element` is the option type of the key type.
-
 `value` which contains the values.
-
 \*`options` comes into picture for select and multiselect elements which we will see in a while.
 
 ## **Form field attributes**
@@ -115,13 +112,9 @@ where
 #### **Text**
 
 element: text
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 value: (optional string) A default value
-
 placeholder: (optional string) Helper text in the input if no value is provided.
 
 type: text
@@ -129,13 +122,9 @@ type: text
 #### **Textarea**
 
 element: textarea
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 value: (optional string) A default value
-
 placeholder: (optional string) Helper text in the textarea if no value is 
 provided.
 
@@ -144,26 +133,23 @@ provided.
 Allow a user to make one or more selections
 
 element: select OR multiselect
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 options: (array or string) If the value is a string prose expects this to be a 
 JSONP file that links to a json file structured in the following format: 
 {"name": "Granny Apples", "value": "granny-apples" } if this is an array the formal should look like:
 
-> options:
+{% highlight python linenos %}
 
->   - name: 'Granny Apples'
+options:
+  - name: 'Granny Apples'
+    value: 'granny-apples'
 
->     value: 'granny-apples'
+{% endhighlight %}
 
 placeholder: (optional string) Helper text if no value is provided
-
 lang: (optional string) if a lang key is set this allows the option of filtering a JSONP response by language. Useful for multilingual sites in Jekyll
 (Multiselect only)
-
 alterable: (optional boolean) true or false whether a user can add additional values. Useful for tags.
 Hidden
 
@@ -172,19 +158,14 @@ This is particularly useful for frontmatter fields that should always have a fix
 #### **Hidden**
 
 element: hidden
-
 value: (optional string) The default value
 
 #### **Number**
 
 element: number
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 value: (optional integer) A default integer
-
 type: number
 
 #### **Button**
@@ -192,13 +173,9 @@ type: number
 A button can be used to toggle on and off the value
 
 element: button
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 on: (string) The name of the on value
-
 off: (string) The name of the off value
 
 #### **Checkbox**
@@ -206,26 +183,25 @@ off: (string) The name of the off value
 Toggles on a true or false state
 
 element: checkbox
-
 label: (optional string) Label to the user
-
 help: (optional string) Help/description to accompany a label
-
 value: (boolean) true or false
 
 ## **Jekyll Prose Config**
 
 Consider a jekyll sites contain a following directory structure of \_posts.
 
+{% highlight python linenos %}
+
 \_posts
+	- blog
+	- reads
 
-	\- blog
-
-	\- reads
+{% endhighlight %}
 
 Then the prose configuration sample can be like this :
 
-{% highlight python linenos=table %}
+{% highlight ruby linenos=table %}
 
 # Prose.io Config
 prose:
