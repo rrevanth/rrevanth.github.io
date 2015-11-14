@@ -2,18 +2,6 @@
 layout: blog
 ---
 
-<style type="text/css">
-ol { 
-    counter-reset: item;
-    list-style-type: none;
-}
-li { display: block; }
-/*li:before { 
-    content: counter(item) "  "; 
-    counter-increment: item 
-}*/
-</style>
-
 <div class="blog">
 	<ul>
 	  {% for post in site.categories.tidbit %}
@@ -24,7 +12,9 @@ li { display: block; }
 	      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
 	      {% endfor %}
 	      <br><br>
-	      {{ post.excerpt }}
+	      <section class="post-excerpt" >
+	      	{{ post.excerpt }}
+	      </section>
 	    </li>
 	    <br>
 	  {% endfor %}

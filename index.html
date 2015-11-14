@@ -9,7 +9,9 @@ layout: blog
 	      
 	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
 	      {{ post.date | date: "%b %-d, %Y" }}<br><br>
-	      {{ post.excerpt }}
+	      <section class="post-excerpt" >
+	      	{{ post.excerpt }}
+	      </section>
 	      {% for tag in post.tags %}
 	      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
 	      {% endfor %}
