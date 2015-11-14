@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Oh God - Are you lost?"
+date:   2015-03-02 17:40:34
+author: "Revanth Revoori"
+---
+<center>
+<h1> You Imbecile. Here are 3 of my latests posts: </h1>
+
+<br>
+{% for post in site.posts | limit: 3 %}
+    <br><a class="title" href="{{ post.url }}">{{ post.title }}</a><br><br>
+{% endfor %}
+
+<strong><h3>Pick one and Try and don't get lost next time ok? Bleh Bleh Bleh :wink: <h3></strong>
+
+</center>
