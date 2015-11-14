@@ -36,6 +36,7 @@ permalink: /:categories/:title
 # Sass style for minimum space
 sass:
     style: compressed
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 
 kramdown:
   input: GFM
