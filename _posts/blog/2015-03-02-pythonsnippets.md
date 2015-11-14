@@ -27,13 +27,13 @@ SPAM = 1
 
 {% endhighlight %}
 
+<!--more-->
+
 {% highlight python linenos=table %}
 
 #! python
 
 print "Hello, Python"
-
-<!--more-->
 
 #! python
 # string variable
