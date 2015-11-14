@@ -18,6 +18,8 @@ In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a 
 
 Every GitHub Page runs through Jekyll when you push content to a specially named branch within your repository. For User Pages, use the master branch in your username.github.io repository. For Project Pages, use the gh-pages branch in your project's repository. Creating blog in Jekyll is awesome but it comes with a catch.Everytime we publish a post,we need to update the master branch with compiled website. Also, post editing is a horror if you are a person who likes to do it in editor.
 
+<!--more-->
+
 In this post,we will go through 
 
 1. Deploying a jekyll blog to github with rake

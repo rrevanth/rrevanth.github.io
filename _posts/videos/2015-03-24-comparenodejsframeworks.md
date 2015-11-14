@@ -11,5 +11,6 @@ tags:
 ---
 <div><p>I have found a great video explaining various framework pros and cons and which might be suitable for various product.This is opinianated anyway.So it is strictly a general comparison.</p></div>
 <div class="video">
+<!--more-->
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WOVmr6CjgNw" frameborder="0" allowfullscreen></iframe>
 </div>

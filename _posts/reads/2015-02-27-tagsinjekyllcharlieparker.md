@@ -10,3 +10,4 @@ tags:
 - code
 ---
 <a class="embedly-card" href="http://charliepark.org/tags-in-jekyll/">Tags In Jekyll</a>
+<!--more-->

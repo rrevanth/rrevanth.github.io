@@ -10,3 +10,4 @@ tags:
 - interview
 ---
 <a class="embedly-card" href="http://www.bullraider.com/database/sql-tutorial">SQL Tutorial Home</a>
+<!--more-->

@@ -10,3 +10,4 @@ tags:
 - interview
 ---
 <a class="embedly-card" href="http://www.interviewquestionspdf.com/2014/07/complex-joins-sql-joins-queries.html">COMPLEX JOINS : SQL SERVER JOINS QUERIES INTERVIEW QUESTIONS AND ANSWERS EXAMPLES FOR EXPERIENCED SET-7</a>
+<!--more-->

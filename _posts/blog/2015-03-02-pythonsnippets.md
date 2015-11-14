@@ -33,6 +33,7 @@ SPAM = 1
 
 print "Hello, Python"
 
+<!--more-->
 
 #! python
 # string variable

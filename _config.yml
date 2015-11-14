@@ -12,13 +12,6 @@ instagram_username: revanth001reva
 dribbble_username: revanth001reva
 linkedin_username: revanthrevoori
 
-# Specific settings
-# @URL Setting
-permalink: /:categories/:title
-# Sass style for minimum space
-sass:
-    style: compressed
-
 # Build settings
 markdown: kramdown
 exclude:
@@ -37,11 +30,19 @@ exclude:
 # paginate: 2
 # paginate_path: "/page:num/"
 
+# Specific settings
+# @URL Setting
+permalink: /:categories/:title
+# Sass style for minimum space
+sass:
+    style: compressed
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
 name: Revanth's Blog
+email: revanth001reva@gmail.com
 author: "Revanth Revoori"
 
 gems:
@@ -50,3 +51,143 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+
+# Prose.io Config
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://rrevanth.github.io/'
+  relativeLinks: 'http://rrevanth.github.io/links.jsonp'
+  media: 'assests/media'
+  metadata:
+    _posts/blog:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish now"
+          help: "Keep this unchecked if you do not want to   publish the article right now"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Enter title of the Article"
+          placeholder: "Enter Title"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Revanth Revoori"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "blog"
+          alterable: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Add Tags"
+          options:
+            - name: "Blog"
+              value: "blog"
+          alterable: true
+      - name: "excerpt_separator"
+        field:
+          element: "text"
+          value: "<!--more-->"
+    _posts/reads:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish now"
+          help: "Keep this unchecked if you do not want to   publish the article right now"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Enter title of the Article"
+          placeholder: "Enter Title"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Revanth Revoori"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "reads"
+          alterable: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Add Tags"
+          options:
+            - name: "Reads"
+              value: "reads"
+          alterable: true
+      - name: "excerpt_separator"
+        field:
+          element: "text"
+          value: "<!--more-->"
+    _posts/videos:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish now"
+          help: "Keep this unchecked if you do not want to   publish the article right now"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Enter title of the Article"
+          placeholder: "Enter Title"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Revanth Revoori"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "tidbit"
+          alterable: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Add Tags"
+          options:
+            - name: "Videos"
+              value: "videos"
+          alterable: true
+      - name: "excerpt_separator"
+        field:
+          element: "text"
+          value: "<!--more-->"
