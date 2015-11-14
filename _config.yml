@@ -54,7 +54,6 @@ gems:
 
 # Prose.io Config
 prose:
-  rooturl: '_posts'
   siteurl: 'http://rrevanth.github.io/'
   relativeLinks: 'http://rrevanth.github.io/links.jsonp'
   media: 'assests/media'
@@ -75,7 +74,6 @@ prose:
           element: "text"
           label: "Enter title of the Article"
           placeholder: "Enter Title"
-          alterable: true
       - name: "date"
         field:
           element: "text"
@@ -119,7 +117,6 @@ prose:
           element: "text"
           label: "Enter title of the Article"
           placeholder: "Enter Title"
-          alterable: true
       - name: "date"
         field:
           element: "text"
@@ -163,7 +160,6 @@ prose:
           element: "text"
           label: "Enter title of the Article"
           placeholder: "Enter Title"
-          alterable: true
       - name: "date"
         field:
           element: "text"
