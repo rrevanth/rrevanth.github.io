@@ -2,7 +2,7 @@
 categories: blog
 author: Revanth Revoori
 layout: post
-published: true
+published: false
 date: "2015-11-15 15:55 +0530"
 tags: 
   - blog
