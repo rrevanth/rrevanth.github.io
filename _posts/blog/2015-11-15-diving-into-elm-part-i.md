@@ -14,6 +14,7 @@ title: "Diving into Elm [Part I]"
 ---
 
 
+
 Elm is having a lot of buzz lately because of it's great feature set like fast rendering [benchmark](http://evancz.github.io/todomvc-perf-comparison/),functional programming,crystal clear defining syntax and time travller debugger :thumbsup: .
 
 <!--more-->
