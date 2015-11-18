@@ -55,10 +55,14 @@ article {
         color: $red;
     }
     a {
-        &.post-links {
-            border-radius: 50%;
+        &.prev-link {
             margin-top : 200px;
-            margin-right: 40px;
+            margin-right: 20px;
+            box-shadow: none !important;
+        }
+        &.next-link {
+            margin-top : 200px;
+            margin-left: 20px;
             box-shadow: none !important;
         }
     }
