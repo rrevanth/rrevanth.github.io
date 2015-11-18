@@ -8,7 +8,6 @@ tags:
   - videos
   - elm
   - playlist
-  - series
   - learn
 excerpt_separator: "<!--more-->"
 title: "Learning Elm-Playlist"
