@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tidbitpost
 title:  "Comparing Node.js Frameworks: Express, Hapi, LoopBack, Sailsjs and Meteor"
 date:   2015-03-24 17:44:34
 author: "Revanth Revoori"

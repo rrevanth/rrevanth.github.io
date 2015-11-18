@@ -1,7 +1,7 @@
 ---
 categories: tidbit
 author: Revanth Revoori
-layout: post
+layout: tidbitpost
 published: true
 date: "2015-11-17 14:14 +0530"
 tags: 

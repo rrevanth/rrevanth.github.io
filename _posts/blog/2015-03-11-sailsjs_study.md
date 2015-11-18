@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title:  "SailsJS Pros & Cons"
 date:   2015-03-11 17:44:34
 author: "Revanth Revoori"

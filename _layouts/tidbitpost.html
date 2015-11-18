@@ -1,34 +1,30 @@
 ---
 layout: default
 ---
-
-<div class="home"><a class="tags" href="/tag/reads"><h3><b>All Posts in Reads</b></h3></a></div>
-
-{% for page in site.categories.reads limit:1 %}
-
 <div class="post">
+
+<div class="home"><a class="tags" href="/tag/videos"><h3><b>All Posts in Tidbits</b></h3></a></div>
 
   <header class="post-header">
     <br>
     <h1 class="post-title"><b>{{ page.title }}</b></h1>
     <p class="post-meta"><a class="author" href="/about">{% if page.author %}{{ page.author }}{% endif %}</a>  -  {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% for tag in page.tags %}
-        <a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+      	<a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
   </header>
 
   <article class="post-content">
     <br>
-    {{ page.content }}
-
-  <!-- Next and Previous Post Links -->
-  {% for post in site.categories.reads %}
+    {{ content }}
+  
+  {% for post in site.categories.tidbit %}
     {% if post.url == page.url %}
         {% assign post_index0 = forloop.index0 %}
         {% assign post_index1 = forloop.index %}
     {% endif %}
   {% endfor %}
-  {% for post in site.categories.reads %}
+  {% for post in site.categories.tidbit %}
       {% if post_index0 == forloop.index %}
           {% assign next_post = post.url %}
       {% endif %}
@@ -45,7 +41,6 @@ layout: default
       <a class = "post-links" href="{{ next_post }}"><i class="fa fa-chevron-circle-right fa-3x"></i></a>
   {% endif %}
   </div>
-  <!-- End of Next and Previous Post Links -->
 
   </article>
 
@@ -54,5 +49,3 @@ layout: default
   <div id="spot-im-frame-inpage"></div>
 
 </div>
-
-{% endfor %}

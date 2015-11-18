@@ -70,7 +70,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "blogpost"
       - name: "title"
         field:
           element: "text"
@@ -114,7 +114,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "readpost"
       - name: "title"
         field:
           element: "text"
@@ -158,7 +158,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "tidbitpost"
       - name: "title"
         field:
           element: "text"

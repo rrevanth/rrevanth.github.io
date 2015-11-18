@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readpost
 title:  "Tags in Jekyll by Charlie Park"
 date:   2015-02-27 17:44:34
 author: "Revanth Revoori"

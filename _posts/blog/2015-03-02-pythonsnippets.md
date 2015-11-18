@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title:  "Python Snippets"
 date:   2015-03-02 17:44:34
 author: "Revanth Revoori"

@@ -1,7 +1,7 @@
 ---
 categories: blog
 author: Revanth Revoori
-layout: post
+layout: blogpost
 published: false
 date: "2015-11-15 15:55 +0530"
 tags: 

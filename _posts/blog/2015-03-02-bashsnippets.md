@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title:  "Bash Snippets"
 date:   2015-03-02 17:40:34
 author: "Revanth Revoori"

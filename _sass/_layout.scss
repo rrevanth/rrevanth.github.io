@@ -37,6 +37,12 @@
 }
 
 article {
+    div {
+        &.post-div {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
     ul,ol {
         list-style-type: none;
         list-style-position: inside;
@@ -47,6 +53,14 @@ article {
         content: '\f101';
         margin:0 5px 0 -15px;
         color: $red;
+    }
+    a {
+        &.post-links {
+            border-radius: 50%;
+            margin-top : 200px;
+            margin-right: 40px;
+            box-shadow: none !important;
+        }
     }
 }
 
