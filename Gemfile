@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'kramdown'
 gem 'i18n'
 gem 'rake'
 gem 'jemoji'
