@@ -211,6 +211,7 @@ blockquote {
       }
       border-left: 3px solid $green;
       font-style: normal;
+      text-align: justify;
     }
 
     &.warnquote {
@@ -220,6 +221,17 @@ blockquote {
       }
       border-left: 3px solid $orange;
       font-style: normal;
+      text-align: justify;
+    }
+
+    &.notequote {
+      &::before {
+        content: 'Note';
+        font-weight: bold;
+      }
+      border-left: 3px solid $blue;
+      font-style: normal;
+      text-align: justify;
     }
 
     > :last-child {
