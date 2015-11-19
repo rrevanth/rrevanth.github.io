@@ -8,7 +8,8 @@ tags:
   - videos
   - phoenix
   - elm
-  - frameworks
+  - framework
+  - language
   - elixir
   - erlang
 excerpt_separator: "<!--more-->"

@@ -10,6 +10,8 @@ tags:
   - mongo
   - language
   - tutorial
+  - learn
+  - elixir
 excerpt_separator: "<!--more-->"
 title: Using Phoenix with Mongo
 ---

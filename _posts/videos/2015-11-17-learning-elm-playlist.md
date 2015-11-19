@@ -9,6 +9,7 @@ tags:
   - elm
   - playlist
   - learn
+  - language
 excerpt_separator: "<!--more-->"
 title: "Learning Elm-Playlist"
 ---

@@ -10,6 +10,8 @@ tags:
   - elm
   - series
   - language
+  - learn
+  - elixir
 excerpt_separator: "<!--more-->"
 title: Phoenix with Elm
 ---
