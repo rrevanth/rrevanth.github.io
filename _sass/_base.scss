@@ -199,10 +199,28 @@ a {
  */
 blockquote {
     color: rgba(80,83,101,0.96);
-    border-left: 2px solid #ad141e;
+    border-left: 3px solid #ad141e;
     margin-left: 1.9rem 0;
     padding-left: 0.95rem;
     font-style: italic;
+
+    &.tipquote {
+      &::before {
+        content: 'Tip';
+        font-weight: bold;
+      }
+      border-left: 3px solid $green;
+      font-style: normal;
+    }
+
+    &.warnquote {
+      &::before {
+        content: 'Warning';
+        font-weight: bold;
+      }
+      border-left: 3px solid $orange;
+      font-style: normal;
+    }
 
     > :last-child {
         margin-bottom: 0;
