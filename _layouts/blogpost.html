@@ -46,3 +46,24 @@ layout: default
   <div id="spot-im-frame-inpage"></div>
 
 </div>
+
+<script type="text/javascript">
+  function leftArrowPressed() {
+   window.location.href = "{{ prev_post }}";
+}
+
+function rightArrowPressed() {
+   window.location.href = "{{ next_post }}";
+}
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    switch (evt.keyCode) {
+        case 37:
+            leftArrowPressed();
+            break;
+        case 39:
+            rightArrowPressed();
+            break;
+    }
+};
