@@ -1,10 +1,10 @@
 ---
-published: true
-layout: blogpost
-title: "Automate Jekyll Blog to Github with Travis CI"
-date: 2015-11-11T17:44:34.000Z
-author: Revanth Revoori
 categories: blog
+author: Revanth Revoori
+layout: blogpost
+published: true
+title: Automate Jekyll Blog to Github with Travis CI
+date: "Wed Nov 11 2015 23:14:34 GMT+0530 (IST)"
 tags: 
   - blog
   - jekyll
@@ -12,7 +12,9 @@ tags:
   - travis
   - deploy
   - automate
+excerpt_separator: "<!--more-->"
 ---
+
 
 In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a simple, blog-aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers some other advanced templating features.
 
@@ -112,16 +114,18 @@ This should modify your .travis.yml file adding the openssh keys to before_insta
 > before_install:
 > - openssl aes-256-cbc -K {blah blah blah}
 
-**Add private deploy key files to .gitignore**
 {% highlight ruby linenos=table %}
 
-# make sure you ignore the SSH keys and only commit the
-# encrypted version. You may also want to back up the original
-# key files elsewhere
+Add private deploy key files to .gitignore
 deploy_key
 deploy_key.pub
 
 {% endhighlight %}
+
+> # make sure you ignore the SSH keys and only commit the
+# encrypted version. You may also want to back up the original
+# key files elsewhere
+{:warnquote}
 
 ### **Setting Travis in the project**
 
