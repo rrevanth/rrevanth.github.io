@@ -122,10 +122,10 @@ deploy_key.pub
 
 {% endhighlight %}
 
-> # make sure you ignore the SSH keys and only commit the
-# encrypted version. You may also want to back up the original
-# key files elsewhere
-{:warnquote}
+>  make sure you ignore the SSH keys and only commit the
+ encrypted version. You may also want to back up the original
+ key files elsewhere
+{: .warnquote}
 
 ### **Setting Travis in the project**
 

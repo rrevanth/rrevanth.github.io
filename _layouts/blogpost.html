@@ -30,12 +30,14 @@ layout: default
           {% assign prev_post = post.url %}
       {% endif %}
   {% endfor %}
-  {% if next_post %}
-      <a class = "next-post" href="{{ next_post }}">Next Post</a> <br>
-  {% endif %}
-  {% if prev_post %}
-      <a class="prev-post" href="{{ prev_post }}">Previous Post</a> <br>
-  {% endif %}
+    <div class="post-div">
+    {% if prev_post %}
+        <a class="prev-link" href="{{ prev_post }}"><i class="fa fa-chevron-circle-left fa-3x"></i></a>
+    {% endif %}
+    {% if next_post %}
+        <a class = "next-link" href="{{ next_post }}"><i class="fa fa-chevron-circle-right fa-3x"></i></a>
+    {% endif %}
+    </div>
 
   </article>
 
