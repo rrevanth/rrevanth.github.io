@@ -13,10 +13,12 @@ excerpt_separator: "<!--more-->"
 title: Phoenix Resources
 ---
 
+
 Collection of All Resources for learning Phoenix.
 
 <a class="embedly-card" href="https://github.com/h4cc/awesome-elixir">Awesome Elixir</a>
 <a class="embedly-card" href="https://github.com/seven1m/30-days-of-elixir">30 Days of Elixir</a>
+
 > These are for Elixir which is phoenix based on and written in
 {: .tipquote}
 
