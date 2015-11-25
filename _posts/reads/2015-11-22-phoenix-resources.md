@@ -14,6 +14,7 @@ title: Phoenix Resources
 ---
 
 
+
 Collection of All Resources for learning Phoenix.
 
 <a class="embedly-card" href="https://github.com/h4cc/awesome-elixir">Awesome Elixir</a>
@@ -24,7 +25,8 @@ Collection of All Resources for learning Phoenix.
 
 <a class="embedly-card" 
 href="http://www.phoenixframework.org/docs/resources">Nothing Better than Official :smile:</a>
-<a class="embedly-card" href="http://www.cultivatehq.com/posts/">Cultivate Blog </a>
+<a class="embedly-card" href="http://blog.jordan-dimov.com/">Blog posts only on Phoenix </a>
+<a class="embedly-card" href="http://www.cultivatehq.com/posts/">Cultivate Blog with Elm frontend </a>
 <a class="embedly-card" href="http://hashnuke.com/">HashNuke Blog</a>
 <a class="embedly-card" href="https://groups.google.com/forum/#!forum/phoenix-talk">Phoenix Google Group</a>
 <!--more-->
