@@ -13,7 +13,8 @@ excerpt_separator: "<!--more-->"
 title: Sticky links
 ---
 
-This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived if not deemed interesting after some time.
+
+This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived after some time.
 
 ### Alternative Erlang Syntax Language
 
@@ -22,9 +23,6 @@ This post will have all interesting things that I would like to read and recomme
 
 ### ES6 Bullet Points
 
-<a class="embedly-card" href="https://ponyfoo.com/articles/es6">ES6 Quickread</a>
+<a class="embedly-card" href="https://github.com/bevacqua/es6#weakmaps">ES6 Quickread</a>
 
 <!--more-->
-
-
-
