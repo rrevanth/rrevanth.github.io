@@ -9,9 +9,11 @@ tags:
   - stickylinks
   - es6
   - erlang
+  - http2
 excerpt_separator: "<!--more-->"
 title: Sticky links
 ---
+
 
 
 This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived after some time.
@@ -24,5 +26,11 @@ This post will have all interesting things that I would like to read and recomme
 ### ES6 Bullet Points
 
 <a class="embedly-card" href="https://github.com/bevacqua/es6#weakmaps">ES6 Quickread</a>
+
+### Building for HTTP/2
+
+<a class="embedly-card" href="http://rmurphey.com/blog/2015/11/25/building-for-http2">Building for HTTP/2</a>
+
+
 
 <!--more-->
