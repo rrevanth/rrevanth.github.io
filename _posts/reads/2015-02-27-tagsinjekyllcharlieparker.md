@@ -9,5 +9,5 @@ tags:
 - jekyll
 - code
 ---
-<a class="embedly-card" href="http://charliepark.org/tags-in-jekyll/">Tags In Jekyll</a>
+<a class="embedly-card" href="http://charliepark.org/tags-in-jekyll/">Tags In Jekyll  <i class="fa fa-external-link"></i></a>
 <!--more-->

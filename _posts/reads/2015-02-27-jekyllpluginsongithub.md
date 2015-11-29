@@ -9,5 +9,5 @@ tags:
 - jekyll
 - github
 ---
-<a class="embedly-card" href="http://blog.nitrous.io/2013/08/30/using-jekyll-plugins-on-github-pages.html">Using Jekyll Plugins on Github Pages</a>
+<a class="embedly-card" href="http://blog.nitrous.io/2013/08/30/using-jekyll-plugins-on-github-pages.html">Using Jekyll Plugins on Github Pages  <i class="fa fa-external-link"></i></a>
 <!--more-->

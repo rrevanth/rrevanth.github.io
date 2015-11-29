@@ -14,5 +14,6 @@ title: "Alchemy-Opensource AI"
 ---
 
 Alchemy is opensource AI project from washington edu.You can read more about Alchemy here.
-<a class="embedly-card" href="http://alchemy.cs.washington.edu/">Alchemy AI</a>
+
+<a class="embedly-card" href="http://alchemy.cs.washington.edu/">Alchemy AI  <i class="fa fa-external-link"></i></a>
 <!--more-->

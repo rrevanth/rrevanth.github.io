@@ -18,5 +18,5 @@ title: Phoenix with Elm
 
 This post series explains how to mix and match Phoenix with Elm and make developing feel great.
 
-<a class="embedly-card" href="http://www.cultivatehq.com/posts/phoenix-elm-1/">Phoenix With Elm</a>
+<a class="embedly-card" href="http://www.cultivatehq.com/posts/phoenix-elm-1/">Phoenix With Elm  <i class="fa fa-external-link"></i></a>
 <!--more-->

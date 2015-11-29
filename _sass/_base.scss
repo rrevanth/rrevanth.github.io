@@ -188,8 +188,19 @@ a {
         box-shadow: none;
         &:hover {
           color: #ad141e;
+        }
     }
-  }
+    &.embedly-card {
+        color: $text-color;
+        font-size: $base-font-size;
+        box-shadow: none;
+        &:hover {
+          color: $red;
+          -webkit-box-shadow: 0 2px 0 0 #ad141e;
+          -moz-box-shadow: 0 2px 0 0 #ad141e;
+          box-shadow: 0 2px 0 0 #ad141e;
+        }
+    }
 }
 
 
