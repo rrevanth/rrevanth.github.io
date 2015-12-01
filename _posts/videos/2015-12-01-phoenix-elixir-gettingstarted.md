@@ -11,8 +11,9 @@ tags:
   - language
   - framework
 excerpt_separator: "<!--more-->"
-title: phoenix elixir videos
+title: Phoenix Framework Getting Started
 ---
+
 
 
 <div><p>Phoenix in Action and some introduction videos</p></div>
