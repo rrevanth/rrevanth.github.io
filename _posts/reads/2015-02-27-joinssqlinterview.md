@@ -1,13 +1,16 @@
 ---
-layout: readpost
-title:  "SQL COMPLEX JOINS QUERIES INTERVIEW"
-date:   2015-02-27 17:44:35
-author: "Revanth Revoori"
 categories: reads
-tags:
-- reads
-- sql
-- interview
+author: Revanth Revoori
+layout: readpost
+title: SQL COMPLEX JOINS QUERIES INTERVIEW
+date: "Fri Feb 27 2015 23:14:35 GMT+0530 (IST)"
+tags: 
+  - reads
+  - sql
+  - interview
+published: true
+excerpt_separator: "<!--more-->"
 ---
+
 <a class="embedly-card" href="http://www.interviewquestionspdf.com/2014/07/complex-joins-sql-joins-queries.html">COMPLEX JOINS : SQL SERVER JOINS QUERIES INTERVIEW QUESTIONS AND ANSWERS EXAMPLES FOR EXPERIENCED SET-7  <i class="fa fa-external-link"></i></a>
 <!--more-->
