@@ -26,16 +26,16 @@ In this post,I will share
 
 Prose is a free online github content editor.It can be customised to our requirements such as
 
-**Image Uploading**
+Image Uploading
 When editing markdown documents you can drag and drop images onto the page which are uploaded to a media directory you specify in your configuration or the current directory.
 
-**Mobile Layout**
+Mobile Layout
 Prose is designed as a mobile ready application and is particularly well suited for the iPad.
 
-**Markdown Features**
+Markdown Features
 Prose pays particular attention to Markdown files by providing a formatting toolbar and in page previewing.
 
-**Configurations**
+Configurations
 Often you want to provide site maintainers access to create and edit content but not direct access to the source code that runs a project. Or you want a simple authoring environment that's focused on what matters to you. Configurations are a powerful way to customize what's provided during the day to day management of a site.
 
 For non-jekyll sites, You can set up configurations by creating a _prose.yml file or add configurations as an entry to your Jekyll site in _config.yml.
@@ -48,29 +48,29 @@ Prose provides specific features to Jekyll sites
 - YAML Frontmatter Configuration.
 - Full site layout previewing.
 
-### **Prose Config Options**
+### Prose Config Options
 
 Descriptions with **\*** are jekyll specific
 
-##### **rooturl: "DIRECTORY NAME"**
+##### rooturl: "DIRECTORY NAME"
 Adding this option will restrict the prose access to the specific directory of the repo.
 
-##### **ignore: ['file_a.html', '_config.yml']**
+##### ignore: ['file_a.html', '_config.yml']
 This option will ignore the files and do not show the files for edit.
 
-##### **siteurl: "http://domain-name.com"**
+##### siteurl: "http://domain-name.com"
 \* Set this to your site and it will show live previews rather than inhouse previews of prose.
 
-##### **site:**
+##### site:
 \* This field accepts a list of absolute .JSONP paths to content that is loaded during Jekyll live previews. This is particularly useful for building out tags or categories that should be present during preview.
 
-##### **media: "DIRECTORY NAME"**
+##### media: "DIRECTORY NAME"
 Specify a media directory uploading images defaults to. When media is added to this directory, a listing of available assets is populated from the image dropdown link on markdown files.
 
-##### **relativeLinks: "ABSOLUTE-URL.JSONP"**
+##### relativeLinks: "ABSOLUTE-URL.JSONP"
 Displays a list of links to a user from the link dropdown on markdown files.
 
-##### **metadata:**
+##### metadata:
 \* This adds YAML frontmatter to jekyll posts automatically.
 
 ## Metadata Configuration
@@ -109,9 +109,9 @@ where
 `value` which contains the values.
 \*`options` comes into picture for select and multiselect elements which we will see in a while.
 
-## **Form field attributes**
+## Form field attributes
 
-#### **Text**
+#### Text
 
 element: text
 label: (optional string) Label to the user
@@ -121,7 +121,7 @@ placeholder: (optional string) Helper text in the input if no value is provided.
 
 type: text
 
-#### **Textarea**
+#### Textarea
 
 element: textarea
 label: (optional string) Label to the user
@@ -130,7 +130,7 @@ value: (optional string) A default value
 placeholder: (optional string) Helper text in the textarea if no value is 
 provided.
 
-#### **Select & Multiselect**
+#### Select & Multiselect
 
 Allow a user to make one or more selections
 
@@ -157,12 +157,12 @@ Hidden
 
 This is particularly useful for frontmatter fields that should always have a fixed value and not changed. An good example is the layout field a file inherits.
 
-#### **Hidden**
+#### Hidden
 
 element: hidden
 value: (optional string) The default value
 
-#### **Number**
+#### Number
 
 element: number
 label: (optional string) Label to the user
@@ -170,7 +170,7 @@ help: (optional string) Help/description to accompany a label
 value: (optional integer) A default integer
 type: number
 
-#### **Button**
+#### Button
 
 A button can be used to toggle on and off the value
 
@@ -180,7 +180,7 @@ help: (optional string) Help/description to accompany a label
 on: (string) The name of the on value
 off: (string) The name of the off value
 
-#### **Checkbox**
+#### Checkbox
 
 Toggles on a true or false state
 
@@ -189,7 +189,7 @@ label: (optional string) Label to the user
 help: (optional string) Help/description to accompany a label
 value: (boolean) true or false
 
-## **Jekyll Prose Config**
+## Jekyll Prose Config
 
 Consider a jekyll sites contain a following directory structure of \_posts.
 

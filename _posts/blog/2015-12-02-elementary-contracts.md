@@ -13,13 +13,11 @@ excerpt_separator: "<!--more-->"
 title: Elementary Contracts
 ---
 
-## Contractor Contracts
-
 This post contains exhaustive contracts that will be useful for elementary or ubuntu distro.
 
 ### Open terminal in current directory
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Summon ShellGod Here
@@ -35,7 +33,7 @@ Gettext-Domain=pantheon-terminal
 
 ### Open folder as Root
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Summon Root on Folder
@@ -49,7 +47,7 @@ Gettext-Domain=pantheon-files
 
 ### Open file as Root
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Summon Root on File
@@ -64,7 +62,7 @@ Gettext-Domain=subl
 ### Media Info - Video
 
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Media info
@@ -80,7 +78,7 @@ Gettext-Domain=pantheon-files
 ### Media Info - Audio
 
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Media info
@@ -96,7 +94,7 @@ Gettext-Domain=pantheon-files
 
 install parallel prior to this 
 
-{% highlight python linenos=table %}      
+{% highlight bash linenos=table %}
 
 [Contractor Entry]
 Name=Extract audio
