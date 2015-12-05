@@ -5,7 +5,7 @@
   <meta name="p:domain_verify" content="334a26f18c0712cdb390e9eba0ef9f50"/>
   <title>{% if page.title %}{{ page.title }}{% else if site.pagetitle%}{{ site.pagetitle }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="Code, Backend, Front-End,Revanth, Revoori, Revoori Sai Revanth, revoori sai revanth, iit, kharagpur, iit kharagpur, computer science, Art, Gridants,HTMedia, Photography" />
+  <meta name="keywords" content="Code, Backend, Front-End,Revanth, Revoori, Revoori Sai Revanth, Revanth Revoori , IIT, kharagpur, iit kharagpur, computer science, Art, Gridants,HTMedia, Photography, {{ page.tags | join: ', ' | escape }}" />
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -14,5 +14,5 @@
   <!--Fonts-->
   <link href='/assets/css/fonts.css' rel='stylesheet' type='text/css'>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+  {% include social-sharemeta.html %}
 </head>

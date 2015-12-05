@@ -26,16 +26,16 @@ In this post,I will share
 
 Prose is a free online github content editor.It can be customised to our requirements such as
 
-Image Uploading
+##### Image Uploading
 When editing markdown documents you can drag and drop images onto the page which are uploaded to a media directory you specify in your configuration or the current directory.
 
-Mobile Layout
+##### Mobile Layout
 Prose is designed as a mobile ready application and is particularly well suited for the iPad.
 
-Markdown Features
+##### Markdown Features
 Prose pays particular attention to Markdown files by providing a formatting toolbar and in page previewing.
 
-Configurations
+##### Configurations
 Often you want to provide site maintainers access to create and edit content but not direct access to the source code that runs a project. Or you want a simple authoring environment that's focused on what matters to you. Configurations are a powerful way to customize what's provided during the day to day management of a site.
 
 For non-jekyll sites, You can set up configurations by creating a _prose.yml file or add configurations as an entry to your Jekyll site in _config.yml.
