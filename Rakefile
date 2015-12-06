@@ -28,7 +28,7 @@
         system "git commit -am #{message.shellescape}"
         system "git push origin master --force"
         system "git checkout source"
-        system "echo published to master"
+        system "echo published to master branch"
       end
     end
 
