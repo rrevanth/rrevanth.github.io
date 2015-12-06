@@ -217,15 +217,21 @@ blockquote {
     border-left: 3px solid #ad141e;
     margin-left: 1.9rem 0;
     padding-left: 0.95rem;
-    font-style: italic;
+    font-style: normal;
+    font-weight: bold;
+
+    p {
+      font-family: "Alegreya", georgia, serif !important;
+    }
 
     &.tipquote {
       &::before {
         content: 'Tip';
         font-weight: bold;
+        font-style: normal;
       }
       border-left: 3px solid $green;
-      font-style: normal;
+      font-style: italic;
       text-align: justify;
     }
 
@@ -233,9 +239,10 @@ blockquote {
       &::before {
         content: 'Warning';
         font-weight: bold;
+        font-style: normal;
       }
       border-left: 3px solid $orange;
-      font-style: normal;
+      font-style: italic;
       text-align: justify;
     }
 
@@ -243,9 +250,10 @@ blockquote {
       &::before {
         content: 'Note';
         font-weight: bold;
+        font-style: normal;
       }
       border-left: 3px solid $blue;
-      font-style: normal;
+      font-style: italic;
       text-align: justify;
     }
 
