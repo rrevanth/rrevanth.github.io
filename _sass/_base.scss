@@ -214,47 +214,54 @@ a {
  */
 blockquote {
     color: rgba(80,83,101,0.96);
-    border-left: 3px solid #ad141e;
+    border-left: 4px solid #ad141e;
     margin-left: 1.9rem 0;
     padding-left: 0.95rem;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: FontAwesome;
 
     p {
-      font-family: "Alegreya", georgia, serif !important;
+      font-family: "Alegreya", georgia,FontAwesome, serif !important;
     }
 
     &.tipquote {
       &::before {
-        content: 'Tip';
-        font-weight: bold;
+        color: $green;
+        content: '\f05a   Tip';
+        font-weight: bolder;
         font-style: normal;
       }
-      border-left: 3px solid $green;
+      border-left: 4px solid $green;
       font-style: italic;
       text-align: justify;
+      background: $green-lightest;
     }
 
     &.warnquote {
       &::before {
-        content: 'Warning';
-        font-weight: bold;
+        color: $orange;
+        content: '\f05a   Warning';
+        font-weight: bolder;
         font-style: normal;
       }
-      border-left: 3px solid $orange;
+      border-left: 4px solid $orange;
       font-style: italic;
       text-align: justify;
+      background: $yellow-lightest;
     }
 
     &.notequote {
       &::before {
-        content: 'Note';
-        font-weight: bold;
+        color: $blue;
+        content: '\f05a   Note';
+        font-weight: bolder;
         font-style: normal;
       }
-      border-left: 3px solid $blue;
+      border-left: 4px solid $blue;
       font-style: italic;
       text-align: justify;
+      background: $blue-lightest;
     }
 
     > :last-child {
@@ -379,25 +386,6 @@ pre {
 // ==========================================================================
 // 404
 // ==========================================================================
-
-// ==========================================================================
-// Variables
-// ==========================================================================
-
-// Colors
-// ==========================================================================
-
-// Reds
-$red-lightest: lighten($red, 36);
-$red-lighter: lighten($red, 24);
-$red-light: lighten($red, 12);
-$red-dark: darken($red, 12);
-$red-darker: darken($red, 24);
-$red-darkest: darken($red, 36);
-
-// White, black, and grays
-$white: #fff;
-$white-dark: #f6f6f6;
 
 // Button
 // ==========================================================================
