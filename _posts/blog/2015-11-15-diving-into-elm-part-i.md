@@ -2,7 +2,7 @@
 categories: blog
 author: Revanth Revoori
 layout: blogpost
-published: true
+published: false
 date: "2015-11-15 15:55 +0530"
 tags: 
   - blog
@@ -12,6 +12,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: "Diving into Elm [Part I]"
 ---
+
 
 
 
