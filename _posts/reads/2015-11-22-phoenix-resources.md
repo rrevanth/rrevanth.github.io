@@ -22,7 +22,7 @@ Collection of All Resources for learning Phoenix.
 <a class="embedly-card" href="https://github.com/seven1m/30-days-of-elixir">30 Days of Elixir  <i class="fa fa-external-link"></i></a>
 
 > These are for Elixir which is phoenix based on and written in
-{: .tipquote}
+{: .tipquote .centerquote}
 
 <a class="embedly-card" href="http://www.phoenixframework.org/docs/resources">Nothing Better than Official :smile:  <i class="fa fa-external-link"></i></a>
 

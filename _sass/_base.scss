@@ -251,6 +251,16 @@ blockquote {
       background: $yellow-lightest;
     }
 
+    &.centerquote {
+      border-left:8px solid #2ecc71;
+      width: 60% !important;
+      padding-right: 2rem;
+
+      @include media-query($on-palm) {
+        width: inherit !important;
+      }
+    }
+
     &.notequote {
       &::before {
         color: $blue;
