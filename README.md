@@ -1,6 +1,9 @@
 #####################################################################
-## **README**
+## **JEKYLL BLOG**
 #####################################################################
+
+[![Build Status](https://travis-ci.org/rrevanth/rrevanth.github.io.svg?branch=source)](https://travis-ci.org/rrevanth/rrevanth.github.io)
+<!-- [![Inline docs](http://inch-ci.org/github/redvers/pastenix.svg)](http://inch-ci.org/github/redvers/pastenix)-->
 
 This contains source and webpage for my blog site http://rrevanth.github.io build using jekyll and hosted on github pages.
 
