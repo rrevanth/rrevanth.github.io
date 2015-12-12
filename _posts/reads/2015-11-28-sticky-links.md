@@ -6,13 +6,14 @@ published: true
 date: "2015-11-28 15:04 +0530"
 tags: 
   - reads
-  - stickylinks
   - es6
   - erlang
   - http2
+  - note
 excerpt_separator: "<!--more-->"
 title: Sticky links
 ---
+
 
 
 
