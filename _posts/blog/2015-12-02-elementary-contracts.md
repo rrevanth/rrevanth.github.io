@@ -6,12 +6,13 @@ published: true
 date: "2015-12-02 01:41 +0530"
 tags: 
   - blog
-  - contracts
   - elementary
   - ubuntu
+  - contract
 excerpt_separator: "<!--more-->"
 title: Elementary Contracts
 ---
+
 
 This post contains exhaustive contracts that will be useful for elementary or ubuntu distro.
 
@@ -105,4 +106,3 @@ Exec=pantheon-terminal -e "parallel avconv -i '{}' -map 0:1 -c:a copy '{}.ogg' :
 Gettext-Domain=pantheon-files
 
 {% endhighlight %}
-
