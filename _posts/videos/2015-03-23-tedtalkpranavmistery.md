@@ -1,14 +1,18 @@
 ---
-layout: tidbitpost
-title:  "TED Talk about Sixth Sense"
-date:   2015-03-23 17:44:34
-author: "Revanth Revoori"
 categories: tidbit
-tags:
-- videos
-- tedtalks
-- sixthsense
+author: Revanth Revoori
+layout: tidbitpost
+title: TED Talk about Sixth Sense
+date: "Mon Mar 23 2015 23:14:34 GMT+0530 (IST)"
+tags: 
+  - videos
+  - sixthsense
+  - ted
+  - talk
+published: true
+excerpt_separator: "<!--more-->"
 ---
+
 <div><p>I admire this guy very much and I was inspired by him in my college days.Great talk and cool idea.It would be awesome to use in real life</p></div>
 <div class="video">
 <iframe src="https://embed-ssl.ted.com/talks/pattie_maes_demos_the_sixth_sense.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
