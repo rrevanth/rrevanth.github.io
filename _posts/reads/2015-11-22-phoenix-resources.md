@@ -8,10 +8,11 @@ tags:
   - reads
   - phoenix
   - learning
-  - resources
+  - resource
 excerpt_separator: "<!--more-->"
 title: Phoenix Resources
 ---
+
 
 
 
