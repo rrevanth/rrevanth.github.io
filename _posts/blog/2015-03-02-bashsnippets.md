@@ -1,15 +1,18 @@
 ---
-layout: blogpost
-title:  "Bash Snippets"
-date:   2015-03-02 17:40:34
-author: "Revanth Revoori"
 categories: blog
-tags:
-- blog
-- code
-- bash
-- snippets
+author: Revanth Revoori
+layout: blogpost
+title: Bash Snippets
+date: "Mon Mar 02 2015 23:10:34 GMT+0530 (IST)"
+tags: 
+  - blog
+  - code
+  - bash
+  - snippet
+published: true
+excerpt_separator: "<!--more-->"
 ---
+
 Set of small scripts, which demonstrate some features of bash programming.
 
 
