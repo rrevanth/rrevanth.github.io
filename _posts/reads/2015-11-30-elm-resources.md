@@ -8,11 +8,12 @@ tags:
   - reads
   - elm
   - learning
-  - resources
   - language
+  - resource
 excerpt_separator: "<!--more-->"
 title: Elm Resources
 ---
+
 
 Some resources I read for learning Elm
 
