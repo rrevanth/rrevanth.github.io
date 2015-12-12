@@ -7,10 +7,12 @@ date: "2015-11-26 19:15 +0530"
 tags: 
   - reads
   - javascript
-  - references
+  - reference
+  - resource
 excerpt_separator: "<!--more-->"
 title: Javascript References
 ---
+
 
 All the popular javascript resources and when to use which.
 
