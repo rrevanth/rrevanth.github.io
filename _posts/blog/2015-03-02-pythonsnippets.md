@@ -1,15 +1,18 @@
 ---
-layout: blogpost
-title:  "Python Snippets"
-date:   2015-03-02 17:44:34
-author: "Revanth Revoori"
 categories: blog
-tags:
-- blog
-- code
-- python
-- snippets
+author: Revanth Revoori
+layout: blogpost
+title: Python Snippets
+date: "Mon Mar 02 2015 23:14:34 GMT+0530 (IST)"
+tags: 
+  - blog
+  - code
+  - python
+  - snippet
+published: true
+excerpt_separator: "<!--more-->"
 ---
+
 Hi there,
 Here is a set of small scripts, which demonstrate some features of
 Python programming.
