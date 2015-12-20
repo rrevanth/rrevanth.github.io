@@ -16,6 +16,7 @@ title: GraphQL introduction
 
 
 
+
 GraphQL is a data query language designed for product developers. This talk will discuss where it came from, why it's powerful, and how it as a horizontal platform fits into the open source ecosystem of software that Facebook is building.
 
 <div class="video">
@@ -23,6 +24,7 @@ GraphQL is a data query language designed for product developers. This talk will
 </div>
 
 <br><br>
+
 ##### You can also look for further references in this post :
 
 <a class="embedly-card" href="http://rrevanth.github.io/reads/getting-started-with-graphql">GraphQL references  <i class="fa fa-external-link"></i></a>
