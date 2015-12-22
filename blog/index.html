@@ -26,7 +26,7 @@ li { display: block; }
 	      <br>
 	      {{ post.date | date: "%b %-d, %Y" }}
 	      {{ post.excerpt }}
-	      <br>
+	      <a id="goog-wm-sb" href="{{ post.url }}">Read More</a>
 	    </li>
 	  {% endfor %}
 	</ul>
