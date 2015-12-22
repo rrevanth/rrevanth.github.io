@@ -16,6 +16,7 @@ title: Editing Jekyll Posts With Prose
 
 
 
+
 Jekyll supports markdown posts.We will discuss an online Github Content Editor [Prose](http://prose.io/ "Prose") that can be used to edit jekyll posts.It uses github authentication.Prose does not need to be specifically used for jekyll.You can edit any hosting site that has Git Hooks.
 
 <!--more-->
@@ -261,4 +262,4 @@ prose:
 
 With this config,front matter can be automated for the blog sub-directory in \_posts directory.In the same way,we can add other sub-directories to the options.
 
-I hope this series of posts helps you get started with jekyll blog [Autodeployed to Github Pages with Travis CI](http://rrevanth.github.io/blog/jekyllraketravisci) and an online editor with Prose.
+I hope this series of posts helps you get started with jekyll blog [Autodeployed to Github Pages with Travis CI](http://rrevanth.github.io/blog/jekyllRakeTravisCI) and an online editor with Prose.
