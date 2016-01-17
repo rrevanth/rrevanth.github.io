@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 published: true
@@ -12,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Elementary Contracts
 ---
+
 
 
 

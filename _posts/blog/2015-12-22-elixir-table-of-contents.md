@@ -17,9 +17,6 @@ title: Elixir Table of Contents
 ---
 
 
-
-
-
 I have been reading elixir from past few weeks and fell in love with it.I decided to put up a series about what I have learnt for references.
 
 <!--more-->
