@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 published: true
@@ -12,9 +13,6 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Editing Jekyll Posts With Prose
 ---
-
-
-
 
 
 Jekyll supports markdown posts.We will discuss an online Github Content Editor [Prose](http://prose.io/ "Prose") that can be used to edit jekyll posts.It uses github authentication.Prose does not need to be specifically used for jekyll.You can edit any hosting site that has Git Hooks.
