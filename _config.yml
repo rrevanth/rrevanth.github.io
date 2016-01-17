@@ -60,11 +60,6 @@ prose:
   media: 'assests/media'
   metadata:
     _posts/blog:
-      - name: "Published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
       - name: "layout"
         field:
           element: "hidden"
@@ -107,11 +102,6 @@ prose:
           element: "text"
           value: "<!--more-->"
     _posts/reads:
-      - name: "Published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
       - name: "layout"
         field:
           element: "hidden"
@@ -154,11 +144,6 @@ prose:
           element: "text"
           value: "<!--more-->"
     _posts/videos:
-      - name: "Published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
       - name: "layout"
         field:
           element: "hidden"
