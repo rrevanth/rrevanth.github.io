@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 title: SQL COMPLEX JOINS QUERIES INTERVIEW
@@ -11,6 +12,7 @@ tags:
 published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 <a class="embedly-card" href="http://www.interviewquestionspdf.com/2014/07/complex-joins-sql-joins-queries.html">COMPLEX JOINS : SQL SERVER JOINS QUERIES INTERVIEW QUESTIONS AND ANSWERS EXAMPLES FOR EXPERIENCED SET-7  <i class="fa fa-external-link"></i></a>
 <!--more-->
