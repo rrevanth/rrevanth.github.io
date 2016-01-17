@@ -52,6 +52,18 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layout: 'blog'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
 
 # Prose.io Config
 prose:
