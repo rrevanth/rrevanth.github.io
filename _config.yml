@@ -60,14 +60,11 @@ prose:
   media: 'assests/media'
   metadata:
     _posts/blog:
-      - name: "published"
+      - name: "Published"
         field:
-          element: "button"
-          label: "Publish"
-          help: "Keep this On if you want to publish the article right now"
-          on: "Publish"
-          off: "Don't Publish"
-          alterable: "true"
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "layout"
         field:
           element: "hidden"
@@ -110,14 +107,11 @@ prose:
           element: "text"
           value: "<!--more-->"
     _posts/reads:
-      - name: "published"
+      - name: "Published"
         field:
-          element: "button"
-          label: "Publish now"
-          help: "Keep this On if you do not want to   publish the article right now"
-          on: "Publish this"
-          off: "Don't Publish"
-          alterable: "true"
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "layout"
         field:
           element: "hidden"
@@ -160,14 +154,11 @@ prose:
           element: "text"
           value: "<!--more-->"
     _posts/videos:
-      - name: "published"
+      - name: "Published"
         field:
-          element: "button"
-          label: "Publish now"
-          help: "Keep this On if you do not want to   publish the article right now"
-          on: "Publish this"
-          off: "Don't Publish"
-          alterable: "true"
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "layout"
         field:
           element: "hidden"
