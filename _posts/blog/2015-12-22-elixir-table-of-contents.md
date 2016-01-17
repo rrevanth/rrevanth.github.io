@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 published: false
@@ -14,6 +15,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Elixir Table of Contents
 ---
+
 
 
 
