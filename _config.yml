@@ -63,10 +63,11 @@ prose:
       - name: "published"
         field:
           element: "button"
-          label: "Publish now"
-          help: "Keep this On if you do not want to   publish the article right now"
-          on: "Publish this"
+          label: "Publish"
+          help: "Keep this On if you want to publish the article right now"
+          on: "Publish"
           off: "Don't Publish"
+          alterable: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -85,6 +86,11 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+          alterable: "true"
       - name: "categories"
         field:
           element: "hidden"
@@ -111,6 +117,7 @@ prose:
           help: "Keep this On if you do not want to   publish the article right now"
           on: "Publish this"
           off: "Don't Publish"
+          alterable: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -129,6 +136,11 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "reads"
+          alterable: "true"
       - name: "categories"
         field:
           element: "hidden"
@@ -155,6 +167,7 @@ prose:
           help: "Keep this On if you do not want to   publish the article right now"
           on: "Publish this"
           off: "Don't Publish"
+          alterable: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -173,6 +186,11 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "tidbit"
+          alterable: "true"
       - name: "categories"
         field:
           element: "hidden"
