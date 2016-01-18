@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -15,6 +16,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Using Phoenix with Mongo
 ---
+
 
 If you’re brand new to Phoenix then I would suggest going through [Phoenix](http://www.phoenixframework.org/).You can also read this [book](https://pragprog.com/book/phoenix/programming-phoenix) from Pragmatic Bookshelf.
 
