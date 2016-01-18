@@ -1,5 +1,6 @@
 ---
 categories: tidbit
+category: tidbit
 author: Revanth Revoori
 layout: tidbitpost
 published: true
@@ -15,6 +16,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: "Phoenix with Elm - Alex Gardner"
 ---
+
 
 
 In this video Alex Gardner explains how to integrate Phoenix with Elm both of which are ground breaking frameworks of this era with ambitious benchmarks that are to be set and doing a great.You can also go through detailed series by him on through here [Phoenix with Elm](http://rrevanth.github.io/reads/phoenix-with-elm)
