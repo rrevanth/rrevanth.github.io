@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -14,6 +15,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Embed Ejabberd in Phoenix App
 ---
+
 
 Embedding Ejabberd into phoenix application to have a realtime messaging feature in our App.
 
