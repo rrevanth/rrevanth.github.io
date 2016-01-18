@@ -1,7 +1,7 @@
 /**
  * Rss
  */
-.fa-rss {
+.fa-rss-footer {
     position: absolute;
     width: 50px;
     color:$red;
@@ -33,7 +33,7 @@
 }
 
 @include media-query($on-palm) {
-  .fa-rss {
+  .fa-rss-footer {
     font-size: 150% !important;
   }
   .social-media-list {
