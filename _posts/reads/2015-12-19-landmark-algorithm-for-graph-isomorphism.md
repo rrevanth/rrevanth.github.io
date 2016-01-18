@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -12,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Landmark Algorithm for Graph Isomorphism
 ---
+
 
 László Babai, of the University of Chicago, announced that he had come up with a new algorithm for the “graph isomorphism” problem, one of the most tantalizing mysteries in computer science. The new algorithm appears to be vastly more efficient than the previous best algorithm, which had held the record for more than 30 years.
 
