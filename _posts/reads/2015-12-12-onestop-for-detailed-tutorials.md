@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -12,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Onestop for Detailed Tutorials
 ---
+
 
 I always find myself wanting to learn a language or framework.Although they are many enriched blog posts and great docs,I do not know where to start it.
 

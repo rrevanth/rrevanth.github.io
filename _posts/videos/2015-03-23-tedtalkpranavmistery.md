@@ -1,5 +1,6 @@
 ---
 categories: tidbit
+category: tidbit
 author: Revanth Revoori
 layout: tidbitpost
 title: TED Talk about Sixth Sense
@@ -12,6 +13,7 @@ tags:
 published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 <div><p>I admire this guy very much and I was inspired by him in my college days.Great talk and cool idea.It would be awesome to use in real life</p></div>
 <div class="video">

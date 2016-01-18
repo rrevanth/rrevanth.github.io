@@ -1,15 +1,19 @@
 ---
-layout: blogpost
-title:  "My Experience with Unity"
-date:   2015-03-11 17:44:34
-author: "Revanth Revoori"
 categories: blog
-tags:
-- blog
-- unity
-- game
-- study
+category: blog
+author: Revanth Revoori
+layout: blogpost
+title: My Experience with Unity
+date: "Wed Mar 11 2015 23:14:34 GMT+0530 (IST)"
+tags: 
+  - blog
+  - unity
+  - game
+  - study
+published: true
+excerpt_separator: "<!--more-->"
 ---
+
 
 This is the first time I have laid my hands on [Unity].I got to admit that I never got my hands dirty in developing games although while working in my previous company i.e., HT Media,I have tried develop my basic skills using [Cocos 2D] in Lua,familiar neither in language nor the framework.That time I learner basics of lua from the Sample Project that comes with Cocos and created a box 2D game simulation which was not a pretty one but did have all the physics concepts and collision simulations done!
 

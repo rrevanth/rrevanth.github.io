@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 published: true
@@ -14,6 +15,7 @@ tags:
   - automate
 excerpt_separator: "<!--more-->"
 ---
+
 
 
 In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a simple, blog-aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers some other advanced templating features.

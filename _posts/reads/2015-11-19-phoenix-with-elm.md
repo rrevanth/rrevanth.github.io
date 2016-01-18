@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -15,6 +16,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Phoenix with Elm
 ---
+
 
 This post series explains how to mix and match Phoenix with Elm and make developing feel great.
 

@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -12,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Javascript References
 ---
+
 
 
 All the popular javascript resources and when to use which.

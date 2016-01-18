@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 title: Bash Snippets
@@ -12,6 +13,7 @@ tags:
 published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 Set of small scripts, which demonstrate some features of bash programming.
 

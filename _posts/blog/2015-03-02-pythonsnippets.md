@@ -1,5 +1,6 @@
 ---
 categories: blog
+category: blog
 author: Revanth Revoori
 layout: blogpost
 title: Python Snippets
@@ -12,6 +13,7 @@ tags:
 published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 Hi there,
 Here is a set of small scripts, which demonstrate some features of
