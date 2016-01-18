@@ -1,5 +1,6 @@
 ---
 categories: reads
+category: reads
 author: Revanth Revoori
 layout: readpost
 published: true
@@ -12,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: "Alchemy-Opensource AI"
 ---
+
 
 Alchemy is opensource AI project from washington edu.You can read more about Alchemy here.
 
