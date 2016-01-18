@@ -13,5 +13,6 @@ published: true
 excerpt_separator: "<!--more-->"
 ---
 
+
 <a class="embedly-card" href="http://www.bullraider.com/database/sql-tutorial">SQL Tutorial Home  <i class="fa fa-external-link"></i></a>
 <!--more-->
