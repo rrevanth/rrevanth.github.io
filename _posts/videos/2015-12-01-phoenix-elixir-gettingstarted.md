@@ -1,5 +1,6 @@
 ---
 categories: tidbit
+category: tidbit
 author: Revanth Revoori
 layout: tidbitpost
 published: true
@@ -13,6 +14,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Phoenix Framework Getting Started
 ---
+
 
 
 
