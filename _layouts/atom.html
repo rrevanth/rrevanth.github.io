@@ -7,7 +7,7 @@ layout: null
         <link href="{{ site.url }}/" rel="alternate" type="text/html" />
         <updated>{{ site.time | date_to_xmlschema }}</updated>
         <id>{{ site.url }}/</id>
-        <title>Posts on <b>{{ page.tag | upcase }}</b> from {{ site.name }}</title>
+        <title>Feed tagged <b>{{ page.tag | upcase }}</b> - {{ site.name }}</title>
         <subtitle> {{ site.description }} </subtitle>
         <author>
             <name>{{ site.title | xml_escape }}</name>
