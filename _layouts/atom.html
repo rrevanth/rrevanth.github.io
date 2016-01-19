@@ -4,10 +4,10 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
         <channel>
-            <link href="{{ site.url }}{{ site.JB.atom_path }}" rel="self" type="application/atom+xml" />
-            <link href="{{ site.url }}" rel="alternate" type="text/html" />
+            <link href="{{ site.url }}/tag/{{ page.tag }}/feed.xml" rel="self" type="application/atom+xml" />
+            <link href="{{ site.url }}/" rel="alternate" type="text/html" />
             <updated>{{ site.time | date_to_xmlschema }}</updated>
-            <id>{{ site.url }}</id>
+            <id>{{ site.url }}/</id>
             <title>{{ site.name }}</title>
             <subtitle> {{ site.description }} </subtitle>
             <author>
@@ -16,11 +16,11 @@ layout: null
             {% for post in site.posts %} {% for tag in post.tags %} {% if tag == page.tag %}
             <entry>
                 <title>{{ post.title | xml_escape }}</title>
-                <link href="{{ site.url }}{{ post.url }}" />
+                <link href="{{ site.url }}{{ post.url }}/" />
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
                 <updated>{{ post.date | date_to_xmlschema }}</updated>
-                <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
-                <content type="html" xml:base="{{ site.url }}{{ post.url }}">{{ post.content | xml_escape }}</content>
+                <guid isPermaLink="true">{{ site.url }}{{ post.url }}/</guid>
+                <content type="html" xml:base="{{ site.url }}{{ post.url }}/">{{ post.content | xml_escape }}</content>
             </entry>
             {% endif %} {% endfor %} {% endfor %}
         </channel>
