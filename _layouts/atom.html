@@ -16,9 +16,9 @@ layout: null
         <entry>
             <title>{{ post.title | xml_escape }}</title>
             <link href="{{ site.url }}{{ post.url }}/" />
-            <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+            <published>{{ post.date | date_to_xmlschema }}</published>
             <updated>{{ post.date | date_to_xmlschema }}</updated>
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}/</guid>
+            <id>{{ site.url }}{{ post.url }}/</id>
             <content type="html" xml:base="{{ site.url }}{{ post.url }}/">{{ post.content | xml_escape }}</content>
         </entry>
         {% endif %} {% endfor %} {% endfor %}
