@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
  * All Tags Page Styling
  */
 #select-header {
+  margin-left: 10px;
   position: fixed;
   bottom: 0;
   width: 900px;
@@ -169,11 +170,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px;
 }
 .alltag-li {
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0.5rem 0rem 2.5rem 0rem;
+  border-bottom: 1px solid rgba(245,245,247,0.984);
 }
 .alltag-div {
   padding: 1rem 0rem 1rem 0rem;
-  border-bottom: 1px solid rgba(245,245,247,0.984);
 }
 
 
@@ -204,6 +205,13 @@ a {
         color: $instablue;
         &:hover {
           color: $linkblue;
+        }
+    }
+    &.readmore {
+        color: $red;
+        box-shadow: none;
+        &:hover {
+          color: $text-color;
         }
     }
     &.tags {
@@ -246,6 +254,7 @@ a {
         font-size: $small-font-size;
         margin-right: 5px;
         box-shadow: none;
+        width: 100%;
 
         &:hover{
             color: #ad141e;

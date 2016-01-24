@@ -15,11 +15,12 @@ layout: blog
 	      {% endfor %}
 	      </section><br>
 	      <section class="post-excerpt" >
-	      	{{ post.excerpt }}
+	      	{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} <span style="color:#ccc;">. . .</span>
+	      	<a class="readmore" href="{{ post.url }}"><i class="fa fa-long-arrow-right"></i></a><br>
 	      </section>
-	      <section>
-	      <a id="goog-wm-sb" style="padding:0.25em 0.5em;" href="{{ post.url }}">Read More</a><br>
-	      </section>
+	      <!-- <section>
+	      <a id="goog-wm-sb" style="display:inline;padding:0.25em 0.5em;" href="{{ post.url }}">Read More</a><br>
+	      </section> -->
 	    </li>
 	    <br>
 	  {% endfor %}
