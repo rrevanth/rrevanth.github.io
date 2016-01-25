@@ -208,10 +208,12 @@ a {
         }
     }
     &.readmore {
-        color: $red;
+        color: $red-lighter;
         box-shadow: none;
         &:hover {
-          color: $text-color;
+          color: $orange;
+          transition: color;
+          transition-duration: 0.4s;
         }
     }
     &.tags {
