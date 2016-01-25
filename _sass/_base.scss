@@ -192,10 +192,10 @@ a {
     box-shadow: 0 2px 0 0 rgba(173,20,30,0.1);
 
     &:hover {
-        color: #ad141e;
-        -webkit-box-shadow: 0 2px 0 0 #ad141e;
-        -moz-box-shadow: 0 2px 0 0 #ad141e;
-        box-shadow: 0 2px 0 0 #ad141e;
+        color: $red;
+        -webkit-box-shadow: 0 2px 0 0 $red;
+        -moz-box-shadow: 0 2px 0 0 $red;
+        box-shadow: 0 2px 0 0 $red;
     }
 
     &.twitter {
@@ -220,7 +220,7 @@ a {
         font-size: $small-font-size;
         margin-right: 5px;
         &:hover{
-            color: #ad141e;
+            color: $red;
             padding-bottom: 1px;
         }
     }
@@ -239,7 +239,7 @@ a {
         box-shadow: none;
         font-size: $base-font-size*1.2;
         &:hover {
-          color: #ad141e;
+          color: $red;
         }
     }
     &.tag-title {
@@ -249,7 +249,7 @@ a {
         margin-top: 20px;
         font-size: $base-font-size;
         &:hover {
-          color: #ad141e;
+          color: $red;
         }
     }
     &.alltags {
@@ -259,7 +259,7 @@ a {
         width: 100%;
 
         &:hover{
-            color: #ad141e;
+            color: $red;
             padding-bottom: 1px;
         }
     }
@@ -270,7 +270,7 @@ a {
         margin-top: 20px;
         font-size: $base-font-size;
         &:hover {
-          color: #ad141e;
+          color: $red;
         }
     }
     &.link-border {
@@ -278,7 +278,7 @@ a {
         font-size: $base-font-size;
         box-shadow: none;
         &:hover {
-          color: #ad141e;
+          color: $red;
         }
     }
     &.embedly-card {
@@ -287,9 +287,9 @@ a {
         box-shadow: none;
         &:hover {
           color: $red;
-          -webkit-box-shadow: 0 2px 0 0 #ad141e;
-          -moz-box-shadow: 0 2px 0 0 #ad141e;
-          box-shadow: 0 2px 0 0 #ad141e;
+          -webkit-box-shadow: 0 2px 0 0 $red;
+          -moz-box-shadow: 0 2px 0 0 $red;
+          box-shadow: 0 2px 0 0 $red;
         }
     }
 }
@@ -301,7 +301,7 @@ a {
  */
 blockquote {
     color: rgba(80,83,101,0.96);
-    border-left: 4px solid #ad141e;
+    border-left: 4px solid $red;
     margin-left: 1.9rem 0;
     padding-left: 0.95rem;
     font-style: normal;
