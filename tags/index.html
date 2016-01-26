@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: alltags
 ---
 
 <div>
@@ -25,7 +25,7 @@ layout: tags
 	{% for tag in sortedtags %}
 		<div id="{{tag}}" class="alltag-div">
 			<center>
-				<a  id="goog-wm-sb" style="padding: 0px 10px;" class="alltags" href="/tag/{{ tag }}">{{ tag | upcase }}</a>
+				<a title="Go to {{ tag | upcase }}" href="/tag/{{ tag }}"><h2 style="background:#ad141e;border-radius: 20px;color: white;" class="post_title"> <i class="fa fa-tag"></i> {{ tag | upcase }} </i></h2></a>
 				<ul class="alltag-ul">
 			  		{% for post in site.tags[tag] %}
 			    		<li style="padding-top: 1rem;" class='alltag-li'>
