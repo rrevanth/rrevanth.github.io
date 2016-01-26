@@ -9,7 +9,7 @@ layout: blog
 	      
 	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
 	      {{ post.date | date: "%b %-d, %Y" }}<br>
-	      <section>
+	      <section style="margin-bottom:10px" >
 	      {% for tag in post.tags %}
 	      	<a class="tags" style="margin-top:0.3em" href="/tag/{{ tag }}">{{ tag }}</a>
 	      {% endfor %}
