@@ -29,34 +29,50 @@ First, we will create a separate page for each tag assosciated with posts.Create
 
 We need a layout for the html that the tag page is gonna use :
 
-{% highlight ruby linenos %}
+{% highlight html linenos %}
+	# _layouts/default.html
+    <!DOCTYPE html>
+    <html>
+      {% include head.html %}
+      <body>
+        {% include header.html %}
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+        {% include footer.html %}
+        {% include scripts.html %}
+      </body>
+    </html>
+{% endhighlight %}
+
+{% highlight html linenos %}
 	# _layouts/tag_index.html
----
-layout: default
----
-{% capture includeGuts %}
-<div>
-  <center>
-    <a title="Subscribe to {{ page.tag | upcase }}" href="/tag/{{ page.tag }}/feed.xml"><h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title"><i class="fa fa-rss"  style="font-weight: 600;color: white;"> {{ page.tag | upcase }}</i></h2></a>
-    <ul>
-      {% for post in site.posts %}
-      {% for tag in post.tags %}
-      {% if tag == page.tag %}
-      	<li style="padding-top: 1rem;" class='post-list'>
-          <a style="font-size:2rem" class="title" href="{{ post.url }}">{{ post.title }}</a><br>
-          {{ post.date | date: "%b %-d, %Y" }}<br>
+    ---
+    layout: default
+    ---
+    
+    <div>
+      <center>
+        <a title="Subscribe to {{ page.tag | upcase }}" href="/tag/{{ page.tag }}/feed.xml"><h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title"><i class="fa fa-rss"  style="font-weight: 600;color: white;"> {{ page.tag | upcase }}</i></h2></a>
+        <ul>
+          {% for post in site.posts %}
           {% for tag in post.tags %}
-            <a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+          {% if tag == page.tag %}
+            <li style="padding-top: 1rem;" class='post-list'>
+              <a style="font-size:2rem" class="title" href="{{ post.url }}">{{ post.title }}</a><br>
+              {{ post.date | date: "%b %-d, %Y" }}<br>
+              {% for tag in post.tags %}
+                <a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+            </li>
+          {% endif %}
           {% endfor %}
-        </li>
-      {% endif %}
-      {% endfor %}
-      {% endfor %}
-    </ul>
-  </center>
-</div>
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
+          {% endfor %}
+        </ul>
+      </center>
+    </div>
 {% endhighlight %}
 
 ##### plugin
@@ -103,13 +119,41 @@ module Jekyll
 end
 {% endhighlight %}
 
+After this, you will have a proper page for each tag with all the posts corresponding to the tag in <b>tag/[tag]</b> folder.
+
 ### Tag feed generation
 
 Next, we will create filtered feed for each tag.We will add another plugin 'rss_tag.rb' to plugins folder
 
 ###### layout
 
-{% highlight ruby linenos %}
+{% highlight html linenos %}
+	# _layouts/atom.html
+    --- 
+    layout: null 
+    ---
+    <?xml version="1.0" encoding="utf-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+            <link href="{{ site.url }}/tag/{{ page.tag }}/feed.xml" rel="self" type="application/atom+xml" />
+            <link href="{{ site.url }}/" rel="alternate" type="text/html" />
+            <updated>{{ site.time | date_to_xmlschema }}</updated>
+            <id>{{ site.url }}/</id>
+            <title>Feed tagged <b>{{ page.tag | upcase }}</b> - {{ site.name }}</title>
+            <subtitle> {{ site.description }} </subtitle>
+            <author>
+                <name>{{ site.title | xml_escape }}</name>
+            </author>
+            {% for post in site.posts %} {% for tag in post.tags %} {% if tag == page.tag %}
+            <entry>
+                <title>{{ post.title | xml_escape }}</title>
+                <link href="{{ site.url }}{{ post.url }}/" />
+                <published>{{ post.date | date_to_xmlschema }}</published>
+                <updated>{{ post.date | date_to_xmlschema }}</updated>
+                <id>{{ site.url }}{{ post.url }}/</id>
+                <content type="html" xml:base="{{ site.url }}{{ post.url }}/">{{ post.content | xml_escape }}</content>
+            </entry>
+            {% endif %} {% endfor %} {% endfor %}
+        </feed>
 {% endhighlight %}
 
 ###### plugin
@@ -146,4 +190,13 @@ module Jekyll
 end
 
 {% endhighlight %}
+
+After this, you will have a file named feed.xml in each tag folder that contains the feed corresponding to that tag.
+
+All done, now you have feed for each tag and you can provide the feed to anyone who is interested in following particular tags from your blog.
+
+This was a good excercise since I have not done any feature improvement to my blog other than style tweaks lately.
+
+You can also look at my other jekyll posts by clicking on *jekyll* tag top of this page.You can see the feed button too ;) .
+
 
