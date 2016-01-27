@@ -25,6 +25,42 @@ I hit a hurdle when I set out to do this, there is social plugin that is doing t
 
 First, we will create a separate page for each tag assosciated with posts.Create a plugin 'tag_gen.rb' with the following code :
 
+##### layout
+
+We need a layout for the html that the tag page is gonna use :
+
+{% highlight ruby linenos %}
+	# _layouts/tag_index.html
+---
+layout: default
+---
+{% capture includeGuts %}
+<div>
+  <center>
+    <a title="Subscribe to {{ page.tag | upcase }}" href="/tag/{{ page.tag }}/feed.xml"><h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title"><i class="fa fa-rss"  style="font-weight: 600;color: white;"> {{ page.tag | upcase }}</i></h2></a>
+    <ul>
+      {% for post in site.posts %}
+      {% for tag in post.tags %}
+      {% if tag == page.tag %}
+      	<li style="padding-top: 1rem;" class='post-list'>
+          <a style="font-size:2rem" class="title" href="{{ post.url }}">{{ post.title }}</a><br>
+          {{ post.date | date: "%b %-d, %Y" }}<br>
+          {% for tag in post.tags %}
+            <a class="tags" href="/tag/{{ tag }}">{{ tag }}</a>
+          {% endfor %}
+        </li>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </center>
+</div>
+{% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
+{% endhighlight %}
+
+##### plugin
+
 {% highlight ruby linenos %}
     # _plugins/tag_gen.rb
     
@@ -70,6 +106,13 @@ end
 ### Tag feed generation
 
 Next, we will create filtered feed for each tag.We will add another plugin 'rss_tag.rb' to plugins folder
+
+###### layout
+
+{% highlight ruby linenos %}
+{% endhighlight %}
+
+###### plugin
 
 {% highlight ruby linenos %}
     # _plugins/rss_tag.rb
