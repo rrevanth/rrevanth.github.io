@@ -79,6 +79,10 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "category"
         field:
           element: "hidden"
@@ -121,6 +125,10 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "category"
         field:
           element: "hidden"
@@ -163,6 +171,10 @@ prose:
         field:
           element: "hidden"
           value: "Revanth Revoori"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "category"
         field:
           element: "hidden"
