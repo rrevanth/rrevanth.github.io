@@ -18,7 +18,7 @@ title: "RSS feeds for each Tags - Jekyll"
 
 All the less,it is designed with for expansion into larger degrees of customization and sophistication and it has a powerful [plugin](https://github.com/mojombo/jekyll/wiki/Plugins) model that are as easy as plug and play.
 
-People have different interests and I thought if they have feeds filtered by tags | categories,that would be a real help since the world today is flooed with unrelated articles.
+People have different interests and I thought if they have feeds filtered by tags (or) categories,that would be a real help since the world today is flooded with unrelated articles.
 
 I hit a hurdle when I set out to do this, there is social plugin that is doing this.So, I got to build my own - and it turns out to be quite simple.
 
