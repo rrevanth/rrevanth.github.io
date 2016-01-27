@@ -33,6 +33,13 @@ exclude:
 # Specific settings
 # @URL Setting
 permalink: /:categories/:title
+
+# Octopress Escape Code
+escape_code: true
+
+# Encoding
+encoding: "utf-8"
+
 # Sass style for minimum space
 sass:
     style: compressed
@@ -52,7 +59,6 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
-
 
 # Prose.io Config
 prose:
