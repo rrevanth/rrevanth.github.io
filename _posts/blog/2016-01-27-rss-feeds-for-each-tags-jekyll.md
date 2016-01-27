@@ -92,10 +92,10 @@ module Jekyll
 
   class TagIndex < Page    
     def initialize(site, base, dir, tag)
-      @ site = site
-      @ base = base
-      @ dir = dir
-      @ name = 'index.html'
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
@@ -127,9 +127,6 @@ module Jekyll
 end
 {% endraw %}
 {% endhighlight %}
-
-> Remove space after '@' in above code.Since jekyll is processing the variables.I added the space.
-{: .warnquote}
 
 After this, you will have a proper page for each tag with all the posts corresponding to the tag in <b>tag/[tag]</b> folder.
 
@@ -180,10 +177,10 @@ layout: null
 module Jekyll
   class TagAtom < Page
     def initialize(site, base, dir, tag)
-      @ site = site
-      @ base = base
-      @ dir = dir
-      @ name = "feed.xml"
+      @site = site
+      @base = base
+      @dir = dir
+      @name = "feed.xml"
 
       process(@name)
       read_yaml(File.join(base, '_layouts'), 'atom.html')
@@ -213,4 +210,4 @@ All done, now you have feed for each tag and you can provide the feed to anyone 
 
 This was a good excercise since I have not done any feature improvement to my blog other than style tweaks lately.
 
-You can also look at my other jekyll posts by clicking on *jekyll* tag top of this page.You can see the feed button too ;)
+You can also look at my other jekyll posts by clicking on **jekyll** tag top of this page.You can see the feed button too ;)

@@ -55,7 +55,6 @@ author: "Revanth Revoori"
 
 gems:
 - jemoji
-- jekyll-mentions
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
