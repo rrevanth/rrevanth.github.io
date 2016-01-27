@@ -13,7 +13,7 @@ published: false
 title: "RSS feeds for each Tags - Jekyll"
 ---
 
-[Jekyll](https://jekyllrb.com/ "Jekyll") is a very popular and very powerful static blog generator. Out of the box it’s able to generate sophisticated site structures, and has a ton of configurability. One of the areas where I feel that Jekyll lacks some sophistication is around the handling of categories and tags; these are two data-sets that are core <!--more--> to Jekyll, but there isn’t a lot of functionality actually built around them.
+[Jekyll](https://jekyllrb.com/ "Jekyll") is a very popular and very powerful static blog generator. Out of the box it’s able to generate sophisticated site structures, and has a ton of configurability. One of the areas where I feel that Jekyll lacks some sophistication is around the handling of categories and tags; these are two data-sets that are core <!--more-->to Jekyll, but there isn’t a lot of functionality actually built around them.
 
 All the less,it is designed with for expansion into larger degrees of customization and sophistication and it has a powerful [plugin](https://github.com/mojombo/jekyll/wiki/Plugins) model that are as easy as plug and play.
 
