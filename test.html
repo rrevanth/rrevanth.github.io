@@ -3,25 +3,30 @@ layout: default
 title: Search
 search_omit: true
 ---
- <center>
+{% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign sortedtags = tags | split:',' | sort %}
+<center>
+    {% for tag in sortedtags %}
+        <a class="tags" href="#" onclick="tagClick({{tag}})">{{ tag }}</a>
+    {% endfor %}
     <!-- Search form -->
-    <form method="get" action="/search" class="search-wrapper cf" data-search-form>
-        <input type="text" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <form method="get" action="/test" class="search-wrapper cf">
+        <input type="text" name="q" id="search" placeholder="Search" autocomplete="off" />
         <button type="submit">Search</button>
     </form>
-    <!-- Search results placeholder -->
-    <p data-search-found>
-        <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
-    </p>
-    <div data-search-results></div>
 </center>
-<!-- Search result template -->
-<script type="text/x-template" id="search-result">
-    <div style="background:#ad141e;border-radius:5px;margin-bottom:10px;">
-        <a style="font-size:2rem;color:#fff;" class="title" href="##Url##">##Title##</a>
-    </div>
+<!-- Search results placeholder -->
+<section>
+    <ul id="search-results"></ul>
+</section>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/js/lunr.min.js"></script>
+<script src="/js/lunr-tags.js"></script>
+<script type="text/javascript">
+    function tagClick(id) {
+        var text = $('#search').val();
+        if(text.indexOf(' id') > -1) {
+
+        }
+    }
 </script>
-<!-- jQuery - required but can be moved to the <head> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!-- Search script - Must appear after template -->
-<script src="/scripts/search.js"></script>

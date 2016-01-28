@@ -3,42 +3,17 @@ layout: default
 title: Search
 search_omit: true
 ---
- <center>
+<center>
     <!-- Search form -->
     <form method="get" action="/search" class="search-wrapper cf">
-        <input type="text" name="q" id="q" placeholder="Search" autocomplete="on" />
+        <input type="text" name="q" id="search" placeholder="Search" autocomplete="off" />
         <button type="submit">Search</button>
     </form>
-    <!-- Search results placeholder -->
-    <section id="search-results" style="display: none;">
-        <p>Search results</p>
-        <div class="entries">
-        </div>
-    </section>
 </center>
-<!-- Search result template -->
-{% raw %}
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article style="background:#ad141e;border-radius:5px;margin-bottom:10px;">
-      <h3>
-        <a style="font-size:2rem;color:#fff;" class="title" href="{{url}}">{{title}}</a>
-      </h3>
-    </article>
-  {{/entries}}
-</script>
-{% endraw %}
-
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-<!-- Configure the jQuery plugin for the search input field -->
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template',  // selector for Mustache.js template
-      emptyMsg:"No results found!"    // No posts message
-    });
-  });
-</script>
+<!-- Search results placeholder -->
+<section>
+    <ul id="search-results"></ul>
+</section>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/js/lunr.min.js"></script>
+<script src="/js/lunr-feed.js"></script>

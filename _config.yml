@@ -64,7 +64,6 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-lunr-js-search
 
 # Prose.io Config
 prose:
