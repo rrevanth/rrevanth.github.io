@@ -5,23 +5,40 @@ search_omit: true
 ---
  <center>
     <!-- Search form -->
-    <form method="get" action="/search" class="search-wrapper cf" data-search-form>
-        <input type="text" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <form method="get" action="/search" class="search-wrapper cf">
+        <input type="text" name="q" id="q" placeholder="Enter search term" autocomplete="on" />
         <button type="submit">Search</button>
     </form>
     <!-- Search results placeholder -->
-    <p data-search-found>
-        <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
-    </p>
-    <div data-search-results></div>
+    <section id="search-results" style="display: none;">
+        <p>Search results</p>
+        <div class="entries">
+        </div>
+    </section>
 </center>
 <!-- Search result template -->
-<script type="text/x-template" id="search-result">
-    <div style="background:#ad141e;border-radius:5px;margin-bottom:10px;">
-        <a style="font-size:2rem;color:#fff;" class="title" href="##Url##">##Title##</a>
-    </div>
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article style="background:#ad141e;border-radius:5px;margin-bottom:10px;">
+      <h3>
+        <a style="font-size:2rem;color:#fff;" class="title" href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
 </script>
-<!-- jQuery - required but can be moved to the <head> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<!-- Search script - Must appear after template -->
-<script src="/scripts/search.js"></script>
+{% endraw %}
+
+<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- Configure the jQuery plugin for the search input field -->
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
+      results : '#search-results',  // selector for containing search results element
+      entries : '.entries',         // selector for search entries containing element (contained within results above)
+      template: '#search-results-template',  // selector for Mustache.js template
+      emptyMsg:"No results found!"    // No posts message
+    });
+  });
+</script>
