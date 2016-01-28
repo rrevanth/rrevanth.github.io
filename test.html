@@ -6,27 +6,24 @@ search_omit: true
 {% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign sortedtags = tags | split:',' | sort %}
 <center>
-    {% for tag in sortedtags %}
-        <a class="tags" href="#" onclick="tagClick({{tag}})">{{ tag }}</a>
-    {% endfor %}
+    <div id="tags">
+        {% for tag in sortedtags %}
+            <!-- <button id="goog-wm-sb" class="search-tags" value='{{tag}}' >{{ tag }}</button> -->
+            <button id="goog-wm-sb" class="search-tags" onclick="tagClick('{{tag}}')" >{{ tag }}</button>
+        {% endfor %}
+    </div>
     <!-- Search form -->
     <form method="get" action="/test" class="search-wrapper cf">
         <input type="text" name="q" id="search" placeholder="Search" autocomplete="off" />
         <button type="submit">Search</button>
     </form>
-</center>
 <!-- Search results placeholder -->
 <section>
     <ul id="search-results"></ul>
 </section>
+</center>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <script src="/js/lunr.min.js"></script>
 <script src="/js/lunr-tags.js"></script>
 <script type="text/javascript">
-    function tagClick(id) {
-        var text = $('#search').val();
-        if(text.indexOf(' id') > -1) {
-
-        }
-    }
 </script>

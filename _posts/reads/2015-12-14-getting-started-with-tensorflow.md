@@ -11,8 +11,8 @@ tags:
   - tensorflow
   - learning
   - ai
-  - data science
-  - artificial intelligence
+  - data_science
+  - artificial_intelligence
 excerpt_separator: "<!--more-->"
 title: Getting Started with Tensorflow
 ---
