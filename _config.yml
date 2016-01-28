@@ -53,6 +53,12 @@ name: Revanth's Blog
 email: revanth001reva@gmail.com
 author: "Revanth Revoori"
 
+# Lunr search config
+lunr_search:
+  excludes: [rss.xml, atom.xml]
+  stopwords: "stopwords.txt"
+  min_length: 2
+
 gems:
 - jemoji
 - jekyll-redirect-from
