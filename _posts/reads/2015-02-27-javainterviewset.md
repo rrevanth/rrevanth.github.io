@@ -6,7 +6,7 @@ layout: readpost
 title: Java Interview Questions
 date: "Fri Feb 27 2015 23:14:34 GMT+0530 (IST)"
 tags: 
-  - reads
+  - read
   - java
   - interview
 published: true

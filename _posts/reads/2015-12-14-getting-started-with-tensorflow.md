@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-12-14 20:16 +0530"
 tags: 
-  - reads
+  - read
   - framework
   - tensorflow
   - learning

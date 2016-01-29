@@ -6,7 +6,7 @@ layout: readpost
 title: Complete SQL Queries
 date: "Fri Feb 27 2015 23:14:34 GMT+0530 (IST)"
 tags: 
-  - reads
+  - read
   - sql
   - interview
 published: true

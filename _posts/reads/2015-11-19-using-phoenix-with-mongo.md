@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-19 21:34 +0530"
 tags: 
-  - reads
+  - read
   - phoenix
   - mongo
   - language

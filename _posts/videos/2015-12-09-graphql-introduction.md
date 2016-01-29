@@ -1,12 +1,12 @@
 ---
-categories: tidbit
-category: tidbit
+categories: videos
+category: videos
 author: Revanth Revoori
-layout: tidbitpost
+layout: videopost
 published: true
 date: "2015-12-09 20:00 +0530"
 tags: 
-  - videos
+  - video
   - graphql
   - learning
   - language
@@ -29,6 +29,6 @@ GraphQL is a data query language designed for product developers. This talk will
 
 ##### You can also look for further references in this post :
 
-<a class="embedly-card" href="http://rrevanth.github.io/reads/getting-started-with-graphql">GraphQL references  <i class="fa fa-external-link"></i></a>
+<a class="embedly-card" href="{% post_url 2015-12-16-getting-started-with-graphql %}">GraphQL references  <i class="fa fa-external-link"></i></a>
 
 <!--more-->

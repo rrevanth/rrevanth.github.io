@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-12-19 16:53 +0530"
 tags: 
-  - reads
+  - read
   - algorithm
   - learning
   - graph

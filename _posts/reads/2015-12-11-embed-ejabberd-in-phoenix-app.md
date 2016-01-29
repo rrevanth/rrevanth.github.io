@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-12-11 16:55 +0530"
 tags: 
-  - reads
+  - read
   - elixir
   - phoenix
   - ejabberd

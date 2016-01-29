@@ -88,6 +88,11 @@ $(document).ready(function() {
   $('input#search').on('keyup', function () {
     // Get query
     var query = $(this).val();
-    $.injectResults(query);
+    if (!this.value) {
+      $('#search-results').html('<center><h2> [Or] try multitag search ;)</h2><a href="/filtertags" id="s-tag-button">Multi Tag Search!</a></center>');
+    }
+    else {
+      $.injectResults(query);
+    }
   });
 });

@@ -1,12 +1,12 @@
 ---
-categories: tidbit
-category: tidbit
+categories: videos
+category: videos
 author: Revanth Revoori
-layout: tidbitpost
+layout: videopost
 title: TED Talk about Sixth Sense
 date: "Mon Mar 23 2015 23:14:34 GMT+0530 (IST)"
 tags: 
-  - videos
+  - video
   - sixthsense
   - ted
   - talk

@@ -1,12 +1,12 @@
 ---
-categories: tidbit
-category: tidbit
+categories: videos
+category: videos
 author: Revanth Revoori
-layout: tidbitpost
+layout: videopost
 published: true
 date: "2015-12-04 22:17 +0530"
 tags: 
-  - videos
+  - video
   - mongo
   - database
   - learning

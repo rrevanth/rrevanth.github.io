@@ -32,7 +32,7 @@ exclude:
 
 # Specific settings
 # @URL Setting
-permalink: /:categories/:title
+permalink: /:categories/:year/:month/:title
 
 # Octopress Escape Code
 escape_code: true
@@ -156,8 +156,8 @@ prose:
           label: "Add Tags"
           placeholder: "Add Tags"
           options:
-            - name: "Reads"
-              value: "reads"
+            - name: "Read"
+              value: "read"
           alterable: true
       - name: "excerpt_separator"
         field:
@@ -167,7 +167,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "tidbitpost"
+          value: "videopost"
       - name: "title"
         field:
           element: "text"
@@ -189,12 +189,12 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "tidbit"
+          value: "videos"
           alterable: "true"
       - name: "categories"
         field:
           element: "hidden"
-          value: "tidbit"
+          value: "videos"
           alterable: "true"
       - name: "tags"
         field:
@@ -202,8 +202,8 @@ prose:
           label: "Add Tags"
           placeholder: "Add Tags"
           options:
-            - name: "Videos"
-              value: "videos"
+            - name: "Video"
+              value: "video"
           alterable: true
       - name: "excerpt_separator"
         field:

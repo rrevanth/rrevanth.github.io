@@ -6,7 +6,7 @@ layout: readpost
 title: Tags in Jekyll by Charlie Park
 date: "Fri Feb 27 2015 23:14:34 GMT+0530 (IST)"
 tags: 
-  - reads
+  - read
   - jekyll
   - code
 published: true

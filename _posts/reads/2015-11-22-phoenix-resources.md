@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-22 15:43 +0530"
 tags: 
-  - reads
+  - read
   - phoenix
   - learning
   - resource

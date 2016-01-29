@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-12-12 19:53 +0530"
 tags: 
-  - reads
+  - read
   - language
   - learning
   - framework

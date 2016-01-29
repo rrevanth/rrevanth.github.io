@@ -1,12 +1,12 @@
 ---
-categories: tidbit
-category: tidbit
+categories: videos
+category: videos
 author: Revanth Revoori
-layout: tidbitpost
+layout: videopost
 published: true
 date: "2015-11-17 14:14 +0530"
 tags: 
-  - videos
+  - video
   - elm
   - playlist
   - learn

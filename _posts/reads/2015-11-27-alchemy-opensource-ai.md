@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-27 19:02 +0530"
 tags: 
-  - reads
+  - read
   - alchemy
   - ai
   - opensource

@@ -6,7 +6,7 @@ layout: readpost
 title: SQL COMPLEX JOINS QUERIES INTERVIEW
 date: "Fri Feb 27 2015 23:14:35 GMT+0530 (IST)"
 tags: 
-  - reads
+  - read
   - sql
   - interview
 published: true

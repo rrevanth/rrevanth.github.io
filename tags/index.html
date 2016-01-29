@@ -1,16 +1,7 @@
 ---
 layout: alltags
+title: All Tags
 ---
-
-<script type="text/javascript">
-function showdiv(id){
-	if (document.getElementById(id).style.display == "block") 
-		{ document.getElementById(id).style.display = "none"; }
-	else {
-		document.getElementById(id).style.display = "block";
-	}
-}
-</script>
 
 <div>
 
@@ -24,26 +15,14 @@ function showdiv(id){
 				{% for tag in sortedtags %}
 					<option value="#{{tag}}" >{{ tag | upcase }}</option>
 				{% endfor %}
-			</select>	
+			</select>
 		</center>
 	</div>
-
-<!--
-	<div style="position:fixed;left:0;background:white;border-radius:20px;">
-		<a onclick="showdiv('showtags')" style="font-weight:bold;border-radius: 20px" id="goog-wm-sb">Show Tags</a>
-		<div id="showtags" style="display:none">
-			{% for tag in sortedtags %}
-				<a href="/tags/#{{ tag }}" style="font-weight:bold;border-radius: 20px" id="goog-wm-sb"> {{ tag | upcase }} </a>
-			{% endfor %}	
-		</div>
-	</div>
- -->
 
 	{% for tag in sortedtags %}
 		<div id="{{tag}}" class="alltag-div">
 			<center>
 				<a href="/tag/{{ tag }}" style="font-weight:bold;padding: 2px 2px;width:100%;border-radius: 20px" id="goog-wm-sb">&#8912 <span>{{ tag | upcase }}</span> &#8913</a>
-				<!-- <a title="Go to {{ tag | upcase }}" href="/tag/{{ tag }}"><h2 style="background:#ad141e;border-radius: 20px;color: white;" class="post_title"> <i class="fa fa-tag"></i> {{ tag | upcase }} </i></h2></a> -->
 				<ul class="alltag-ul">
 			  		{% for post in site.tags[tag] %}
 			    		<li style="padding-top: 1rem;" class='alltag-li'>

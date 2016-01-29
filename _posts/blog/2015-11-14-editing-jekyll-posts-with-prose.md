@@ -260,4 +260,4 @@ prose:
 
 With this config,front matter can be automated for the blog sub-directory in \_posts directory.In the same way,we can add other sub-directories to the options.
 
-I hope this series of posts helps you get started with jekyll blog [Autodeployed to Github Pages with Travis CI](http://rrevanth.github.io/blog/jekyllRakeTravisCI) and an online editor with Prose.
+I hope this series of posts helps you get started with jekyll blog [Autodeployed to Github Pages with Travis CI]({% post_url 2015-11-11-jekyllRakeTravisCI %}) and an online editor with Prose.

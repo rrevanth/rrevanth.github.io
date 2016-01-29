@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-30 14:56 +0530"
 tags: 
-  - reads
+  - read
   - elm
   - learning
   - language

@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-26 19:15 +0530"
 tags: 
-  - reads
+  - read
   - javascript
   - reference
   - resource

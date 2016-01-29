@@ -6,7 +6,7 @@ layout: readpost
 published: true
 date: "2015-11-28 15:04 +0530"
 tags: 
-  - reads
+  - read
   - es6
   - erlang
   - http2

@@ -6,7 +6,7 @@ layout: readpost
 title: Facebook open sources Augmented Traffic Control
 date: "Mon Mar 23 2015 23:14:34 GMT+0530 (IST)"
 tags: 
-  - reads
+  - read
   - facebook
   - opensource
   - technology
