@@ -1,6 +1,7 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
 title: Java Interview Questions
@@ -9,9 +10,9 @@ tags:
   - read
   - java
   - interview
-published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 
 
