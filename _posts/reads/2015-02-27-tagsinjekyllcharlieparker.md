@@ -1,6 +1,7 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
 title: Tags in Jekyll by Charlie Park
@@ -9,9 +10,9 @@ tags:
   - read
   - jekyll
   - code
-published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 
 <a class="embedly-card" href="http://charliepark.org/tags-in-jekyll/">Tags In Jekyll  <i class="fa fa-external-link"></i></a>
