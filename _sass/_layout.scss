@@ -36,6 +36,16 @@
     }
 }
 
+.nav-hint-mob {
+    color:#828282;
+    font-weight:normal;
+    text-shhadow: 0px 0px 5px #000;
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
+
 article {
     div {
         &.post-div {
