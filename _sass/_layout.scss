@@ -232,7 +232,7 @@ nav {
 }
 
 //Video element style
-.video {
+.video-container {
     float: none;
     clear: both;
     width: 100%;
@@ -241,7 +241,7 @@ nav {
     padding-top: 25px;
     height: 0;
 }
-.video iframe {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;

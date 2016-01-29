@@ -27,7 +27,7 @@ Some playlists to learn MongoDB from beginner level to advance deployment stages
 
 <br><br>
 
-<div class="video">
+<div class="video-container">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLC3y8-rFHvwh11bWtwm3_qKvo46uDmaal" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -37,7 +37,7 @@ Some playlists to learn MongoDB from beginner level to advance deployment stages
 
 <br><br>
 
-<div class="video">
+<div class="video-container">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLIGDNOJWiL1-tPts6VCiUriv54_Kbl2V3" frameborder="0" allowfullscreen></iframe></div>
 
 <br>
@@ -51,7 +51,7 @@ Some playlists to learn MongoDB from beginner level to advance deployment stages
 
 <br><br>
 
-<div class="video">
+<div class="video-container">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLGOsbT2r-igm0GlwQVen8gnXnqv9B-9da" frameborder="0" allowfullscreen></iframe></div>
 
 <br><br>
@@ -60,7 +60,7 @@ Some playlists to learn MongoDB from beginner level to advance deployment stages
 
 <br><br>
 
-<div class="video">
+<div class="video-container">
 <iframe width="6140" height="360" src="https://www.youtube.com/embed/videoseries?list=PLtM80Cxh9BBI-ywZMZ9v5pdDp_IshBNHo" frameborder="0" allowfullscreen></iframe></div>
 
 <!--more-->
