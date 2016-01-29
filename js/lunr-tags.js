@@ -74,33 +74,18 @@ $.injectResults = function(name) {
   var tagitem = '';
   // tagitem += '<button class="search-tags" value="'+taglist[tag]+'">'+taglist[tag]+'</button>';
   for(tag in taglist) {
-    tagitem += '<button style="margin:2px;" id="s-tag-button" onclick="tagClick('+'\''+taglist[tag]+'\''+')">'+taglist[tag]+'</button>';
+    tagitem += '<button style="margin:2px;" id="s-tag-button" class="search-tags" onclick="tagClick('+'\''+taglist[tag]+'\''+')">'+taglist[tag]+'</button>';
   }
   $("#s-tags-div").html(tagitem);
   href = addParam(document.URL,'q',query);
   window.history.pushState('Revanth Revoori', "Tag search for"+query+" Revanth's Blog", href);
 }
 function tagClick(id) {
-    var text = $('#search').val();
-    if(text.indexOf('id') > -1) {
-        text = text.replace('/'+id+'/g','');
-    } else {
-        text += ' '+id;
-    }
-    $.injectResults(text.trim());
+  text = $('#search').val() + ' ' + id;
+  $.injectResults(text.trim());
 }
 $(document).ready(function() {
 
-  $('.search-tags').on('click',function() {
-      id = $(this).attr("value").trim();
-      var text = $('#search').val();
-      if(text.indexOf('id') > -1) {
-          text = text.replace('/'+id+'/g','');
-      } else {
-          text += ' '+id;
-      }
-      $.injectResults(text.trim());
-  });
   $('.s-tags-toggle').on('click',function() {
       $('#s-tags-div').toggle();
       if ($(".s-tags-toggle").text() == "Hide Tags") {
@@ -119,7 +104,7 @@ $(document).ready(function() {
   $('input#search').on('input', function () {
     // Get query
     var query = $(this).val();
-    if (!this.value) {
+    if (!this.value || this.value.trim() == '') {
       {% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
       {% assign sortedtags = tags | split:',' | sort %}
       $('#s-tags-div').html('{% for tag in sortedtags %}<button style="margin:2px;" id="s-tag-button" class="search-tags" onclick="tagClick(\'{{tag}}\')" >{{ tag }}</button>{% endfor %}');
