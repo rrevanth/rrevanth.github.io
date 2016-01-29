@@ -1,0 +1,40 @@
+---
+layout: default
+title: Tag Search
+search_omit: true
+---
+{% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign sortedtags = tags | split:',' | sort %}
+<center>
+    <div id="s-tag-button" class='s-tags-toggle' style="font-size:15px">Show Tags</div>
+    <div id="s-tags-div">
+        <!-- <button id="goog-wm-sb" class="search-tags" value='{{tag}}' >{{ tag }}</button> -->
+        {% for tag in sortedtags %}
+            <button style="margin:2px;" id="s-tag-button" class="search-tags" onclick="tagClick('{{tag}}')" >{{ tag }}</button>
+        {% endfor %}
+    </div>
+    <!-- Search form -->
+    <form method="get" action="/filtertags" class="search-wrapper cf">
+        <input type="text" name="q" id="search" placeholder="Search me some tags" autocomplete="off" />
+        <button type="submit">Search</button>
+    </form>
+<!-- Search results placeholder -->
+<section>
+    <ul>
+    <div id="search-results">
+      <h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title">Found {{ site.posts | size }} result(s)</h2>
+      {% for post in site.posts %}
+        <li style="padding-top: 1rem;" class="s-post-list">
+        <section><a style="float:left;font-size:1.1rem" class="title" href="{{ post.url }}">{{ post.title }}</a><div style="float:right;display:inline-block;">
+        {% for tag in post.tags %}
+            <a class="tags" style="float:right" href="/tag/{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+        </div></section></li>
+      {% endfor %}
+    </div>
+    </ul>
+</section>
+</center>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/js/lunr.min.js"></script>
+<script src="/js/lunr-tags.js"></script>

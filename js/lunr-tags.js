@@ -61,7 +61,7 @@ $.injectResults = function(name) {
   // Loop through, match, and add results
   for (var item in result) {
     var ref = result[item].ref;
-    var searchitem = '<li style="padding-top: 1rem;" class="post-list"><a style="float:left;font-size:1.1rem" class="title" href="'+store[ref].link+'">'+store[ref].title+'</a><div style="float:right;display:inline-block;">';
+    var searchitem = '<li style="padding-top: 1rem;" class="s-post-list"><a style="float:left;font-size:1.1rem" class="title" href="'+store[ref].link+'">'+store[ref].title+'</a><div style="float:right;display:inline-block;">';
     var tags = store[ref].tags;
     for (var tag in tags) {
       if(query.indexOf(tags[tag]) == -1 ) tagset.add(tags[tag]);
@@ -72,13 +72,13 @@ $.injectResults = function(name) {
   }
   taglist = [...tagset];
   var tagitem = '';
+  // tagitem += '<button class="search-tags" value="'+taglist[tag]+'">'+taglist[tag]+'</button>';
   for(tag in taglist) {
-    // tagitem += '<button class="search-tags" value="'+taglist[tag]+'">'+taglist[tag]+'</button>';
-    tagitem += '<button id="goog-wm-sb" onclick="tagClick('+'\''+taglist[tag]+'\''+')">'+taglist[tag]+'</button>';
+    tagitem += '<button style="margin:2px;" id="s-tag-button" onclick="tagClick('+'\''+taglist[tag]+'\''+')">'+taglist[tag]+'</button>';
   }
-  $("#tags").html(tagitem);
+  $("#s-tags-div").html(tagitem);
   href = addParam(document.URL,'q',query);
-  window.history.pushState('Revanth Revoori', "Search for"+query+" Revanth's Blog", href);
+  window.history.pushState('Revanth Revoori', "Tag search for"+query+" Revanth's Blog", href);
 }
 function tagClick(id) {
     var text = $('#search').val();
@@ -90,6 +90,7 @@ function tagClick(id) {
     $.injectResults(text.trim());
 }
 $(document).ready(function() {
+
   $('.search-tags').on('click',function() {
       id = $(this).attr("value").trim();
       var text = $('#search').val();
@@ -100,6 +101,15 @@ $(document).ready(function() {
       }
       $.injectResults(text.trim());
   });
+  $('.s-tags-toggle').on('click',function() {
+      $('#s-tags-div').toggle();
+      if ($(".s-tags-toggle").text() == "Hide Tags") {
+          $(".s-tags-toggle").text("Show Tags");
+      }
+      else {
+          $(".s-tags-toggle").text("Hide Tags");
+      }
+  });
   if($.urlParam('q')) {
     // Get query
     var query = $.urlParam('q');
@@ -109,6 +119,13 @@ $(document).ready(function() {
   $('input#search').on('keyup', function () {
     // Get query
     var query = $(this).val();
-    $.injectResults(query);
+    if (!this.value) {
+      {% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      {% assign sortedtags = tags | split:',' | sort %}
+      $('#s-tags-div').html('{% for tag in sortedtags %}<button style="margin:2px;" id="s-tag-button" class="search-tags" onclick="tagClick(\'{{tag}}\')" >{{ tag }}</button>{% endfor %}');
+    }
+    else {
+      $.injectResults(query);
+    }
   });
 });

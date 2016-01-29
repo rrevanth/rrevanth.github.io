@@ -115,10 +115,11 @@ figcaption {
 /**
  * Lists
  */
-
-ul,
-ol {
-    margin-left: $spacing-unit;
+.post-content {
+    > ul,
+    > ol {
+        margin-left: $spacing-unit;
+    }
 }
 
 li {
@@ -129,6 +130,15 @@ li {
     > ul,
     > ol {
         margin-bottom: 0;
+    }
+    &.s-post-list {
+        margin-left: 0;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid rgba(245, 245, 247, 0.984);
+        list-style: none;
+        @include media-query($on-palm) {
+            padding-bottom: 7rem;
+        }
     }
 }
 
@@ -484,8 +494,6 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width: calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
     }
 }
 
@@ -594,6 +602,47 @@ $color-button--boxShadow__focus: $red-dark;
     @extend %button;
 }
 
+#s-tags-div {
+    @include media-query($on-palm) {
+        display:none;
+    }   
+}
+
+.s-tags-toggle {
+    display: none !important;
+    @include media-query($on-palm) {
+        display: inherit !important;
+    }
+}
+
+#s-tag-button {
+    @extend %button;
+    background-color: $white;
+    color: $red;
+    box-shadow: 0 0 10px #ccc;
+    border-left: 2px solid $red;
+    border-right: 2px solid $red;
+    font-weight: bold;
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &:hover,
+    &:focus {
+        color: $color-button--color__hover;
+    }
+    &:hover {
+        background-color: $color-button--background__hover;
+        box-shadow: 0 0 10px #ccc;
+    }
+    &:focus {
+        background-color: $color-button--background__focus;
+        box-shadow: 0 0 10px #ccc;
+    }
+    @include media-query($on-palm) {
+    }
+}
+
 
 /**
  * Search Field CSS
@@ -621,7 +670,7 @@ $color-button--boxShadow__focus: $red-dark;
     margin: 45px auto 50px auto;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
     @include media-query(950px) {
-        width: 220px;
+        width: 290px;
     }
 }
 
@@ -638,7 +687,7 @@ $color-button--boxShadow__focus: $red-dark;
     background: #EEE;
     border-radius: 3px 0 0 3px;
     @include media-query(950px) {
-        width: 138px;
+        width: 208px;
     }
 }
 

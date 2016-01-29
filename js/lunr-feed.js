@@ -65,10 +65,9 @@ $.injectResults = function(name) {
   resultdiv.prepend('<center><h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title">Found '+result.length+' result(s)</h2></center>');
   // Loop through, match, and add results
   // Example :
-  // var searchitem = '<div class="result"><img src="'+store[ref].image+'" alt="'+store[ref].title+'" class="result-img"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &times; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
   for (var item in result) {
     var ref = result[item].ref;
-    var searchitem = '<li style="padding-top: 1rem;" class="post-list"><a style="float:left;font-size:1.1rem" class="title" href="'+store[ref].link+'">'+store[ref].title+'</a><div style="float:right;display:inline-block;">';
+    var searchitem = '<li style="padding-top: 1rem;" class="s-post-list"><a style="float:left;font-size:1.1rem" class="title" href="'+store[ref].link+'">'+store[ref].title+'</a><div style="float:right;display:inline-block;">';
     var tags = store[ref].tags;
     for (var tag in tags) {
       searchitem += '<a class="tags" style="float:right" href="/tag/'+tags[tag]+'">'+tags[tag]+'</a>';
@@ -76,8 +75,8 @@ $.injectResults = function(name) {
     searchitem += '</div></li>';
     resultdiv.append(searchitem);
   }
-  // href = addParam(document.URL,'q',query);
-  // window.history.pushState('Revanth Revoori', "Search for"+query+" Revanth's Blog", href);
+  href = addParam(document.URL,'q',query);
+  window.history.pushState('Revanth Revoori', "Search for"+query+" Revanth's Blog", href);
 }
 $(document).ready(function() {
   if($.urlParam('q')) {
