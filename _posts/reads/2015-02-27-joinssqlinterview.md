@@ -1,6 +1,7 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
 title: SQL COMPLEX JOINS QUERIES INTERVIEW
@@ -9,9 +10,9 @@ tags:
   - read
   - sql
   - interview
-published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 
 
