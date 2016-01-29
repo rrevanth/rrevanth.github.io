@@ -85,7 +85,7 @@ $(document).ready(function() {
     // Search for it
     $.injectResults(query);
     }
-  $('input#search').on('keyup', function () {
+  $('input#search').on('input', function () {
     // Get query
     var query = $(this).val();
     if (!this.value) {
