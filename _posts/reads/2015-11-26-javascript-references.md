@@ -1,9 +1,9 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
-published: true
 date: "2015-11-26 19:15 +0530"
 tags: 
   - read
@@ -13,6 +13,7 @@ tags:
 excerpt_separator: "<!--more-->"
 title: Javascript References
 ---
+
 
 
 
