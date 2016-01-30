@@ -643,6 +643,34 @@ $color-button--boxShadow__focus: $red-dark;
     }
 }
 
+#s-tag-button-unselect {
+    @extend %button;
+    background-color: $white;
+    color: $red;
+    box-shadow: 0 0 10px #ccc;
+    border-left: 2px solid $red;
+    border-right: 2px solid $red;
+    font-weight: bold;
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &:hover,
+    &:focus {
+        color: $color-button--color__hover;
+    }
+    &:hover {
+        background-color: $color-button--background__hover;
+        box-shadow: 0 0 10px #ccc;
+    }
+    &:focus {
+        background-color: $color-button--background__focus;
+        box-shadow: 0 0 10px #ccc;
+    }
+    @include media-query($on-palm) {
+    }
+}
+
 
 /**
  * Search Field CSS
@@ -668,7 +696,6 @@ $color-button--boxShadow__focus: $red-dark;
 .search-wrapper {
     width: $content-width;
     margin: 45px auto 50px auto;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
     @include media-query(950px) {
         width: 290px;
     }
