@@ -18,8 +18,7 @@ title: Elementary Contracts
 
 
 
-This post contains exhaustive contracts that will be useful for elementary OS.
-You can use this on ubuntu also,but needs to change the exec command to open appropriate applications.
+This post contains exhaustive contracts that will be useful for elementary OS. You can use this on ubuntu also,but needs to change the exec command to open appropriate applications.
 
 <!--more-->
 

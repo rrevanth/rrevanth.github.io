@@ -7,13 +7,23 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="Code, Backend, Front-End,Revanth, Revoori, Revoori Sai Revanth, Revanth Revoori , IIT, kharagpur, iit kharagpur, computer science, Art, Gridants,HTMedia, Photography, {{ page.tags | join: ', ' | escape }}" />
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <script>
+    /* Load CSS Asynchronously*/
+    function loadcss(url){var head=document.getElementsByTagName('head')[0];element=document.createElement("link");element.rel="stylesheet",element.type="text/css",element.href=url,element.media="non-existant-media",head.appendChild(element,head.firstChild),setTimeout(function(){element.media="all"});};
+    /** Usage : 
+     *loadcss( "/css/main.css" ); 
+    */
+    loadcss( "/css/main.css" ); 
+  </script><noscript><link href="/css/main.css" rel="stylesheet"></noscript>
+
+  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">  -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <!--Fonts-->
-  <link href='/assets/css/fonts.css' rel='stylesheet' type='text/css'>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!-- <link href="{{ "/assets/css/fonts.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'> -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   {% include social-sharemeta.html %}
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 </head>
