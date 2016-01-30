@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        <a style="width:100%;margin-bottom:3rem;padding-right: initial;padding-left: 0px;text-align:center;" id="s-tag-button" href="/tags">SHOW ALL TAGS</a>
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    {% include scripts.html %}
-
-  </body>
-
-
-</html>
+---
+layout: default
+---
+<a style="width:100%;margin-bottom:3rem;padding-right: initial;padding-left: 0px;text-align:center;" id="s-tag-button" href="/tags">SHOW ALL TAGS</a>
+{{ content }}

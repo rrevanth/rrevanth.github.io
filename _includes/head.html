@@ -7,23 +7,29 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="Code, Backend, Front-End,Revanth, Revoori, Revoori Sai Revanth, Revanth Revoori , IIT, kharagpur, iit kharagpur, computer science, Art, Gridants,HTMedia, Photography, {{ page.tags | join: ', ' | escape }}" />
 
-  <script>
-    /* Load CSS Asynchronously*/
-    function loadcss(url){var head=document.getElementsByTagName('head')[0];element=document.createElement("link");element.rel="stylesheet",element.type="text/css",element.href=url,element.media="non-existant-media",head.appendChild(element,head.firstChild),setTimeout(function(){element.media="all"});};
-    /** Usage : 
-     *loadcss( "/css/main.css" ); 
-    */
-    loadcss( "/css/main.css" ); 
-  </script><noscript><link href="/css/main.css" rel="stylesheet"></noscript>
-
   <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">  -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
+  <!-- Scripts -->
+  <script>
+  var filesadded="" //list of files already added
+  function loadjscssfile(a,b){if("js"==b){var c=document.createElement("script");c.setAttribute("type","text/javascript"),c.setAttribute("async","true"),c.setAttribute("src",a)}else if("css"==b){var c=document.createElement("link");c.setAttribute("rel","stylesheet"),c.setAttribute("type","text/css"),c.setAttribute("href",a)}"undefined"!=typeof c&&document.getElementsByTagName("head")[0].appendChild(c)};
+  </script>
+  <script>
+    function checkloadjscssfile(a,b){return-1==filesadded.indexOf("["+a+"]")?(loadjscssfile(a,b),filesadded+="["+a+"]",0):1}
+  </script>
+
+  <script>
+    checkloadjscssfile("/css/main.css","css");
+    checkloadjscssfile("//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js","js");
+    checkloadjscssfile("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css","css");
+    checkloadjscssfile("http://fonts.googleapis.com/css?family=Lato:400,700","css");
+  </script>
   <!--Fonts-->
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel='stylesheet' type='text/css'> -->
   <!-- <link href="{{ "/assets/css/fonts.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'> -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- // <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+  <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
   {% include social-sharemeta.html %}
 </head>

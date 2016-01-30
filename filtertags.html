@@ -36,5 +36,15 @@ search_omit: true
     </ul>
 </section>
 </center>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/lunr-tags.js"></script>
+<script>
+loadJquery();
+
+function loadJquery() {
+    if( window.$ ) {
+        checkloadjscssfile("/js/lunr-tags.js","js");
+    } else {
+        window.setTimeout( loadJquery, 50 );
+    }
+}
+</script>
+<!--<script src="/js/lunr-tags.js" defer></script> -->
