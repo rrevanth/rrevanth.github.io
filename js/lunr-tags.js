@@ -108,8 +108,6 @@ $(document).ready(function() {
       {% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
       {% assign sortedtags = tags | split:',' | sort %}
       $('#s-tags-div').html('{% for tag in sortedtags %}<button style="margin:2px;" id="s-tag-button" class="search-tags" onclick="tagClick(\'{{tag}}\')" >{{ tag }}</button>{% endfor %}');
-      $('#search-results').html('<h2 style="background:#ad141e;border-radius: 20px;margin-bottom: 56px;color: white;" class="post_title">Found {{ site.posts | size }} result(s)</h2> {% for post in site.posts %}<li style="padding-top: 1rem;" class="s-post-list"><section><a style="float:left;font-size:1.1rem" class="title" href="{{ post.url }}">{{ post.title }}</a><div style="float:right;display:inline-block;">{% for tag in post.tags %}<a class="tags" style="float:right" href="/tag/{{ tag }}">{{ tag }}</a> {% endfor %}</div></section></li>{% endfor %}');
-      window.history.pushState('Revanth Revoori', "", addParam(document.URL,'q',''));
     }
     else {
       $.injectResults(query);
