@@ -1,17 +1,18 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
-title: SQL COMPLEX JOINS QUERIES INTERVIEW
+title: "Sql join queries - Interview questions"
 date: "Fri Feb 27 2015 23:14:35 GMT+0530 (IST)"
 tags: 
   - read
   - sql
   - interview
-published: true
 excerpt_separator: "<!--more-->"
 ---
+
 
 
 
