@@ -90,6 +90,7 @@ $(document).ready(function() {
     var query = $(this).val();
     if (!this.value) {
       $('#search-results').html('<center><h2> [Or] try multitag search ;)</h2><a href="/filtertags" id="s-tag-button">Multi Tag Search!</a></center>');
+      window.history.pushState('Revanth Revoori', "", addParam(document.URL,'q',''));
     }
     else {
       $.injectResults(query);
