@@ -1,7 +1,10 @@
 ---
-layout: blog
+layout: default
 title: Blog
 ---
+
+<a style="width:100%;margin-bottom:3rem;padding-right: initial;padding-left: 0px;text-align:center;" id="s-tag-button" href="/tags">SHOW ALL TAGS</a>
+
 
 <div>
 	<ul>
@@ -19,9 +22,6 @@ title: Blog
 	      	{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} <span style="color:#ccc;">. . .</span>
 	      	<a class="readmore" href="{{ post.url }}"> read more <i class="fa fa-caret-square-o-right"></i></a><br>
 	      </section>
-	      <!-- <section>
-	      <a id="goog-wm-sb" style="display:inline;padding:0.25em 0.5em;" href="{{ post.url }}">Read More</a><br>
-	      </section> -->
 	    </li>
 	    <br>
 	  {% endfor %}

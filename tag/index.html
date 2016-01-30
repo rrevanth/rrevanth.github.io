@@ -15,3 +15,17 @@ title: Tag View
     </div>
 </center>
 </div>
+<script>
+$(document).ready(function() {
+
+  $('.s-tags-toggle').on('click',function() {
+      $('#s-tags-div').toggle();
+      if ($(".s-tags-toggle").text() == "Hide Tags") {
+          $(".s-tags-toggle").text("Show Tags");
+      }
+      else {
+          $(".s-tags-toggle").text("Hide Tags");
+      }
+    });
+});
+</script>
