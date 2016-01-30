@@ -20,7 +20,7 @@
     a {
       box-shadow: none;
       font-size: 200%;
-      padding-right: 5%;
+      padding: 2% 6% 0 0;
       text-align: center;
       color: $text-color;
     }
@@ -34,11 +34,11 @@
 
 @include media-query($on-palm) {
   .fa-rss-footer {
-    font-size: 150% !important;
+    font-size: 200% !important;
   }
   .social-media-list {
     a {
-      font-size: 150%;
+      padding: 2% 9% 0 0;
     }
   }
 }

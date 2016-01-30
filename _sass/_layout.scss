@@ -29,7 +29,7 @@
 
 
     @include media-query($on-palm) {
-      font-size: 16px;
+      font-size: 20px;
       width: 100%;
       text-align: center;
       padding: 0;
@@ -99,6 +99,7 @@ nav {
   @include media-query($on-palm) {
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
     padding: 0 0 20px;
     ul {
       li {

@@ -323,6 +323,9 @@ a {
         &:hover {
             color: $red;
         }
+        @include media-query($on-palm) {
+            padding: 0 0.5rem 0 0.5rem;
+        }
     }
     &.embedly-card {
         color: $text-color;
