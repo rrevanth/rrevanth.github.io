@@ -7,6 +7,5 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem 'jekyll-redirect-from'
-    gem 'packr'
     # gem 'jekyll-press'
 end
