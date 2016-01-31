@@ -325,6 +325,7 @@ a {
         }
         @include media-query($on-palm) {
             padding: 0 0.5rem 0 0.5rem;
+            font-size: 150%;
         }
     }
     &.embedly-card {

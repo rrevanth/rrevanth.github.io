@@ -1,10 +1,10 @@
-  require 'rubygems'
-    require 'rake'
-    require 'rdoc'
-    require 'date'
-    require 'yaml'
-    require 'tmpdir'
-    require 'jekyll'
+require 'rubygems'
+require 'rake'
+require 'rdoc'
+require 'date'
+require 'yaml'
+require 'tmpdir'
+require 'jekyll'
 
     desc "Generate blog files"
     task :generate do
