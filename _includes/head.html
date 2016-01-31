@@ -21,7 +21,7 @@
   </script>
 
   <script>
-    // checkloadjscssfile("/assets/css/main.css","css");
+    checkloadjscssfile("/assets/css/main.css","css");
     // checkloadjscssfile("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css","css");
     // checkloadjscssfile("http://fonts.googleapis.com/css?family=Lato:400,700","css");
     checkloadjscssfile("//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js","js");
@@ -48,7 +48,7 @@
     if (raf) raf(cb);
     else window.addEventListener('load', cb);
   </script>
-  <script>
+  <!--  <script>
     var cb = function() {
     var l = document.createElement('link'); l.rel = 'stylesheet';
     l.href = "/assets/css/main.css";
@@ -58,7 +58,7 @@
     webkitRequestAnimationFrame || msRequestAnimationFrame;
     if (raf) raf(cb);
     else window.addEventListener('load', cb);
-  </script>
+  </script> -->
   <!--Fonts-->
   <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel='stylesheet' type='text/css'> -->
   <!-- <link href="{{ "/assets/css/fonts.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'> -->
