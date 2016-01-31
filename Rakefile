@@ -28,7 +28,7 @@ task :preview  do
   puts "\n## Opening site on 4000"
   pids = [
       spawn("serve _site 4000"),
-      spawn("google-chrome --url http://localhost:4000")
+      spawn("google-chrome --incognito --url http://localhost:4000")
     ]
   trap "INT" do
     Process.kill "INT", *pids
