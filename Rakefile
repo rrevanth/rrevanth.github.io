@@ -25,9 +25,19 @@ end
 
 desc "Preview site"
 task :preview  do
-  puts "\n## Opening _site/ on 4000"
-  status = system("serve _site 4000")
-  puts status ? "Success" : "Failed"
+  puts "\n## Opening site on 4000"
+  pids = [
+      spawn("serve _site 4000"),
+      spawn("google-chrome --url http://localhost:4000")
+    ]
+  trap "INT" do
+    Process.kill "INT", *pids
+    exit 1
+  end
+
+  loop do
+    sleep 1
+  end
 end
 
 desc "Minify site"
@@ -86,8 +96,8 @@ task :run, :env do |t, args|
     end
 end
 
-desc "Committing  source branch"
-task :commit, :message do |t, args|
+desc "Pushing changes to source branch"
+task :push, :message do |t, args|
   puts "\n## Staging modified files"
   status = system("git add -A")
   puts status ? "Success" : "Failed"
@@ -100,40 +110,39 @@ task :commit, :message do |t, args|
   puts status ? "Success" : "Failed"
 end
 
-desc "Deploy site to master branch"
-task :deploy => [:build] do
-  puts "\n## Deleting master branch"
-  status = system("git branch -D master")
-  puts status ? "Success" : "Failed"
-  puts "\n## Creating new master branch and switching to it"
-  status = system("git checkout -b master")
-  puts status ? "Success" : "Failed"
-  puts "\n## Forcing the _site subdirectory to be project root"
-  status = system("git filter-branch --subdirectory-filter _site/ -f")
-  puts status ? "Success" : "Failed"
-  puts "\n## Switching back to source branch"
-  status = system("git checkout source")
-  puts status ? "Success" : "Failed"
-  puts "\n## Pushing all branches to origin"
-  status = system("git push --all origin")
-  puts status ? "Success" : "Failed"
-end
-
 desc "Generate and publish blog to master"
 task :publish => [:build] do
   Dir.mktmpdir do |tmp|
-    system "mv _site/* #{tmp}"
-    system "git checkout -B master"
-    system "rm -rf *"
-    system "mv #{tmp}/* ."
+    puts "\n## Moving site to temp folder"
+    status = system "mv _site/* #{tmp}"
+    puts status ? "Success" : "Failed"
+    puts "\n## Checkout to master branch"
+    status = system "git checkout -B master"
+    puts status ? "Success" : "Failed"
+    puts "\n## Deleting content in master"
+    status = system "rm -rf *"
+    puts status ? "Success" : "Failed"
+    puts "\n## Moving site to root folder"
+    status = system "mv #{tmp}/* ."
+    puts status ? "Success" : "Failed"
+    puts "\n## Adding files to be committed"
     message = "Site updated at #{Time.now.utc}"
-    system "git add ."
-    system "git rm .deploy_key.enc .travis.yml"
-    system "git commit -am #{message.shellescape}"
-    system "git push origin master --force"
-    system "git checkout source"
-    system "echo published to master"
+    status = system "git add ."
+    puts status ? "Success" : "Failed"
+    puts "\n## Removing travis deploy keys"
+    status = system "git rm .deploy_key.enc .travis.yml"
+    puts status ? "Success" : "Failed"
+    puts "\n## Commiting files of site"
+    status = system "git commit -am #{message.shellescape}"
+    puts status ? "Success" : "Failed"
+    puts "\n## Pushing branch to master"
+    status = system "git push origin master --force"
+    puts status ? "Success" : "Failed"
+    puts "\n## Switching back to source branch"
+    status = system "git checkout source"
+    puts status ? "Success" : "Failed"
+    puts "\n## Published to master"
   end
 end
 
-task :default => :deploy
+task :default => :publish
