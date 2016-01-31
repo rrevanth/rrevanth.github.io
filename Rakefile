@@ -83,12 +83,23 @@ task :run, :env do |t, args|
     env = args[:env] || 'pro'
     case env
     when 'dev'
-        puts "\n## Running _site in dev mode"
+        puts "\n## Running _site in dev mode,wait for build to complete and reload the tab"
         Rake::Task["delete"].invoke
-        Rake::Task["generate"].invoke
-        Rake::Task["preview"].invoke
+        puts "\n## Serving site on 4000"
+        pids = [
+            spawn("jekyll serve --incremental -w"),
+            spawn("google-chrome --incognito --url http://localhost:4000")
+          ]
+        trap "INT" do
+          Process.kill "INT", *pids
+          exit 1
+        end
+
+        loop do
+          sleep 1
+        end
     else
-        puts "\n## Running _site in pro mode"
+        puts "\n## Running _site in pro mode.Does not reload on changes"
         Rake::Task["delete"].invoke
         Rake::Task["generate"].invoke
         Rake::Task["minify"].invoke
