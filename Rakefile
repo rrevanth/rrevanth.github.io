@@ -7,6 +7,7 @@ require 'tmpdir'
 require 'jekyll'
 require 'reduce'
 require 'serve'
+require 'html/proofer'
 
 desc "Delete _site"
 task :delete do
@@ -119,6 +120,13 @@ task :push, :message do |t, args|
   puts "\n## Pushing commits to remote"
   status = system("git push origin source")
   puts status ? "Success" : "Failed"
+end
+
+
+# rake test
+desc "build and test website"
+task :test => [:build] do
+  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000'], :verbose => true}).run
 end
 
 desc "Generate and publish blog to master"
