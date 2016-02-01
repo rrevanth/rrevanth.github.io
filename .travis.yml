@@ -6,7 +6,7 @@ branches:
 rvm:
 - 2.2.3
 before_install:
-- bundle install --path vendor/bundle 
+- bundle install --path vendor/bundle
 - openssl aes-256-cbc -K $encrypted_03d4a3e5ed5c_key -iv $encrypted_03d4a3e5ed5c_iv
   -in .deploy_key.enc -out ~/.ssh/deploy_key -d
 - chmod u=rw,og= ~/.ssh/deploy_key
@@ -22,6 +22,22 @@ script:
 notifications:
   email:
     recipients:
-      - revanth001reva@gmail.com
+    - revanth001reva@gmail.com
     on_success: change
     on_failure: always
+deploy:
+  provider: s3
+  access_key_id: AKIAIYWLKWWIRCCUAIVQ
+  detect_encoding: true
+  cache_control: "public,max-age=259200,must-revalidate"
+  content-encoding: "gzip"
+  region: "us-west-2"
+  secret_access_key:
+    secure: OHlxIDnz8vN6zEqgHRl5V7upjel1UClpwOLoHlEk8jte9O2g1vF4ehfzyHDG1dPZp7t0/QfVrb6zWldRHhz4Y698lTOtUctopKmJwujNjAIgb0D/n5RdEsQ+paiYqndgjx1VOyWk13HXLfGiC7NoEvKa1z62F3xjvsPEtOSdDQGlosw9IGk6WdKx3djArGaLiKSOQXoNeI6KnxuL+ZY6KwD5toth1j0VdUHuVqgC7MfODjrjpCja47Ydeohou3pcIBloQnXj5H3bKBIj6zwIbK8maNVLmFRxDNcUGnjSZ2hXnaf8JERzRBK7HQZhA/mWlqWEcbWraBghdxWiA+BMlIRjqJxvgMxl/ABaPkqGFW/16K4GGcJsvoP8nBHHGTSd/2e+C+gwmGNKZMQXokacTJSHaoQWfkqqQ7eBjek1y8nPUgebNIJres9GLQ7F6zlQZTmfJ77iJumb0eZFEUJXzoU1F6QAjeLMiVkcHuWETd4wHldEVfrn5hEHpD9GYp8AIJ9j7W9MJYTEN+cPAgrL1lgSNzyFUlbwQzTtn2+zETDh+A09rUyjC84dYqm6+JJThXI9QrGFHbe5X3ieMxJMwNlG92CjxrOyazEJ5YhyKJjaE96Jai6ETwGuZTVHCEiswCeRA5pFoTxiFneQK+TO5Kj0oMrKVrarVUhs/eOSIvQ=
+  bucket: reva-assets
+  local-dir: _site/assets
+  upload-dir: assets
+  acl: public_read
+  on:
+    repo: rrevanth/rrevanth.github.io
+    branch: source
