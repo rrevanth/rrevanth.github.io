@@ -171,7 +171,10 @@ task :publish => [:build] do
     puts status ? "Success" : "Failed"
     puts "\n## Published to master"
     puts "\n## Generating build again for deploying to s3"
-    Rake::Task["build"].invoke
+    Rake::Task["delete"].invoke
+    Rake::Task["generate"].invoke
+    Rake::Task["minify"].invoke
+    Rake::Task["compress"].invoke
   end
 end
 
