@@ -166,10 +166,12 @@ task :publish => [:build] do
     puts "\n## Pushing branch to master"
     status = system "git push origin master --force"
     puts status ? "Success" : "Failed"
-    # puts "\n## Switching back to source branch"
-    # status = system "git checkout source"
-    # puts status ? "Success" : "Failed"
+    puts "\n## Switching back to source branch"
+    status = system "git checkout source"
+    puts status ? "Success" : "Failed"
     puts "\n## Published to master"
+    puts "\n## Generating build again for deploying to s3"
+    Rake::Task["build"].invoke
   end
 end
 
