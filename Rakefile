@@ -166,9 +166,9 @@ task :publish => [:build] do
     puts "\n## Pushing branch to master"
     status = system "git push origin master --force"
     puts status ? "Success" : "Failed"
-    puts "\n## Switching back to source branch"
-    status = system "git checkout source"
-    puts status ? "Success" : "Failed"
+    # puts "\n## Switching back to source branch"
+    # status = system "git checkout source"
+    # puts status ? "Success" : "Failed"
     puts "\n## Published to master"
   end
 end
