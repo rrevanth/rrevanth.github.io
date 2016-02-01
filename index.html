@@ -9,17 +9,17 @@ title: Blog
 <div>
 	<ul>
 	  {% for post in site.categories.blog %}
-	    <li class='post-list'>
+	    <li itemscope itemtype="http://schema.org/Article" itemref="_author2" class='post-list'>
 	      
-	      <a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
-	      {{ post.date | date: "%b %-d, %Y" }}<br>
+	      <a class="title" href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a><br>
+	      <span itemprop="datePublished" content="2016-01-27">{{ post.date | date: "%b %-d, %Y" }}</span><br>
 	      <section style="margin-bottom:10px" >
 	      {% for tag in post.tags %}
 	      	<a class="tags" style="margin-top:0.3em" href="/tag/{{ tag }}">{{ tag }}</a>
 	      {% endfor %}
 	      </section>
 	      <section class="post-excerpt" >
-	      	{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} <span style="color:#ccc;">. . .</span>
+	      	<span itemprop="articleSection">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span> <span style="color:#ccc;">. . .</span>
 	      	<a class="readmore" href="{{ post.url }}"> read more <i class="fa fa-caret-square-o-right"></i></a><br>
 	      </section>
 	    </li>
