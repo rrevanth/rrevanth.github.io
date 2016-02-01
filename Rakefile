@@ -141,7 +141,7 @@ end
 desc "Generate and publish blog to master"
 task :publish => [:build] do
   Dir.mktmpdir do |tmp|
-    puts "\n## Moving site to temp folder"
+    puts "\n## Copying site to temp folder"
     status = system "mv _site/* #{tmp}"
     puts status ? "Success" : "Failed"
     puts "\n## Checkout to master branch"
@@ -151,7 +151,7 @@ task :publish => [:build] do
     status = system "rm -rf *"
     puts status ? "Success" : "Failed"
     puts "\n## Moving site to root folder"
-    status = system "mv #{tmp}/* ."
+    status = system "cp -R #{tmp}/* ."
     puts status ? "Success" : "Failed"
     puts "\n## Adding files to be committed"
     message = "Site updated at #{Time.now.utc}"
@@ -170,11 +170,9 @@ task :publish => [:build] do
     status = system "git checkout source"
     puts status ? "Success" : "Failed"
     puts "\n## Published to master"
-    puts "\n## Generating build again for deploying to s3"
-    Rake::Task["delete"].invoke
-    Rake::Task["generate"].invoke
-    Rake::Task["minify"].invoke
-    Rake::Task["compress"].invoke
+    puts "\n## Moving site to root folder"
+    status = system "mv #{tmp}/* ."
+    puts status ? "Success" : "Failed"
   end
 end
 

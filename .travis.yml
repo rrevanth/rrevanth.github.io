@@ -25,6 +25,7 @@ notifications:
     - revanth001reva@gmail.com
     on_success: change
     on_failure: always
+before_deploy: "echo 'ready?'"
 deploy:
   provider: s3
   access_key_id: AKIAIYWLKWWIRCCUAIVQ
