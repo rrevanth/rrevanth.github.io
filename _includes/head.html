@@ -28,6 +28,7 @@
   </script>
   <noscript>
     <link href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </noscript>
   <script>
     var cb = function() {
@@ -67,7 +68,10 @@
     webkitRequestAnimationFrame || msRequestAnimationFrame;
     if (raf) raf(cb);
     else window.addEventListener('load', cb);
-  </script> -->
+  </script>
+  <noscript>
+    <link href="/assets/css/main.css" rel='stylesheet' type='text/css'>
+  </noscript> -->
   <!--Fonts-->
   <!-- <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel='stylesheet' type='text/css'> -->
   <!-- // <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
