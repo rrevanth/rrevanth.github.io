@@ -126,6 +126,7 @@ end
 
 desc "Pushing changes to source branch"
 task :push, :message do |t, args|
+  Rake::Task["build"].invoke
   puts "\n## Staging modified files"
   status = system("git add -A")
   puts status ? "Success" : "Failed"

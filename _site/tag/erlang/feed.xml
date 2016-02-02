@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/erlang/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2016-02-02T13:36:58+05:30</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>ERLANG</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Sticky links</title><link href="http://rrevanth.github.io/reads/2015/11/sticky-links/"/><published>2015-11-28T15:04:00+05:30</published><updated>2015-11-28T15:04:00+05:30</updated><id>http://rrevanth.github.io/reads/2015/11/sticky-links/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/sticky-links/">&lt;p&gt;This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived after some time.&lt;/p&gt;
+
+&lt;h3 id=&quot;alternative-erlang-syntax-language&quot;&gt;Alternative Erlang Syntax Language&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://efene.org/index.html#&quot;&gt;Efene-Alternate Erlang  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://medium.com/this-is-not-a-monad-tutorial/efene-an-erlang-vm-language-that-embraces-the-python-zen-db9b4d840614#.vv5esdiye&quot;&gt;Talk with Author  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;es6-bullet-points&quot;&gt;ES6 Bullet Points&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/bevacqua/es6#weakmaps&quot;&gt;ES6 Quickread  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-for-http2&quot;&gt;Building for HTTP/2&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://rmurphey.com/blog/2015/11/25/building-for-http2&quot;&gt;Building for HTTP/2  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix with Elm - Alex Gardner</title><link href="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/"/><published>2015-11-19T21:50:00+05:30</published><updated>2015-11-19T21:50:00+05:30</updated><id>http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/">&lt;p&gt;In this video Alex Gardner explains how to integrate Phoenix with Elm both of which are ground breaking frameworks of this era with ambitious benchmarks that are to be set and doing a great.You can also go through detailed series by him on through here &lt;a href=&quot;/reads/2015/11/phoenix-with-elm&quot;&gt;Phoenix with Elm&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/MgFDZx1LmOE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry></feed>

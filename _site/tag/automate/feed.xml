@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/automate/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2016-02-02T13:36:58+05:30</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>AUTOMATE</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Editing Jekyll Posts With Prose</title><link href="http://rrevanth.github.io/blog/2015/11/editing-jekyll-posts-with-prose/"/><published>2015-11-14T15:43:00+05:30</published><updated>2015-11-14T15:43:00+05:30</updated><id>http://rrevanth.github.io/blog/2015/11/editing-jekyll-posts-with-prose/</id><content type="html" xml:base="http://rrevanth.github.io/blog/2015/11/editing-jekyll-posts-with-prose/">&lt;p&gt;Jekyll supports markdown posts.We will discuss an online Github Content Editor &lt;a href=&quot;http://prose.io/&quot; title=&quot;Prose&quot;&gt;Prose&lt;/a&gt; that can be used to edit jekyll posts.It uses github authentication.Prose does not need to be specifically used for jekyll.You can edit any hosting site that has Git Hooks.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In this post,I will share&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explain prose configuration operations&lt;/li&gt;
+  &lt;li&gt;Normal setup of prose for jekyll sites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prose is a free online github content editor.It can be customised to our requirements such as&lt;/p&gt;
+
+&lt;h5 id=&quot;image-uploading&quot;&gt;Image Uploading&lt;/h5&gt;
+&lt;p&gt;When editing markdown documents you can drag and drop images onto the page which are uploaded to a media directory you specify in your configuration or the current directory.&lt;/p&gt;
+
+&lt;h5 id=&quot;mobile-layout&quot;&gt;Mobile Layout&lt;/h5&gt;
+&lt;p&gt;Prose is designed as a mobile ready application and is particularly well suited for the iPad.&lt;/p&gt;
+
+&lt;h5 id=&quot;markdown-features&quot;&gt;Markdown Features&lt;/h5&gt;
+&lt;p&gt;Prose pays particular attention to Markdown files by providing a formatting toolbar and in page previewing.&lt;/p&gt;
+
+&lt;h5 id=&quot;configurations&quot;&gt;Configurations&lt;/h5&gt;
+&lt;p&gt;Often you want to provide site maintainers access to create and edit content but not direct access to the source code that runs a project. Or you want a simple authoring environment that’s focused on what matters to you. Configurations are a powerful way to customize what’s provided during the day to day management of a site.&lt;/p&gt;
+
+&lt;p&gt;For non-jekyll sites, You can set up configurations by creating a _prose.yml file or add configurations as an entry to your Jekyll site in _config.yml.&lt;/p&gt;
+
+&lt;p&gt;Prose provides specific features to Jekyll sites&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A Publish/Unpublish workflow.&lt;/li&gt;
+  &lt;li&gt;Multilingual page translation support.&lt;/li&gt;
+  &lt;li&gt;Drafts Management.&lt;/li&gt;
+  &lt;li&gt;YAML Frontmatter Configuration.&lt;/li&gt;
+  &lt;li&gt;Full site layout previewing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prose-config-options&quot;&gt;Prose Config Options&lt;/h3&gt;
+
+&lt;p&gt;Descriptions with &lt;strong&gt;*&lt;/strong&gt; are jekyll specific&lt;/p&gt;
+
+&lt;h5 id=&quot;rooturl-directory-name&quot;&gt;rooturl: “DIRECTORY NAME”&lt;/h5&gt;
+&lt;p&gt;Adding this option will restrict the prose access to the specific directory of the repo.&lt;/p&gt;
+
+&lt;h5 id=&quot;ignore-fileahtml-configyml&quot;&gt;ignore: [‘file_a.html’, ‘_config.yml’]&lt;/h5&gt;
+&lt;p&gt;This option will ignore the files and do not show the files for edit.&lt;/p&gt;
+
+&lt;h5 id=&quot;siteurl-httpdomain-namecom&quot;&gt;siteurl: “http://domain-name.com”&lt;/h5&gt;
+&lt;p&gt;* Set this to your site and it will show live previews rather than inhouse previews of prose.&lt;/p&gt;
+
+&lt;h5 id=&quot;site&quot;&gt;site:&lt;/h5&gt;
+&lt;p&gt;* This field accepts a list of absolute .JSONP paths to content that is loaded during Jekyll live previews. This is particularly useful for building out tags or categories that should be present during preview.&lt;/p&gt;
+
+&lt;h5 id=&quot;media-directory-name&quot;&gt;media: “DIRECTORY NAME”&lt;/h5&gt;
+&lt;p&gt;Specify a media directory uploading images defaults to. When media is added to this directory, a listing of available assets is populated from the image dropdown link on markdown files.&lt;/p&gt;
+
+&lt;h5 id=&quot;relativelinks-absolute-urljsonp&quot;&gt;relativeLinks: “ABSOLUTE-URL.JSONP”&lt;/h5&gt;
+&lt;p&gt;Displays a list of links to a user from the link dropdown on markdown files.&lt;/p&gt;
+
+&lt;h5 id=&quot;metadata&quot;&gt;metadata:&lt;/h5&gt;
+&lt;p&gt;* This adds YAML frontmatter to jekyll posts automatically.&lt;/p&gt;
+
+&lt;h2 id=&quot;metadata-configuration&quot;&gt;Metadata Configuration&lt;/h2&gt;
+&lt;p&gt;Each jekyll post must contain frontmatter such as layout,date.Other options such as title,category,tags helps us organize site better.Prose helps us to add such front matter automatically when creating posts so you can concentrate on the content rather than structure.&lt;/p&gt;
+
+&lt;p&gt;prose options can be added to it’s own specific file &lt;em&gt;_prose.yml&lt;/em&gt; or can be added to jekyll’s &lt;em&gt;_config.yml&lt;/em&gt; .&lt;/p&gt;
+
+&lt;p&gt;metadata should be of format :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Elements ..&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;For each front matter you need in your post,you can add metadata element as name of the frontmatter key and a field object that describes what html element is used and how this should be displayed to the user.&lt;/p&gt;
+
+&lt;p&gt;For example,an entry like &lt;code class=&quot;highlighter-rouge&quot;&gt;layout:blog&lt;/code&gt; in file can be configured as :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;layout&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hidden&quot;&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;blog&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;where&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; is exact match of frontmatter key
+&lt;code class=&quot;highlighter-rouge&quot;&gt;field&lt;/code&gt; is where values and display options are set.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;element&lt;/code&gt; is the option type of the key type.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt; which contains the values.
+*&lt;code class=&quot;highlighter-rouge&quot;&gt;options&lt;/code&gt; comes into picture for select and multiselect elements which we will see in a while.&lt;/p&gt;
+
+&lt;h2 id=&quot;form-field-attributes&quot;&gt;Form field attributes&lt;/h2&gt;
+
+&lt;h4 id=&quot;text&quot;&gt;Text&lt;/h4&gt;
+
+&lt;p&gt;element: text
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+value: (optional string) A default value
+placeholder: (optional string) Helper text in the input if no value is provided.&lt;/p&gt;
+
+&lt;p&gt;type: text&lt;/p&gt;
+
+&lt;h4 id=&quot;textarea&quot;&gt;Textarea&lt;/h4&gt;
+
+&lt;p&gt;element: textarea
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+value: (optional string) A default value
+placeholder: (optional string) Helper text in the textarea if no value is 
+provided.&lt;/p&gt;
+
+&lt;h4 id=&quot;select--multiselect&quot;&gt;Select &amp;amp; Multiselect&lt;/h4&gt;
+
+&lt;p&gt;Allow a user to make one or more selections&lt;/p&gt;
+
+&lt;p&gt;element: select OR multiselect
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+options: (array or string) If the value is a string prose expects this to be a 
+JSONP file that links to a json file structured in the following format: 
+{“name”: “Granny Apples”, “value”: “granny-apples” } if this is an array the formal should look like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Granny Apples&#39;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;granny-apples&#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;placeholder: (optional string) Helper text if no value is provided
+lang: (optional string) if a lang key is set this allows the option of filtering a JSONP response by language. Useful for multilingual sites in Jekyll
+(Multiselect only)
+alterable: (optional boolean) true or false whether a user can add additional values. Useful for tags.
+Hidden&lt;/p&gt;
+
+&lt;p&gt;This is particularly useful for frontmatter fields that should always have a fixed value and not changed. An good example is the layout field a file inherits.&lt;/p&gt;
+
+&lt;h4 id=&quot;hidden&quot;&gt;Hidden&lt;/h4&gt;
+
+&lt;p&gt;element: hidden
+value: (optional string) The default value&lt;/p&gt;
+
+&lt;h4 id=&quot;number&quot;&gt;Number&lt;/h4&gt;
+
+&lt;p&gt;element: number
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+value: (optional integer) A default integer
+type: number&lt;/p&gt;
+
+&lt;h4 id=&quot;button&quot;&gt;Button&lt;/h4&gt;
+
+&lt;p&gt;A button can be used to toggle on and off the value&lt;/p&gt;
+
+&lt;p&gt;element: button
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+on: (string) The name of the on value
+off: (string) The name of the off value&lt;/p&gt;
+
+&lt;h4 id=&quot;checkbox&quot;&gt;Checkbox&lt;/h4&gt;
+
+&lt;p&gt;Toggles on a true or false state&lt;/p&gt;
+
+&lt;p&gt;element: checkbox
+label: (optional string) Label to the user
+help: (optional string) Help/description to accompany a label
+value: (boolean) true or false&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-prose-config&quot;&gt;Jekyll Prose Config&lt;/h2&gt;
+
+&lt;p&gt;Consider a jekyll sites contain a following directory structure of _posts.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reads&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then the prose configuration sample can be like this :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# Prose.io Config&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;prose:
+  rooturl: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_posts&quot;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;siteurl: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;http://rrevanth.github.io/&#39;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;relativeLinks: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;http://rrevanth.github.io/links.jsonp&#39;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;media: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;assests/media&#39;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;metadata:
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;blog:
+      &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;published&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;checkbox&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;label: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Publish now&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;help: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Keep this unchecked if you do not want to   publish the article right now&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;true&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;layout&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hidden&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;post&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;title&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;label: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Enter title of the Article&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;placeholder: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Enter Title&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;date&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;label: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Date&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;CURRENT_DATETIME&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hidden&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Revanth Revoori&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;categories&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hidden&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;blog&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;alterable: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;true&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tags&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;multiselect&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;label: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Add Tags&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;placeholder: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Add Tags&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;options:
+            &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blog&quot;&lt;/span&gt;
+              &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;blog&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;alterable: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;name: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;excerpt_separator&quot;&lt;/span&gt;
+        &lt;span class=&quot;ss&quot;&gt;field:
+          element: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;
+          &lt;span class=&quot;ss&quot;&gt;value: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;!--more--&amp;gt;&quot;&lt;/span&gt;
+          &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;With this config,front matter can be automated for the blog sub-directory in _posts directory.In the same way,we can add other sub-directories to the options.&lt;/p&gt;
+
+&lt;p&gt;I hope this series of posts helps you get started with jekyll blog &lt;a href=&quot;/blog/2015/11/jekyllRakeTravisCI&quot;&gt;Autodeployed to Github Pages with Travis CI&lt;/a&gt; and an online editor with Prose.&lt;/p&gt;
+</content></entry><entry><title>Automate Jekyll Blog to Github with Travis CI</title><link href="http://rrevanth.github.io/blog/2015/11/jekyllRakeTravisCI/"/><published>2015-11-11T23:14:34+05:30</published><updated>2015-11-11T23:14:34+05:30</updated><id>http://rrevanth.github.io/blog/2015/11/jekyllRakeTravisCI/</id><content type="html" xml:base="http://rrevanth.github.io/blog/2015/11/jekyllRakeTravisCI/">&lt;p&gt;In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a simple, blog-aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers some other advanced templating features.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Every GitHub Page runs through Jekyll when you push content to a specially named branch within your repository. For User Pages, use the master branch in your username.github.io repository. For Project Pages, use the gh-pages branch in your project’s repository. Creating blog in Jekyll is awesome but it comes with a catch.Everytime we publish a post,we need to update the master branch with compiled website. Also, post editing is a horror if you are a person who likes to do it in editor.&lt;/p&gt;
+
+&lt;p&gt;In this post,we will go through&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Deploying a jekyll blog to github with rake&lt;/li&gt;
+  &lt;li&gt;Automate the build process with Travis CI&lt;/li&gt;
+  &lt;li&gt;Github content editor Prose&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;deploying-with-rake&quot;&gt;Deploying with Rake&lt;/h3&gt;
+
+&lt;p&gt;This post assumes that your jekyll blog git repo contains two branches
+- source branch - contains the source files for blog.
+- master branch - contains the compiled blog.&lt;/p&gt;
+
+&lt;p&gt;Make sure you are in source branch.Add a file named Rakefile to your root dir that contains the following code ..&lt;/p&gt;
+
+&lt;p&gt;Rakefile&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;rubygems&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;rake&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;rdoc&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;date&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;yaml&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tmpdir&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;jekyll&#39;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Generate blog files&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:generate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;source&quot;&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;destination&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_site&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Generate and publish blog to master&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:publish&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:generate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mktmpdir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;mv _site/* &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git checkout -B master&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rm -rf *&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;mv &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/* .&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Site updated at &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;utc&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git add .&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git commit -am &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;shellescape&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git push origin master --force&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git checkout source&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;echo published to master&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:publish&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After adding this,you can build and deploy the updated source code to master just by running one command.Make sure you are in root dir of your git repo and run the following command :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;rake&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s it.So simple,right.Not so fast.We just don’t wanna run this command every time we create to post.We need something much better.&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-travisthe-saviour&quot;&gt;Enter Travis,the saviour&lt;/h2&gt;
+
+&lt;h3 id=&quot;travis-ssh-setup&quot;&gt;Travis SSH setup&lt;/h3&gt;
+
+&lt;p&gt;For travis to have git repo permissions,you can do this two ways
+1. Using Git access tokens (Less secure method)
+2. Using SSH keys (More secure and recommended method)&lt;/p&gt;
+
+&lt;p&gt;Generate a private/public key pair without passphrase in the repo directory.Be sure to be in root dir,not any sub dir or other system dir.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ssh-keygen -t rsa -C “deploy@travis-ci.org” -f deploy_key -N ‘’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Add the public key (deploy_key.pub) to the Git repo as a ‘Deploy Key’ through the web interface. We are using deploy keys so that we can make them specific to a single repository. You could use ‘Personal access tokens’ but they would then allow access to all repositories associated with the given account - this might be preferable in an organization context, using special GitHub accounts created specifically for Travis-CI to work with multiple repositories. The use of ‘Personal access tokens’ (and my starting point for this approach) is illustrated in Evan Sosenko’s article &lt;a href=&quot;https://evansosenko.com/posts/automatic-publishing-github-pages-travis-ci/&quot; title=&quot;Personal Access Jekyll Travis&quot;&gt;Automatic publishing to GitHub Pages with Travis CI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install the travis gem&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;gem install travis&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Login to travis with your GitHub credentials&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;travis login&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Encrypt the SSH key to generate &lt;strong&gt;deploy_key.enc&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;travis encrypt-file deploy_key&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This should modify your .travis.yml file adding the openssh keys to before_install property like this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;before_install:
+- openssl aes-256-cbc -K {blah blah blah}&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;no&quot;&gt;Add&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;deploy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gitignore&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;deploy_key&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;deploy_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;warnquote&quot;&gt;
+  &lt;p&gt;make sure you ignore the SSH keys and only commit the
+ encrypted version. You may also want to back up the original
+ key files elsewhere&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;setting-travis-in-the-project&quot;&gt;Setting Travis in the project&lt;/h3&gt;
+
+&lt;p&gt;As you might know,Travis CI is used for testing and deploying automatically for git repositories.We are gonna use this feature to automatically build and deploy the site to master whenever we push any changes to source.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis integration is simple,add .travis.yml file to source root dir.&lt;/p&gt;
+
+&lt;p&gt;.travis.yml&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;ss&quot;&gt;language: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;branches:
+  only:
+  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# branch that contains source files&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;rvm:
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;before_install:
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openssl&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cbc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$encrypted_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blah&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blah&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blah&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;og&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.ssh/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deploy_key&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Host github.com&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.ssh/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;  IdentityFile ~/.ssh/deploy_key&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.ssh/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;{GIT_UNAME}&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;{GIT_EMAIL}&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remote&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;GIT_UNAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;GIT_UNAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remote&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;script:
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;notifications:
+  email:
+    recipients:
+      &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;GIT_EMAIL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;on_success: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;change&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;on_failure: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;always&lt;/span&gt;
+    &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Replace {GIT_UNAME},{GIT_EMAIL} with their appropriate values.&lt;/p&gt;
+
+&lt;p&gt;Now Signin to Travis CI and add your site repo for watching the repo to Automatically build.&lt;/p&gt;
+
+&lt;blockquote class=&quot;warnquote&quot;&gt;
+  &lt;p&gt;In the project settings,Turn OFF Build pull requests and Build only if .travis.yml is present to ON.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now,whenever your push any changes to source branch,Travis should automatically build and deploy the site to master branch.&lt;/p&gt;
+
+&lt;h3 id=&quot;post-editing&quot;&gt;Post Editing&lt;/h3&gt;
+
+&lt;p&gt;Recently,I found a great site for post editing,checkout out &lt;a href=&quot;http://prose.io/&quot; title=&quot;Prose&quot;&gt;Prose&lt;/a&gt;.It has a awesome Markdown editor that accessess your repo and you can add posts,drafts to your source repo from there.&lt;/p&gt;
+
+&lt;p&gt;Life gets so much simplified with all this awesome tools and experience is blissful.&lt;/p&gt;
+</content></entry></feed>
