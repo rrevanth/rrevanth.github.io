@@ -62,6 +62,23 @@ task :minify do
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
 end
 
+desc "Gzipping assets"
+task :compress do
+  puts "\## Gzipping css assets"
+  status = system("gzip -9 _site/assets/css/*")
+  puts status ? "Success" : "Failed"
+  puts "\## Gzipping js assets"
+  status = system("gzip -9 _site/assets/js/*")
+  puts status ? "Success" : "Failed"
+  puts "\## Moving css assets from gz to css"
+  status = system("find _site/assets/css -name '*.css.gz' -exec rename 's/.css.gz$/.css/' {} \\;")
+  puts status ? "Success" : "Failed"
+  puts "\## Moving js assets from gz to js"
+  status = system("find _site/assets/js -name '*.js.gz' -exec rename 's/.js.gz$/.js/' {} \\;")
+  puts status ? "Success" : "Failed"
+end
+
+
 desc "Build _site in given environment.Eg : rake build[arg] ## arg : 'dev' | 'prod' | default: 'pro'"
 task :build, :env do |t, args|
     env = args[:env] || 'pro'
