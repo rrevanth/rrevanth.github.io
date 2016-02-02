@@ -171,6 +171,7 @@ task :publish => [:build] do
     puts status ? "Success" : "Failed"
     puts "\n## Published to master"
     puts "\n## Moving site to root folder"
+    system "mkdir _site"
     status = system "mv #{tmp}/* _site/"
     puts status ? "Success" : "Failed"
   end
