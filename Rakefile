@@ -62,6 +62,22 @@ task :minify do
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
 end
 
+desc "Gzipping assets"
+task :compress do
+  puts "\## Gzipping css assets"
+  status = system("gzip -9 _site/assets/css/*")
+  puts status ? "Success" : "Failed"
+  puts "\## Gzipping js assets"
+  status = system("gzip -9 _site/assets/js/*")
+  puts status ? "Success" : "Failed"
+  puts "\## Moving css assets from gz to css"
+  status = system("find _site/assets/css -name '*.css.gz' -exec rename 's/.css.gz$/.css/' {} \\;")
+  puts status ? "Success" : "Failed"
+  puts "\## Moving js assets from gz to js"
+  status = system("find _site/assets/js -name '*.js.gz' -exec rename 's/.js.gz$/.js/' {} \\;")
+  puts status ? "Success" : "Failed"
+end
+
 desc "Build _site in given environment.Eg : rake build[arg] ## arg : 'dev' | 'prod' | default: 'pro'"
 task :build, :env do |t, args|
     env = args[:env] || 'pro'
@@ -75,6 +91,7 @@ task :build, :env do |t, args|
         Rake::Task["delete"].invoke
         Rake::Task["generate"].invoke
         Rake::Task["minify"].invoke
+        Rake::Task["compress"].invoke
     end
 end
 
@@ -124,7 +141,7 @@ end
 desc "Generate and publish blog to master"
 task :publish => [:build] do
   Dir.mktmpdir do |tmp|
-    puts "\n## Moving site to temp folder"
+    puts "\n## Copying site to temp folder"
     status = system "mv _site/* #{tmp}"
     puts status ? "Success" : "Failed"
     puts "\n## Checkout to master branch"
@@ -134,7 +151,7 @@ task :publish => [:build] do
     status = system "rm -rf *"
     puts status ? "Success" : "Failed"
     puts "\n## Moving site to root folder"
-    status = system "mv #{tmp}/* ."
+    status = system "cp -R #{tmp}/* ."
     puts status ? "Success" : "Failed"
     puts "\n## Adding files to be committed"
     message = "Site updated at #{Time.now.utc}"
@@ -153,6 +170,9 @@ task :publish => [:build] do
     status = system "git checkout source"
     puts status ? "Success" : "Failed"
     puts "\n## Published to master"
+    puts "\n## Moving site to root folder"
+    status = system "mv #{tmp}/* ."
+    puts status ? "Success" : "Failed"
   end
 end
 
