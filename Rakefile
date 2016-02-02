@@ -195,4 +195,4 @@ task :publish => [:build] do
   end
 end
 
-task :default => :publish
+task :default => :deploy
