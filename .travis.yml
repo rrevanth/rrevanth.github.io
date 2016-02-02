@@ -19,15 +19,7 @@ before_install:
 script:
 - bundle exec rake
 - bundle install --path vendor/bundle
-notifications:
-  email:
-    recipients:
-    - revanth001reva@gmail.com
-    on_success: change
-    on_failure: always
-before_deploy: 
 - bundle exec rake build
-deploy:
   provider: s3
   access_key_id: AKIAIXSM4R22FSNYNUVA
   secret_access_key:
@@ -39,3 +31,23 @@ deploy:
   on:
     repo: rrevanth/rrevanth.github.io
     branch: source
+notifications:
+  email:
+    recipients:
+    - revanth001reva@gmail.com
+    on_success: change
+    on_failure: always
+# before_deploy: 
+# - bundle exec rake build
+# deploy:
+#   provider: s3
+#   access_key_id: AKIAIXSM4R22FSNYNUVA
+#   secret_access_key:
+#     secure: nWxOWBZz8uRbV3vpVKJxJPaP95BEUuFZpGvexdIArFUzizjuEY3hJ4shgn35BUHd0pU25nspGWA57REx/Xd6T9R2urr9Jg2YEKByGa56NwAGEdNU4ARgJUn+Xsvj9LtfpXuWvsFqhYWn7muqJLfEXjzUrnQtd4N1iU12l07sConlPcFuyEFmvBqUF7AdoUpEZ8nRz1zpDtnzQ2+AjW2CkWURebOXFeUs8JDJKCRX1QFF8T4h/Inb7pF3umo+06BQjjY9OrgAJOTXd/FA1jV8IXgKoQYUYpPIlTJGL8vDD5ulL+oQdT4G8dH3n24mmOqtDFqnZafPU43N3xjazRl+VHd0s6MsJYnbwQT1BFsm6pBk4mKky8fK/5X/WD62kuofokgfRwXWe/BWp6XEwclX+flKicH0YKl3xL4eeYnntE4yHkKD6MbbLAVbk6WMtpPSfgEu8rD1PsWX/DDinbZK6VhSZf/vpyai/5Lew2UFJ8Ig5n3yscMFpltFBgANFLyW6Jem1zEgF2r2gxHYJwYerIHlKp/xy0qJ7t4mzRMKQoZBckzdNn+QGI+70kibv9K4pTtSiIQrIEBC8Qd26fi4RH8r0RdA57kg7d2TbDJMHyiYzuGmjS4/chU3JEPW6brnrhSYTvkQUaAcB2Gq18J3Z2VFj/l/ZMg5Dm/165aArk8=
+#   bucket: reva-assets
+#   local-dir: _site/assets
+#   upload-dir: assets
+#   acl: public_read
+#   on:
+#     repo: rrevanth/rrevanth.github.io
+#     branch: source
