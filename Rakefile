@@ -70,9 +70,9 @@ task :compress do
   puts "\## Gzipping js assets"
   status = system("gzip -9 _site/assets/js/*")
   puts status ? "Success" : "Failed"
-  puts "\## Moving css assets from gz to css"
-  status = system("find _site/assets/css -name '*.css.gz' -exec rename 's/.css.gz$/.css/' {} \\;")
-  puts status ? "Success" : "Failed"
+  # puts "\## Moving css assets from gz to css"
+  # status = system("find _site/assets/css -name '*.css.gz' -exec rename 's/.css.gz$/.css/' {} \\;")
+  # puts status ? "Success" : "Failed"
   puts "\## Moving js assets from gz to js"
   status = system("find _site/assets/js -name '*.js.gz' -exec rename 's/.js.gz$/.js/' {} \\;")
   puts status ? "Success" : "Failed"
