@@ -25,18 +25,13 @@ notifications:
     - revanth001reva@gmail.com
     on_success: change
     on_failure: always
-before_deploy: "echo 'ready?'"
 deploy:
   provider: s3
-  access_key_id: AKIAIYWLKWWIRCCUAIVQ
-  detect_encoding: true
-  cache_control: "public,max-age=259200,must-revalidate"
-  content-encoding: "gzip"
-  region: "us-west-2"
+  access_key_id: AKIAIXSM4R22FSNYNUVA
   secret_access_key:
-    secure: OHlxIDnz8vN6zEqgHRl5V7upjel1UClpwOLoHlEk8jte9O2g1vF4ehfzyHDG1dPZp7t0/QfVrb6zWldRHhz4Y698lTOtUctopKmJwujNjAIgb0D/n5RdEsQ+paiYqndgjx1VOyWk13HXLfGiC7NoEvKa1z62F3xjvsPEtOSdDQGlosw9IGk6WdKx3djArGaLiKSOQXoNeI6KnxuL+ZY6KwD5toth1j0VdUHuVqgC7MfODjrjpCja47Ydeohou3pcIBloQnXj5H3bKBIj6zwIbK8maNVLmFRxDNcUGnjSZ2hXnaf8JERzRBK7HQZhA/mWlqWEcbWraBghdxWiA+BMlIRjqJxvgMxl/ABaPkqGFW/16K4GGcJsvoP8nBHHGTSd/2e+C+gwmGNKZMQXokacTJSHaoQWfkqqQ7eBjek1y8nPUgebNIJres9GLQ7F6zlQZTmfJ77iJumb0eZFEUJXzoU1F6QAjeLMiVkcHuWETd4wHldEVfrn5hEHpD9GYp8AIJ9j7W9MJYTEN+cPAgrL1lgSNzyFUlbwQzTtn2+zETDh+A09rUyjC84dYqm6+JJThXI9QrGFHbe5X3ieMxJMwNlG92CjxrOyazEJ5YhyKJjaE96Jai6ETwGuZTVHCEiswCeRA5pFoTxiFneQK+TO5Kj0oMrKVrarVUhs/eOSIvQ=
+    secure: nWxOWBZz8uRbV3vpVKJxJPaP95BEUuFZpGvexdIArFUzizjuEY3hJ4shgn35BUHd0pU25nspGWA57REx/Xd6T9R2urr9Jg2YEKByGa56NwAGEdNU4ARgJUn+Xsvj9LtfpXuWvsFqhYWn7muqJLfEXjzUrnQtd4N1iU12l07sConlPcFuyEFmvBqUF7AdoUpEZ8nRz1zpDtnzQ2+AjW2CkWURebOXFeUs8JDJKCRX1QFF8T4h/Inb7pF3umo+06BQjjY9OrgAJOTXd/FA1jV8IXgKoQYUYpPIlTJGL8vDD5ulL+oQdT4G8dH3n24mmOqtDFqnZafPU43N3xjazRl+VHd0s6MsJYnbwQT1BFsm6pBk4mKky8fK/5X/WD62kuofokgfRwXWe/BWp6XEwclX+flKicH0YKl3xL4eeYnntE4yHkKD6MbbLAVbk6WMtpPSfgEu8rD1PsWX/DDinbZK6VhSZf/vpyai/5Lew2UFJ8Ig5n3yscMFpltFBgANFLyW6Jem1zEgF2r2gxHYJwYerIHlKp/xy0qJ7t4mzRMKQoZBckzdNn+QGI+70kibv9K4pTtSiIQrIEBC8Qd26fi4RH8r0RdA57kg7d2TbDJMHyiYzuGmjS4/chU3JEPW6brnrhSYTvkQUaAcB2Gq18J3Z2VFj/l/ZMg5Dm/165aArk8=
   bucket: reva-assets
-  local-dir: assets
+  local-dir: _site/assets
   upload-dir: assets
   acl: public_read
   on:
