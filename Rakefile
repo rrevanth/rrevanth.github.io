@@ -151,7 +151,7 @@ task :publish => [:build] do
     status = system "rm -rf *"
     puts status ? "Success" : "Failed"
     puts "\n## Moving site to root folder"
-    status = system "cp -rf #{tmp}/* ."
+    status = system "mv #{tmp}/* ."
     puts status ? "Success" : "Failed"
     puts "\n## Adding files to be committed"
     message = "Site updated at #{Time.now.utc}"
@@ -170,10 +170,6 @@ task :publish => [:build] do
     status = system "git checkout source"
     puts status ? "Success" : "Failed"
     puts "\n## Published to master"
-    puts "\n## Moving site to root folder"
-    system "mkdir _site"
-    status = system "mv #{tmp}/* _site/"
-    puts status ? "Success" : "Failed"
   end
 end
 
