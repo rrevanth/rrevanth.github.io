@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/playlist/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2016-02-02T10:46:57+05:30</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>PLAYLIST</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>MongoDB Playlist</title><link href="http://rrevanth.github.io/videos/2015/12/mongodb-playlist/"/><published>2015-12-04T22:17:00+05:30</published><updated>2015-12-04T22:17:00+05:30</updated><id>http://rrevanth.github.io/videos/2015/12/mongodb-playlist/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/12/mongodb-playlist/">&lt;p&gt;Some playlists to learn MongoDB from beginner level to advance deployment stages.&lt;/p&gt;
+
+&lt;h4 id=&quot;this-will-go-through-basics-of-mongodb&quot;&gt;This will go through basics of MongoDB&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLC3y8-rFHvwh11bWtwm3_qKvo46uDmaal&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;this-will-give-you-insights-from-beginner-to-intermediate&quot;&gt;This will give you insights from beginner to intermediate.&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLIGDNOJWiL1-tPts6VCiUriv54_Kbl2V3&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;You can skip initial videos which are already covered in above playlist&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;mongodb-disaster-recovery&quot;&gt;MongoDB disaster recovery&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLGOsbT2r-igm0GlwQVen8gnXnqv9B-9da&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;sharding-and-advance-clustering-setup-of-mongodb&quot;&gt;Sharding and Advance clustering setup of MongoDB&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;6140&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLtM80Cxh9BBI-ywZMZ9v5pdDp_IshBNHo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Learning Elm-Playlist</title><link href="http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/"/><published>2015-11-17T14:14:00+05:30</published><updated>2015-11-17T14:14:00+05:30</updated><id>http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/">&lt;div&gt;&lt;p&gt;Some playlists I found for learning Elm language by building a game.It explains in a step by step manner from noob mode to gawd mode.It is a little out dated and uses a older version of Elm but it helps for a solid understanding&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLtdCJGSpculbDT_p4ED9oLTJQrzoM1QEL&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry></feed>

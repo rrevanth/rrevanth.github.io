@@ -1,0 +1,168 @@
+callback([
+
+  {
+    "text": "Java Interview Questions",
+    "href": "http://rrevanth.github.io/reads/2015/02/javainterviewset"
+  } ,
+
+  {
+    "text": "Using Jekyll Plugins on Github Pages",
+    "href": "http://rrevanth.github.io/reads/2015/02/jekyllpluginsongithub"
+  } ,
+
+  {
+    "text": "SQL Queries - Reference",
+    "href": "http://rrevanth.github.io/reads/2015/02/sqlqueriescomplete"
+  } ,
+
+  {
+    "text": "Tags in Jekyll by Charlie Park",
+    "href": "http://rrevanth.github.io/reads/2015/02/tagsinjekyllcharlieparker"
+  } ,
+
+  {
+    "text": "Sql join queries - Interview questions",
+    "href": "http://rrevanth.github.io/reads/2015/02/joinssqlinterview"
+  } ,
+
+  {
+    "text": "Bash Snippets",
+    "href": "http://rrevanth.github.io/blog/2015/03/bashsnippets"
+  } ,
+
+  {
+    "text": "Python Snippets",
+    "href": "http://rrevanth.github.io/blog/2015/03/pythonsnippets"
+  } ,
+
+  {
+    "text": "SailsJS Pros & Cons",
+    "href": "http://rrevanth.github.io/blog/2015/03/sailsjs_study"
+  } ,
+
+  {
+    "text": "My Experience with Unity",
+    "href": "http://rrevanth.github.io/blog/2015/03/unityGameDev"
+  } ,
+
+  {
+    "text": "Facebook open sources Augmented Traffic Control",
+    "href": "http://rrevanth.github.io/reads/2015/03/facebookltesimulate"
+  } ,
+
+  {
+    "text": "TED Talk about Sixth Sense",
+    "href": "http://rrevanth.github.io/videos/2015/03/tedtalkpranavmistery"
+  } ,
+
+  {
+    "text": "Comparing Node.js Frameworks: Express, Hapi, LoopBack, Sailsjs and Meteor",
+    "href": "http://rrevanth.github.io/videos/2015/03/comparenodejsframeworks"
+  } ,
+
+  {
+    "text": "Automate Jekyll Blog to Github with Travis CI",
+    "href": "http://rrevanth.github.io/blog/2015/11/jekyllRakeTravisCI"
+  } ,
+
+  {
+    "text": "Editing Jekyll Posts With Prose",
+    "href": "http://rrevanth.github.io/blog/2015/11/editing-jekyll-posts-with-prose"
+  } ,
+
+  {
+    "text": "Learning Elm-Playlist",
+    "href": "http://rrevanth.github.io/videos/2015/11/learning-elm-playlist"
+  } ,
+
+  {
+    "text": "Using Phoenix with Mongo",
+    "href": "http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo"
+  } ,
+
+  {
+    "text": "Phoenix with Elm",
+    "href": "http://rrevanth.github.io/reads/2015/11/phoenix-with-elm"
+  } ,
+
+  {
+    "text": "Phoenix with Elm - Alex Gardner",
+    "href": "http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner"
+  } ,
+
+  {
+    "text": "Phoenix Resources",
+    "href": "http://rrevanth.github.io/reads/2015/11/phoenix-resources"
+  } ,
+
+  {
+    "text": "Javascript References",
+    "href": "http://rrevanth.github.io/reads/2015/11/javascript-references"
+  } ,
+
+  {
+    "text": "Alchemy-Opensource AI",
+    "href": "http://rrevanth.github.io/reads/2015/11/alchemy-opensource-ai"
+  } ,
+
+  {
+    "text": "Sticky links",
+    "href": "http://rrevanth.github.io/reads/2015/11/sticky-links"
+  } ,
+
+  {
+    "text": "Elm Resources",
+    "href": "http://rrevanth.github.io/reads/2015/11/elm-resources"
+  } ,
+
+  {
+    "text": "Phoenix Framework Getting Started",
+    "href": "http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted"
+  } ,
+
+  {
+    "text": "Elementary Contracts",
+    "href": "http://rrevanth.github.io/blog/2015/12/elementary-contracts"
+  } ,
+
+  {
+    "text": "MongoDB Playlist",
+    "href": "http://rrevanth.github.io/videos/2015/12/mongodb-playlist"
+  } ,
+
+  {
+    "text": "GraphQL introduction",
+    "href": "http://rrevanth.github.io/videos/2015/12/graphql-introduction"
+  } ,
+
+  {
+    "text": "Embed Ejabberd in Phoenix App",
+    "href": "http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app"
+  } ,
+
+  {
+    "text": "Onestop for Detailed Tutorials",
+    "href": "http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials"
+  } ,
+
+  {
+    "text": "Getting Started with Tensorflow",
+    "href": "http://rrevanth.github.io/reads/2015/12/getting-started-with-tensorflow"
+  } ,
+
+  {
+    "text": "Getting started with GraphQL",
+    "href": "http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql"
+  } ,
+
+  {
+    "text": "Landmark Algorithm for Graph Isomorphism",
+    "href": "http://rrevanth.github.io/reads/2015/12/landmark-algorithm-for-graph-isomorphism"
+  } ,
+
+  {
+    "text": "RSS feeds for each Tags - Jekyll",
+    "href": "http://rrevanth.github.io/blog/2016/01/rss-feeds-for-each-tags-jekyll"
+  } 
+
+])

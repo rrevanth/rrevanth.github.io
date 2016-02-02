@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/contract/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2016-02-02T10:46:57+05:30</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>CONTRACT</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Elementary Contracts</title><link href="http://rrevanth.github.io/blog/2015/12/elementary-contracts/"/><published>2015-12-02T01:41:00+05:30</published><updated>2015-12-02T01:41:00+05:30</updated><id>http://rrevanth.github.io/blog/2015/12/elementary-contracts/</id><content type="html" xml:base="http://rrevanth.github.io/blog/2015/12/elementary-contracts/">&lt;p&gt;This post contains exhaustive contracts that will be useful for elementary OS. You can use this on ubuntu also,but needs to change the exec command to open appropriate applications.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;open-terminal-in-current-directory&quot;&gt;Open terminal in current directory&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Summon ShellGod Here
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;terminal
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Open &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;terminal
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;inode;application/x-sh;application/x-executable;
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-terminal -w %U
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-terminal&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;open-folder-as-root&quot;&gt;Open folder as Root&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Summon Root on Folder
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-files
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Open current folder as root privilege
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;inode;
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;gksudo pantheon-files %U
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-files&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;open-file-as-root&quot;&gt;Open file as Root&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Summon Root on File
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;scratch-text-editor
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;open file as root with subl
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;text
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;gksudo subl %U
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;subl&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;media-info---video&quot;&gt;Media Info - Video&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Media info
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;video
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;media info
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;video
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;gnome-terminal --window-with-profile&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;new1 -e &lt;span class=&quot;s2&quot;&gt;&quot;mediainfo -i %f&quot;&lt;/span&gt;
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-files &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;media-info---audio&quot;&gt;Media Info - Audio&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Media info
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;video
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;media info
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;audio
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;gnome-terminal --window-with-profile&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;new1 -e &lt;span class=&quot;s2&quot;&gt;&quot;mediainfo -i %f&quot;&lt;/span&gt;
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-files  &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;extract-ogg-from-webm&quot;&gt;Extract Ogg from Webm&lt;/h3&gt;
+
+&lt;p&gt;install parallel prior to this&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Contractor Entry]
+&lt;span class=&quot;nv&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Extract audio
+&lt;span class=&quot;nv&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/share/icons/hicolor/128x128/apps/multimedia-audio-player.svg
+&lt;span class=&quot;nv&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Extract audio
+&lt;span class=&quot;nv&quot;&gt;MimeType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;video/webm
+&lt;span class=&quot;nv&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-terminal -e &lt;span class=&quot;s2&quot;&gt;&quot;parallel avconv -i &#39;{}&#39; -map 0:1 -c:a copy &#39;{}.ogg&#39; ::: %F&quot;&lt;/span&gt;
+Gettext-Domain&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pantheon-files&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</content></entry></feed>

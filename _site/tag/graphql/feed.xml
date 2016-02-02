@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/graphql/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2016-02-02T10:46:57+05:30</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>GRAPHQL</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Getting started with GraphQL</title><link href="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/"/><published>2015-12-16T20:13:00+05:30</published><updated>2015-12-16T20:13:00+05:30</updated><id>http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/">&lt;p&gt;GraphQL makes it easy for fetching the data models for client side developers and easy for server side developers to maintain the endpoints which will also be drastically minimized because of graphQL&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://facebook.github.io/graphql/&quot;&gt;Official Page - GraphQL  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/chentsulin/awesome-graphql&quot;&gt;Awesome GraphQL Repositories  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you prefer videos rather than reading through long posts.You can start here :
+&lt;a class=&quot;embedly-card&quot; href=&quot;/videos/2015/12/graphql-introduction&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>GraphQL introduction</title><link href="http://rrevanth.github.io/videos/2015/12/graphql-introduction/"/><published>2015-12-09T20:00:00+05:30</published><updated>2015-12-09T20:00:00+05:30</updated><id>http://rrevanth.github.io/videos/2015/12/graphql-introduction/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/12/graphql-introduction/">&lt;p&gt;GraphQL is a data query language designed for product developers. This talk will discuss where it came from, why it’s powerful, and how it as a horizontal platform fits into the open source ecosystem of software that Facebook is building.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/LQFQl8EsV3k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;you-can-also-look-for-further-references-in-this-post-&quot;&gt;You can also look for further references in this post :&lt;/h5&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;/reads/2015/12/getting-started-with-graphql&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry></feed>
