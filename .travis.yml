@@ -25,7 +25,9 @@ notifications:
     - revanth001reva@gmail.com
     on_success: change
     on_failure: always
-before_deploy: "bundle exec rake build"
+before_deploy: 
+- bundle install --path vendor/bundle
+- bundle exec rake build
 deploy:
   provider: s3
   access_key_id: AKIAIXSM4R22FSNYNUVA
