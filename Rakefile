@@ -64,9 +64,9 @@ end
 
 desc "Gzipping assets"
 task :compress do
-  puts "\## Gzipping css assets"
-  status = system("gzip -9 _site/assets/css/*")
-  puts status ? "Success" : "Failed"
+  # puts "\## Gzipping css assets"
+  # status = system("gzip -9 _site/assets/css/*")
+  # puts status ? "Success" : "Failed"
   puts "\## Gzipping js assets"
   status = system("gzip -9 _site/assets/js/*")
   puts status ? "Success" : "Failed"
