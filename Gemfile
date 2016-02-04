@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 group :jekyll_plugins do
+    gem 'i18n'
     gem 'rake'
     gem 'reduce'
     gem 'jemoji'

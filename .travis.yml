@@ -16,6 +16,8 @@ before_install:
 - git config user.email "revanth001reva@gmail.com"
 - git remote set-url origin git@github.com:rrevanth/rrevanth.github.io.git
 - git remote -v
+after-install:
+- bundle install --jobs=3 --retry=3 --path=${BUNDLE_PATH:-vendor/bundle}
 script:
 - bundle exec rake
 notifications:
