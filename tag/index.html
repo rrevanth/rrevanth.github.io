@@ -6,8 +6,8 @@ title: Tag View
 {% assign sortedtags = tags | split:',' | sort %}
 <div>
 <center>
-    <div id="s-tag-button" class='s-tags-toggle' style="font-size:15px">Show Tags</div>
-    <div id="s-tags-div">
+    <div id="s-tag-button" class='s-tags-toggle' style="font-size:15px;background-color:#ad141e;color:white;">Click on a tag to get all related articles</div>
+    <div>
         <!-- <button id="goog-wm-sb" class="search-tags" value='{{tag}}' >{{ tag }}</button> -->
         {% for tag in sortedtags %}
             <a style="margin:2rem;" id="s-tag-button" class="search-tags" href="{{tag}}" >{{ tag }}</a>
@@ -15,17 +15,3 @@ title: Tag View
     </div>
 </center>
 </div>
-<script>
-$(document).ready(function() {
-
-  $('.s-tags-toggle').on('click',function() {
-      $('#s-tags-div').toggle();
-      if ($(".s-tags-toggle").text() == "Hide Tags") {
-          $(".s-tags-toggle").text("Show Tags");
-      }
-      else {
-          $(".s-tags-toggle").text("Hide Tags");
-      }
-    });
-});
-</script>
