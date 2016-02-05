@@ -19,6 +19,7 @@ title: "Phoenix - Elixir : Places to look"
 
 
 
+
 These are all the best places I can find for the solutions on phoenix and elixir in general.
 
 
@@ -56,3 +57,4 @@ This really helps boost your project setting up elm,phoenix and webpack.
 Here, there will be updates of any new projects,developments and posts related to elixir!
 
 <a class="embedly-card" href="https://elixirstatus.com/">Elixir Status  <i class="fa fa-external-link"></i></a>
+<!--more-->
