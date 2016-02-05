@@ -60,6 +60,9 @@ task :minify do
       end
   end
   puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
+  puts "\## Moving main css to _include"
+  status = system("rm _includes/main.css && cp _site/css/main.css _includes/")
+  puts status ? "Success" : "Failed"
 end
 
 desc "Gzipping assets"
@@ -120,6 +123,8 @@ task :run, :env do |t, args|
         Rake::Task["delete"].invoke
         Rake::Task["generate"].invoke
         Rake::Task["minify"].invoke
+        Rake::Task["generate"].invoke
+        Rake::Task["minify"].invoke  # Needed for loading moved css file again,otherwise css changes won't reflect
         Rake::Task["preview"].invoke
     end
 end
