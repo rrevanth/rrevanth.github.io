@@ -17,11 +17,13 @@ excerpt_separator: "<!--more-->"
 title: "Phoenix - Elixir : Places to look"
 ---
 
-
-
-
 These are all the best places I can find for the solutions on phoenix and elixir in general.
 
+### Elixir Status
+
+Here, there will be updates of any new projects,developments and posts related to elixir!
+
+<a class="embedly-card" href="https://elixirstatus.com/">Elixir Status  <i class="fa fa-external-link"></i></a>
 
 ### Configuring phoenix with Webpack rather than Brunch
 
@@ -52,9 +54,8 @@ This really helps boost your project setting up elm,phoenix and webpack.
 <a class="embedly-card" href="http://terakilobyte.com/using-webpack-with-phoenix-and-elm/">Using Webpack with Phoenix and Elm
   <i class="fa fa-external-link"></i></a>
 
-### Elixir Status
+### Building Trello clone with Phoenx and React
 
-Here, there will be updates of any new projects,developments and posts related to elixir!
+<a class="embedly-card" href="https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1">Trello clone with Phoenix and React  <i class="fa fa-external-link"></i></a>
 
-<a class="embedly-card" href="https://elixirstatus.com/">Elixir Status  <i class="fa fa-external-link"></i></a>
 <!--more-->
