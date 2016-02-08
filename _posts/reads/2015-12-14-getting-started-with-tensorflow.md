@@ -1,9 +1,9 @@
 ---
 categories: reads
 category: reads
+published: true
 author: Revanth Revoori
 layout: readpost
-published: true
 date: "2015-12-14 20:16 +0530"
 tags: 
   - read
@@ -19,7 +19,8 @@ title: Getting Started with Tensorflow
 
 
 
-Tensor Flow is AI library for numerical computations using data flow graphs.It is opensourced by google recently.
+
+Tensor Flow is  AI i.e., artificial intelligence library for numerical computations using data flow graphs.It is opensourced by google recently.
 
 <a class="embedly-card" href="https://www.tensorflow.org/">Official Page  <i class="fa fa-external-link"></i></a>
 
