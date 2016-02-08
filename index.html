@@ -39,7 +39,6 @@ title: Blog
 	    "name" : "Revanth Revoori"
 	  },
 	  "datePublished" : "{{ post.date }}",
-	  "articleSection" : "{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} . . .",
 	  "url" : "{{ post.url }}"
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
