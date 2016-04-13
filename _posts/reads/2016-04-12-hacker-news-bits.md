@@ -20,7 +20,8 @@ excerpt_separator: "<!--more-->"
 title: Hacker News Bits
 ---
 
-#Hackernews bookmarks - 12th April 2016 :
+
+# Hackernews bookmarks - 12th April 2016 :
 
 ### Keras: Deep Learning library for Theano and TensorFlow
 
