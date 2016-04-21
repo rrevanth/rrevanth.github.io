@@ -61,6 +61,10 @@ This really helps boost your project setting up elm,phoenix and webpack.
 
 ## Other related blog posts :
 
+### Post Reads
+
+<a class="embedly-card" href="http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html">Elixir Posts  <i class="fa fa-external-link"></i></a>
+
 ### Learning Elixir Blog
 <a class="embedly-card" href="http://learningelixir.joekain.com/posts/">Learning Elixir Blog  <i class="fa fa-external-link"></i></a>
 
