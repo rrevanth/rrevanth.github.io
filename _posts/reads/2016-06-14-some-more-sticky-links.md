@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 categories: reads
 category: reads
 author: Revanth Revoori
