@@ -15,12 +15,12 @@ tags:
   - link
 excerpt_separator: <!--more-->
 ---
-## Some more sticky notes
 
-###### This is collection of articles one must read to be a better programmer
+
+### This is collection of articles one must read to be a better programmer
 
 <a class="embedly-card" href="http://danluu.com/programming-blogs/">Modest list of programming blogs  <i class="fa fa-external-link"></i></a>
 
-###### Machine learning for hackers ;) . What's more you need :-D
+### Machine learning for hackers ;) . What's more you need :-D
 
 <a class="embedly-card" href="http://autumnai.com/leaf/book/leaf.html">Leaf - Machine Learning for Hackers  <i class="fa fa-external-link"></i></a>
