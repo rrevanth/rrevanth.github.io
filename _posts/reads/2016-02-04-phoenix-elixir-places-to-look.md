@@ -4,8 +4,8 @@ category: reads
 published: true
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-04 10:00 +0530"
-tags: 
+date: '2016-02-04 10:00 +0530'
+tags:
   - read
   - elixir
   - phoenix
@@ -13,8 +13,8 @@ tags:
   - resource
   - elm
   - webpack
-excerpt_separator: "<!--more-->"
-title: "Phoenix - Elixir : Places to look"
+excerpt_separator: <!--more-->
+title: 'Phoenix - Elixir : Places to look'
 ---
 
 
@@ -60,6 +60,11 @@ This really helps boost your project setting up elm,phoenix and webpack.
 <a class="embedly-card" href="https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1">Trello clone with Phoenix and React  <i class="fa fa-external-link"></i></a>
 
 ## Other related blog posts :
+
+
+### High Performance Browser Networking
+
+<a class="embedly-card" href="https://hpbn.co//">Elixir Status  <i class="fa fa-external-link"></i></a>
 
 ### Post Reads
 
