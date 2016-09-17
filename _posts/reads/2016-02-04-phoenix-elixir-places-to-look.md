@@ -62,9 +62,7 @@ This really helps boost your project setting up elm,phoenix and webpack.
 ## Other related blog posts :
 
 
-### High Performance Browser Networking
-
-<a class="embedly-card" href="https://hpbn.co//">Elixir Status  <i class="fa fa-external-link"></i></a>
+<a class="embedly-card" href="https://hpbn.co//">High Performance Browser Networking  <i class="fa fa-external-link"></i></a>
 
 ### Post Reads
 
