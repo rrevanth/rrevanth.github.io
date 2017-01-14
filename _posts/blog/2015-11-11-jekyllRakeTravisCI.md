@@ -114,7 +114,7 @@ Encrypt the SSH key to generate **deploy_key.enc**.
 This should modify your .travis.yml file adding the openssh keys to before_install property like this
 
 > before_install:
-> - openssl aes-256-cbc -K {blah blah blah}
+> openssl aes-256-cbc -K {blah blah blah}
 
 {% highlight ruby linenos=table %}
 

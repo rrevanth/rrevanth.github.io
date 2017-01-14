@@ -9,7 +9,7 @@ exclude_from_search: true
 <center>
 <h1> You Imbecile. Here are 3 of my latests posts: </h1>
 
-{% for post in site.posts | limit: 3 %}
+{% for post in site.posts limit: 3 %}
     <br><a class="title" href="{{ post.url }}">{{ post.title }}</a><br>
 {% endfor %}
 
