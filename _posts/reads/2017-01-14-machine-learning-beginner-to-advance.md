@@ -25,3 +25,7 @@ This is like awesome-ml curated list of my own findings :)
 ### Course Series Resources
 <a class="embedly-card" href="https://www.quora.com/What-is-the-best-MOOC-to-get-started-in-Machine-Learning/answer/Xavier-Amatriain?srid=3cks">Quora answer to video series getting started  <i class="fa fa-external-link"></i></a>
 
+### Other Resources :
+https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info
+http://simplystatistics.org/archive/
+https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
