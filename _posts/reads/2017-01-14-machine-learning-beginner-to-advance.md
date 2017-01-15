@@ -29,3 +29,4 @@ This is like awesome-ml curated list of my own findings :)
 https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info
 http://simplystatistics.org/archive/
 https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
+https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/
