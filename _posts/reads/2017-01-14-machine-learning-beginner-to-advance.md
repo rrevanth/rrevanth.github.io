@@ -24,13 +24,13 @@ This is like awesome-ml curated list of my own findings :)
 
 ### Course Series Resources
 
-[Stanford Lectures - Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info)
+<a class="embedly-card" href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info">Stanford Lectures - Statistical Learning  <i class="fa fa-external-link"></i></a>
 
 <a class="embedly-card" href="https://www.quora.com/What-is-the-best-MOOC-to-get-started-in-Machine-Learning/answer/Xavier-Amatriain?srid=3cks">Quora answer to video series getting started  <i class="fa fa-external-link"></i></a>
 
 ### __Other Resources__
-[Resources on Statistics](http://simplystatistics.org/archive/)
+<a class="embedly-card" href="http://simplystatistics.org/archive/">Resources on Statistics  <i class="fa fa-external-link"></i></a>
 
-[Resources on ML & R](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+<a class="embedly-card" href="https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/">Resources on ML & R  <i class="fa fa-external-link"></i></a>
 
-[Resources on ML,Statistics](https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/)
+<a class="embedly-card" href="https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/">Resources on ML,Statistics  <i class="fa fa-external-link"></i></a>
