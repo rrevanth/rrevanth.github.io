@@ -22,6 +22,10 @@ This is like awesome-ml curated list of my own findings :)
 
 <a class="embedly-card" href="http://www.svm-tutorial.com/2016/09/convex-functions/">SVM Understanding the math-Series  <i class="fa fa-external-link"></i></a>
 
+### Deep Learning
+
+<a class="embedly-card" href="https://iamtrask.github.io/2017/01/15/pytorch-tutorial/">Deep Learning in PyTorch  <i class="fa fa-external-link"></i></a>
+
 ### Course Series Resources
 
 <a class="embedly-card" href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info">Stanford Lectures - Statistical Learning  <i class="fa fa-external-link"></i></a>
