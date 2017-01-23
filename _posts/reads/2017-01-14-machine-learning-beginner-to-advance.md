@@ -63,3 +63,5 @@ This is like awesome-ml curated list of my own findings :)
 <a class="embedly-card" href="https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/">Resources on ML & R  <i class="fa fa-external-link"></i></a>
 
 <a class="embedly-card" href="https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/">Resources on ML,Statistics  <i class="fa fa-external-link"></i></a>
+
+<a class="embedly-card" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">Books to read on ML,AI  <i class="fa fa-external-link"></i></a>
