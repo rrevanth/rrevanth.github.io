@@ -26,6 +26,12 @@ This is like awesome-ml curated list of my own findings :)
 
 <a class="embedly-card" href="http://www.stat.cmu.edu/~siva/700/main.html">Probability and Mathematical Statistics  <i class="fa fa-external-link"></i></a>
 
+--------------------------------
+## Machine Learning
+--------------------------------
+
+<a class="embedly-card" href="https://work.caltech.edu/telecourse.html#lectures">Learning from Data  <i class="fa fa-external-link"></i></a>
+
 <a class="embedly-card" href="http://www.cs.cmu.edu/~tom/10701_sp11/">Machine Learning  <i class="fa fa-external-link"></i></a>
 
 --------------------------------
