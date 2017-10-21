@@ -7,6 +7,8 @@ layout: blogpost
 date: '2017-10-20 19:31 -0500'
 excerpt_separator: <!--more-->
 title: Machine Learning Series
+tags:
+  - blog
 ---
 <!-- ---
 layout: blogpost
