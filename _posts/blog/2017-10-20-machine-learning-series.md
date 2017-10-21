@@ -1,7 +1,7 @@
 ---
 categories: blog
 category: blog
-published: true
+published: false
 author: Revanth Revoori
 layout: blogpost
 date: '2017-10-20 19:31 -0500'
@@ -28,4 +28,4 @@ categories: ml
 
 ### Supervised Learning:
 
-- 
+-
