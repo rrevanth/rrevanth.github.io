@@ -158,6 +158,8 @@ task :publish => [:build] do
     puts "\n## Moving site to root folder"
     status = system "mv #{tmp}/* ."
     puts status ? "Success" : "Failed"
+    status = system "echo \"revanthrevoori.com\" > CNAME"
+    puts status ? "Success" : "Failed"
     puts "\n## Adding files to be committed"
     message = "Site updated at #{Time.now.utc}"
     status = system "git add ."
