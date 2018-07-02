@@ -46,7 +46,13 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{: #2 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\techItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-6pt}}
   }
 }
 
@@ -55,7 +61,7 @@
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-10pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -77,21 +83,25 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{http://revanthrevoori.com}{\Large Revanth Revoori}} & \href{mailto:revanth@revanthrevoori.com}{\faEnvelope\hspace{.1cm}\textbf{revanth@revanthrevoori.com}}\\
   \href{http://revanthrevoori.com}{\faGlobe}\hspace{.2cm}
-  \href{https://github.com/rrevanth}{\faGithub}\hspace{.2cm}
-  \href{https://www.linkedin.com/in/revanthrevoori/}{\faLinkedin}\hspace{.2cm}
-  \href{https://stackoverflow.com/users/1445818/5ud0}{\faStackOverflow}\hspace{.2cm}
+  \href{https://github.com/rrevanth}{\faGithubSquare}\hspace{.2cm}
+  \href{https://www.linkedin.com/in/revanthrevoori/}{\faLinkedinSquare}\hspace{.2cm}
   & \href{tel:16089603424}{\faPhone\hspace{.1cm}+1-608-960-3424} \\
 \end{tabular*}
 
+%-----------SUMMARY-----------------
+\section{Summary}
+      {An engineer at heart, passionate about emerging technological solutions and scaling products. A strong team player and an individual contributor on the lookout for a role that makes me a better engineer and value creator.}
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-          {Indian Institute of Technology Kharagpur}{Kharagpur, India}
-      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{July. 2009 -- July. 2013}
-  \resumeSubHeadingListEnd
-
+%-----------SUMMARY-----------------
+\section{Programming Skills}
+    \resumeItemListStart
+        \techItem{Languages}
+          {Python, Java, C++, C\#, Javascript, Elixir, Cache[akin to Python]}
+        \techItem{Databases}
+          {HBase, MySQL, Postgres, MongoDB}
+        \techItem{Technologies}
+          {Hadoop 2.0, Spark, Cascalog, Thrift, Kafka, Redis, AWS, Angular, Phoenix, GraphQL}
+    \resumeItemListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -99,72 +109,67 @@
 
     \resumeSubheading
       {Epic Systems}{Madison, WI}
-      {Software Engineer}{Oct 2016 - Present}
+      {Software Engineer, Tech Lead}{Oct 2016 - Present}
       \resumeItemListStart
-        \resumeItem{Web Migration}
-          {Migrated various admin work-flows from existing VB project using in-house web framework.}
+        \resumeItem{UCL Transport}
+          {Developed a new sync mechanism in \textbf{Cache} which enables incoming transactions to be synced between deployments effectively eliminating manual edits on 70k transactions/day in Kaiser's installation. Developed rollback, resync triggers for admin to control the workflow. Enabled metric logging for better tracking transaction status.}
+        \resumeItem{Recommendations}
+          {Developing Active learning \textbf{ML} model using \textbf{Python, Cache} for suggesting charges for providers based on their past data. Built preference lists based on recommendation for easy access.}
         \resumeItem{Social Care Financials}
-          {Played crucial role in building framework to support health care in finland for Apotti.}
+          {Responsible for all router modules in \$500M project for Finland integration of Epic. Developed a new web service with SLA in \textbf{Cache} to enable integration with third party vendors to improve latency. Doubled utilization in 4 months. This project made a big leap in making system open to other systems and received significant recognition in community.}
+        \resumeItem{Web Migration}
+          {Migrated admin work-flows from VB to web using \textbf{C\#, Typescript}. Customized internal framework modules to improve latency in data-binding mechanism.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Livastar}{Hyderabad, India}
-      {Lead Software Engineer}{May 2015 - August 2016}
+      {Senior Software Engineer}{May 2015 - August 2016}
       \resumeItemListStart
         \resumeItem{Scaling}
-          {Owned scalability project to scale the system leveraging aws products and made several infrastructure changes resulting in decreasing the pageload time under two seconds.}
-      \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Implemented features such as order notifications, delivery tracking. Built an internal web app to run batch campaigns for marketing etc.}
-        \resumeItem{Nucleus}
-          {Built an internal dashboards to get overviews of revenue, delivery costs. Developed a plug-and-play system for integration delivery network in to fulfillment work flow.}
-        \resumeItem{Comet}
-          {Insight dashboards for marketing team to track cost per consumer, advertising costs, advertising efficiency. Developed an internal survey platform which allowed to create various tasks for embedding surveys across the platform and in emails.}
+          {Scaled the architecture leveraging \textbf{AWS} and re-wrote modules to be more efficient at runtime, and take advantage of static type checking provided by Facebook \textbf{Hack}.}
+      \resumeItem{Marketing}
+          {Built product in \textbf{PHP, React} to get overviews of revenue, delivery optimisation. 
+          Built marketing modules that enabled customer retention like service notifications, email marketing tools and batch campaigns.}
+        \resumeItem{Delivery}
+            {Developed a plug-and-play system for integration delivery network easing integration of new delivery vendor in few clicks. Automated tracking mechanism and sending revenue report to respective people for follow up and credits. Created service that automates network matching so end user can create delivery label at button click}
         \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Livastar, currently used on the homepage and throughout the content discovery process.}
+          {Core service for all recommendation systems at Livastar using \textbf{Python, Collaborative filtering}, used on the homepage and throughout the content discovery process of user.}
         \resumeItem{Mobile API}
           {Built a core service for complete e-commerce api including recommendations which is used for mobile app development. Features include delivery time optimization, order tracking, product availability notifications.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {GridAnts}{Bangalore, India}
+      {\href{https://www.livemint.com/Companies/BRloDferl057Vh4EcuXffM/Myntra-acquires-Bangalorebased-startup-Cubeit.html}{GridAnts/Cubeit}}{Bangalore, India}
       {Full Stack Developer}{Dec 2014 - Febuary 2015}
       \resumeItemListStart
         \resumeItem{Mac App}
-          {Developed Mac application by building a wrapper around product based on the Django.}
+          {Developed Mac application by building a wrapper around product based on the \textbf{Python, Django}.}
         \resumeItem{Pivot}
           {Involved in various brain storming sessions \& product development during pivot.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Digital Quotient, Hindustan Times Media}{Gurgaon, India}
+      {Digital Quotient}{Gurgaon, India}
       {Data Scientist}{May 2014 - Dec 2014}
       \resumeItemListStart
+        \resumeItem{Core Architecture}
+          {Worked on \textbf{Hadoop 2.0 architecture} to develop mobile analytics platform for Android, iOS \& windows mobile applications using \textbf{NodeJS, Thrift, Java}. Improved cluster security using \textbf{Kerberos \& Nagios}.}
         \resumeItem{Uninstall Source}
-        {Developed mobile analytics similar to Google Analytics. Patented tech for developing uninstall source for an app in addition to implementing the install source pattern developed by Hasoffers(currently Tune).}
+        {Developed a patented tech for mobile analytics which is first to track uninstall source for an app in addition to implementing generic feature set.}
         \resumeItem{Schema Redesign}
-          {Redesigned the storage schema in \textbf{HDFS}, to provide flexibility in analyzing user events. Improved system performance by parameter tuning Hadoop system solving issues like huge-small file problem along the way.}
-        \resumeItem{Data Collection}
-          {Implemented stable robust back end based on Lambda architecture leveraging Thrift, Kafka for data serialization and processing. }
-        \resumeItem{Query Performance}
-          {Improved the execution speed of \textbf{Jcascalog} queries by four fold from redesigned layered queries, removing the redundant computations.}
+          {Designed schema in \textbf{Apache Thrift} \& Implemented Map Reduce jobs to store \textbf{Big Data} in {HDFS}. Improved the execution speed of \textbf{Jcascalog} queries by four fold from redesigned layered queries, removing the redundant computations.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------------
-\section{Projects \& Achievements}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Samsung Internship}
-      {Worked on open source hand writing recognition software, Cellwriter to automatically train initial data required to recognize generic hand written text. Got an appreciation from manager and a pre-placement offer for the work.}
-    \resumeSubItem{Material Management System}
-      {Worked on a product that solves scalable material \& inventory management in multi-chain eshtablishments during the break in 2013-2014. The product was successfully launched and generated considerable revenue.}
-    \resumeSubItem{Recommendation System}
-      {Built product recommender systems using collaborative filtering on public datasets as side project during Livastar which later integrated in to Nucleus.}
-    \resumeSubItem{Merits}
-      {Among the 99.99 percentile in IIT-JEE 2009 with 509 All India Rank out of 0.4 million.}
-    \resumeSubItem{Developer Setup}
-      {Contributed to github projects for developer setup such as dotfiles, zshmarks.}
-  \resumeSubHeadingListEnd
+% %-----------PROJECTS-----------------
+% \section{Projects \& Achievements}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{Recommendation System}
+%       {Built product recommender systems using collaborative filtering on public datasets as side project during Livastar which later integrated in to Nucleus.}
+%     \resumeSubItem{Merits}
+%       {Among the 99.99 percentile in IIT-JEE 2009 with 509 All India Rank out of 0.4 million.}
+%   \resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
@@ -177,6 +182,13 @@
 %    }
 %  \resumeSubHeadingListEnd
 
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+          {Indian Institute of Technology Kharagpur}{Kharagpur, India}
+      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{July. 2009 -- May. 2013}
+  \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
