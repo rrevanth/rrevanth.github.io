@@ -1,22 +1,19 @@
 ---
-categories: blog
-category: blog
-published: false
+title: Elm - Table of Contents
+date: 2016-01-11 02:11:00 Z
+categories:
+- blog
+tags:
+- blog
+- elm
+- language
+- series
+- learning
+- resource
 author: Revanth Revoori
 layout: blogpost
-date: "2016-01-11 07:41 +0530"
-tags: 
-  - blog
-  - elm
-  - language
-  - series
-  - learning
-  - resource
 excerpt_separator: "<!--more-->"
-title: "Elm - Table of Contents"
 ---
-
-
 
 Elm is the most awaited language for frontend and it gives exactly what we need.It rethinks every possible hole that needs to be filled and the developer of elm takes careful consideration of the feedback of developers and puts value in to it's development.Instead of compiling in to javascript,the language is superfast[even faster than react].
 

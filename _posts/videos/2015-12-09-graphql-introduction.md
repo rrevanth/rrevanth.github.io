@@ -1,23 +1,17 @@
 ---
-categories: videos
-category: videos
+title: GraphQL introduction
+date: 2015-12-09 14:30:00 Z
+categories:
+- videos
+tags:
+- video
+- graphql
+- learning
+- language
 author: Revanth Revoori
 layout: videopost
-published: true
-date: "2015-12-09 20:00 +0530"
-tags: 
-  - video
-  - graphql
-  - learning
-  - language
 excerpt_separator: "<!--more-->"
-title: GraphQL introduction
 ---
-
-
-
-
-
 
 GraphQL is a data query language designed for product developers. This talk will discuss where it came from, why it's powerful, and how it as a horizontal platform fits into the open source ecosystem of software that Facebook is building.
 

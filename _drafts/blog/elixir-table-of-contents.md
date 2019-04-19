@@ -1,22 +1,19 @@
 ---
-categories: blog
-category: blog
-published: false
+title: Elixir Table of Contents
+date: 2015-12-22 11:30:00 Z
+categories:
+- blog
+tags:
+- blog
+- series
+- language
+- elixir
+- learning
+- resource
 author: Revanth Revoori
 layout: blogpost
-date: "2015-12-22 17:00 +0530"
-tags: 
-  - blog
-  - series
-  - language
-  - elixir
-  - learning
-  - resource
 excerpt_separator: "<!--more-->"
-title: Elixir Table of Contents
 ---
-
-
 
 I have been reading elixir from past few weeks and fell in love with it.I decided to put up a series about what I have learnt for references.
 

@@ -1,23 +1,18 @@
 ---
-categories: videos
-category: videos
+title: MongoDB Playlist
+date: 2015-12-04 16:47:00 Z
+categories:
+- videos
+tags:
+- video
+- mongo
+- database
+- learning
+- playlist
 author: Revanth Revoori
 layout: videopost
-published: true
-date: "2015-12-04 22:17 +0530"
-tags: 
-  - video
-  - mongo
-  - database
-  - learning
-  - playlist
 excerpt_separator: "<!--more-->"
-title: MongoDB Playlist
 ---
-
-
-
-
 
 Some playlists to learn MongoDB from beginner level to advance deployment stages.
 

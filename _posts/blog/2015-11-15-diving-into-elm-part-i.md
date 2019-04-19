@@ -1,19 +1,18 @@
 ---
-categories: blog
-category: blog
+title: Diving into Elm [Part I]
+date: 2015-11-15 10:25:00 Z
+published: false
+categories:
+- blog
+tags:
+- blog
+- elm
+- series
+- language
 author: Revanth Revoori
 layout: blogpost
-published: false
-date: "2015-11-15 15:55 +0530"
-tags: 
-  - blog
-  - elm
-  - series
-  - language
 excerpt_separator: "<!--more-->"
-title: "Diving into Elm [Part I]"
 ---
-
 
 Elm is having a lot of buzz lately because of it's great feature set like fast rendering [benchmark](http://evancz.github.io/todomvc-perf-comparison/),functional programming,crystal clear defining syntax and time travller debugger :thumbsup: .
 

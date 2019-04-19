@@ -1,16 +1,15 @@
 ---
-categories: reads
-category: reads
-published: true
+title: BigchainDB
+date: 2016-02-12 10:04:00 Z
+categories:
+- reads
+tags:
+- read
+- bigchain
+- database
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-12 15:34 +0530"
-tags: 
-  - read
-  - bigchain
-  - database
 excerpt_separator: "<!--more-->"
-title: BigchainDB
 ---
 
 A Database based on blockchain technology with ultra modern features.

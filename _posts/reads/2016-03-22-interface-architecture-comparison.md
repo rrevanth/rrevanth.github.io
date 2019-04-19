@@ -1,21 +1,19 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Interface Architecture comparison
+date: 2016-03-22 16:08:00 Z
+categories:
+- reads
+tags:
+- read
+- architecture
+- interface
+- elm
+- cyclejs
+- react
 author: Revanth Revoori
 layout: readpost
-date: "2016-03-22 21:38 +0530"
-tags: 
-  - read
-  - architecture
-  - interface
-  - elm
-  - cyclejs
-  - react
 excerpt_separator: "<!--more-->"
-title: Interface Architecture comparison
 ---
-
 
 This post differentiates different interface languages and their architectures :
 

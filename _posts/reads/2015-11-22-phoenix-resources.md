@@ -1,22 +1,17 @@
 ---
-categories: reads
-category: reads
+title: Phoenix Resources
+date: 2015-11-22 10:13:00 Z
+categories:
+- reads
+tags:
+- read
+- phoenix
+- learning
+- resource
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-22 15:43 +0530"
-tags: 
-  - read
-  - phoenix
-  - learning
-  - resource
 excerpt_separator: "<!--more-->"
-title: Phoenix Resources
 ---
-
-
-
-
 
 Collection of All Resources for learning Phoenix.
 

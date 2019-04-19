@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: References - C++
+date: 2016-04-12 12:32:00 Z
+categories:
+- reads
+tags:
+- read
+- C++
+- reference
+- algorithm
+- language
 author: Revanth Revoori
 layout: readpost
-date: "2016-04-12 18:02 +0530"
-tags: 
-  - read
-  - C++
-  - reference
-  - algorithm
-  - language
 excerpt_separator: "<!--more-->"
-title: "References - C++"
 ---
 
 Some reads and references for C++ :

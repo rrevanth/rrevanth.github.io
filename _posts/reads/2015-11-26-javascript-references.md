@@ -1,21 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Javascript References
+date: 2015-11-26 13:45:00 Z
+categories:
+- reads
+tags:
+- read
+- javascript
+- reference
+- resource
 author: Revanth Revoori
 layout: readpost
-date: "2015-11-26 19:15 +0530"
-tags: 
-  - read
-  - javascript
-  - reference
-  - resource
 excerpt_separator: "<!--more-->"
-title: Javascript References
 ---
-
-
-
 
 All the popular javascript resources and when to use which.
 

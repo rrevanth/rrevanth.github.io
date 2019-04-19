@@ -1,22 +1,20 @@
 ---
-categories: reads
-category: reads
+title: Phoenix with Elm
+date: 2015-11-19 16:18:00 Z
+categories:
+- reads
+tags:
+- read
+- phoenix
+- elm
+- series
+- language
+- learn
+- elixir
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-19 21:48 +0530"
-tags: 
-  - read
-  - phoenix
-  - elm
-  - series
-  - language
-  - learn
-  - elixir
 excerpt_separator: "<!--more-->"
-title: Phoenix with Elm
 ---
-
 
 This post series explains how to mix and match Phoenix with Elm and make developing feel great.
 

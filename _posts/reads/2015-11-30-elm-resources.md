@@ -1,21 +1,18 @@
 ---
-categories: reads
-category: reads
+title: Elm Resources
+date: 2015-11-30 09:26:00 Z
+categories:
+- reads
+tags:
+- read
+- elm
+- learning
+- language
+- resource
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-30 14:56 +0530"
-tags: 
-  - read
-  - elm
-  - learning
-  - language
-  - resource
 excerpt_separator: "<!--more-->"
-title: Elm Resources
 ---
-
-
 
 Some resources I read for learning Elm
 

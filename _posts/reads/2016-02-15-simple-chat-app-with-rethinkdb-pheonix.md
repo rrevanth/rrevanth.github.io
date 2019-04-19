@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Simple Chat App with rethinkdb & pheonix
+date: 2016-02-15 06:42:00 Z
+categories:
+- reads
+tags:
+- read
+- rethinkdb
+- chat
+- application
+- phoenix
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-15 12:12 +0530"
-tags: 
-  - read
-  - rethinkdb
-  - chat
-  - application
-  - phoenix
 excerpt_separator: "<!--more-->"
-title: "Simple Chat App with rethinkdb & pheonix"
 ---
 
 There is no official rethinkdb adapter for phoenix.But the community plug is very good and ready to be used in production.

@@ -1,21 +1,20 @@
 ---
-published: true
-categories: reads
-category: reads
+title: Some More Sticky Links
+date: 2016-06-14 04:30:00 Z
+categories:
+- reads
+tags:
+- read
+- leaf
+- machine_learning
+- ml
+- data_science
+- sticky_link
+- link
 author: Revanth Revoori
 layout: readpost
-date: '2016-06-14 10:00 +0530'
-tags:
-  - read
-  - leaf
-  - machine_learning
-  - ml
-  - data_science
-  - sticky_link
-  - link
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
-
 
 ### This is collection of articles one must read to be a better programmer
 

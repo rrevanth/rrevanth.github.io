@@ -1,19 +1,16 @@
 ---
-categories: blog
-category: blog
-published: true
+title: RSS feeds for each Tags - Jekyll
+date: 2016-01-27 09:49:00 Z
+categories:
+- blog
+tags:
+- blog
+- jekyll
+- rss
 author: Revanth Revoori
 layout: blogpost
-date: "2016-01-27 15:19 +0530"
-tags: 
-  - blog
-  - jekyll
-  - rss
 excerpt_separator: "<!--more-->"
-title: "RSS feeds for each Tags - Jekyll"
 ---
-
-
 
 [Jekyll](https://jekyllrb.com/ "Jekyll") is a very popular and very powerful static blog generator. Out of the box it’s able to generate sophisticated site structures, and has a ton of configurability. One of the areas where I feel that Jekyll lacks some sophistication is around the handling of categories and tags; these are two data-sets that are core <!--more-->to Jekyll, but there isn’t a lot of functionality actually built around them.
 

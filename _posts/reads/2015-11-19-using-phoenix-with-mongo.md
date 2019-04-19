@@ -1,22 +1,20 @@
 ---
-categories: reads
-category: reads
+title: Using Phoenix with Mongo
+date: 2015-11-19 16:04:00 Z
+categories:
+- reads
+tags:
+- read
+- phoenix
+- mongo
+- language
+- tutorial
+- learn
+- elixir
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-19 21:34 +0530"
-tags: 
-  - read
-  - phoenix
-  - mongo
-  - language
-  - tutorial
-  - learn
-  - elixir
 excerpt_separator: "<!--more-->"
-title: Using Phoenix with Mongo
 ---
-
 
 If you’re brand new to Phoenix then I would suggest going through [Phoenix](http://www.phoenixframework.org/).You can also read this [book](https://pragprog.com/book/phoenix/programming-phoenix) from Pragmatic Bookshelf.
 

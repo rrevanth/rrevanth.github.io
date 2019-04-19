@@ -1,24 +1,20 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Getting Started with Tensorflow
+date: 2015-12-14 14:46:00 Z
+categories:
+- reads
+tags:
+- read
+- framework
+- tensorflow
+- learning
+- ai
+- data_science
+- artificial_intelligence
 author: Revanth Revoori
 layout: readpost
-date: "2015-12-14 20:16 +0530"
-tags: 
-  - read
-  - framework
-  - tensorflow
-  - learning
-  - ai
-  - data_science
-  - artificial_intelligence
 excerpt_separator: "<!--more-->"
-title: Getting Started with Tensorflow
 ---
-
-
-
 
 Tensor Flow is  AI i.e., artificial intelligence library for numerical computations using data flow graphs.It is opensourced by google recently.
 

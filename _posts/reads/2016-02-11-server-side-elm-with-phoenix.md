@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Server Side Elm with Phoenix
+date: 2016-02-11 18:09:00 Z
+categories:
+- reads
+tags:
+- read
+- elm
+- phoenix
+- render
+- server
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-11 23:39 +0530"
-tags: 
-  - read
-  - elm
-  - phoenix
-  - render
-  - server
 excerpt_separator: "<!--more-->"
-title: Server Side Elm with Phoenix
 ---
 
 Server side rendering of view files of elm with phoenix on server

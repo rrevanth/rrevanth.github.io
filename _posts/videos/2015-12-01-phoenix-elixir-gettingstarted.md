@@ -1,22 +1,18 @@
 ---
-categories: videos
-category: videos
+title: Phoenix Framework Getting Started
+date: 2015-12-01 11:12:00 Z
+categories:
+- videos
+tags:
+- video
+- phoenix
+- elixir
+- language
+- framework
 author: Revanth Revoori
 layout: videopost
-published: true
-date: "2015-12-01 16:42 +0530"
-tags: 
-  - video
-  - phoenix
-  - elixir
-  - language
-  - framework
 excerpt_separator: "<!--more-->"
-title: Phoenix Framework Getting Started
 ---
-
-
-
 
 <div><p>Phoenix in Action and some introduction videos</p></div>
 

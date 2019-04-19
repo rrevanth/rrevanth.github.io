@@ -1,19 +1,17 @@
 ---
-categories: reads
-category: reads
+title: Alchemy-Opensource AI
+date: 2015-11-27 13:32:00 Z
+categories:
+- reads
+tags:
+- read
+- alchemy
+- ai
+- opensource
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-27 19:02 +0530"
-tags: 
-  - read
-  - alchemy
-  - ai
-  - opensource
 excerpt_separator: "<!--more-->"
-title: "Alchemy-Opensource AI"
 ---
-
 
 Alchemy is opensource AI project from washington edu.You can read more about Alchemy here.
 

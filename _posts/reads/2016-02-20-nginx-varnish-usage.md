@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Nginx & Varnish Usage
+date: 2016-02-20 13:00:00 Z
+categories:
+- reads
+tags:
+- read
+- nginx
+- varnish
+- usage
+- resource
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-20 18:30 +0530"
-tags: 
-  - read
-  - nginx
-  - varnish
-  - usage
-  - resource
 excerpt_separator: "<!--more-->"
-title: "Nginx & Varnish Usage"
 ---
 
 Posts for using nginx & varnish

@@ -1,19 +1,18 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Hackernews Bits - 13216
+date: 2016-02-13 13:27:00 Z
+categories:
+- reads
+tags:
+- read
+- mjml
+- einstein
+- parity
+- framework
+- language
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-13 18:57 +0530"
-tags: 
-  - read
-  - mjml
-  - einstein
-  - parity
-  - framework
-  - language
 excerpt_separator: "<!--more-->"
-title: "Hackernews Bits - 13216"
 ---
 
 Interesting bits and frameworks I found on hackernews for future read :

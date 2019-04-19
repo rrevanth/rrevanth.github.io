@@ -1,23 +1,20 @@
 ---
-categories: videos
-category: videos
+title: Phoenix with Elm - Alex Gardner
+date: 2015-11-19 16:20:00 Z
+categories:
+- videos
+tags:
+- video
+- phoenix
+- elm
+- framework
+- language
+- elixir
+- erlang
 author: Revanth Revoori
 layout: videopost
-published: true
-date: "2015-11-19 21:50 +0530"
-tags: 
-  - video
-  - phoenix
-  - elm
-  - framework
-  - language
-  - elixir
-  - erlang
 excerpt_separator: "<!--more-->"
-title: "Phoenix with Elm - Alex Gardner"
 ---
-
-
 
 In this video Alex Gardner explains how to integrate Phoenix with Elm both of which are ground breaking frameworks of this era with ambitious benchmarks that are to be set and doing a great.You can also go through detailed series by him on through here [Phoenix with Elm]({% post_url 2015-11-19-phoenix-with-elm %})
 

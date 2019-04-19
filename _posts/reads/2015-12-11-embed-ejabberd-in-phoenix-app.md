@@ -1,21 +1,19 @@
 ---
-categories: reads
-category: reads
+title: Embed Ejabberd in Phoenix App
+date: 2015-12-11 11:25:00 Z
+categories:
+- reads
+tags:
+- read
+- elixir
+- phoenix
+- ejabberd
+- webapp
+- learning
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-12-11 16:55 +0530"
-tags: 
-  - read
-  - elixir
-  - phoenix
-  - ejabberd
-  - webapp
-  - learning
 excerpt_separator: "<!--more-->"
-title: Embed Ejabberd in Phoenix App
 ---
-
 
 Embedding Ejabberd into phoenix application to have a realtime messaging feature in our App.
 

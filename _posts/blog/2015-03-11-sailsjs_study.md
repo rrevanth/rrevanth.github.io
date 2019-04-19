@@ -1,19 +1,17 @@
 ---
-categories: blog
-category: blog
+title: SailsJS Pros & Cons
+date: 2015-03-11 23:14:34 Z
+categories:
+- blog
+tags:
+- blog
+- sailsjs
+- startup
+- study
 author: Revanth Revoori
 layout: blogpost
-title: "SailsJS Pros & Cons"
-date: "Wed Mar 11 2015 23:14:34 GMT+0530 (IST)"
-tags: 
-  - blog
-  - sailsjs
-  - startup
-  - study
-published: true
 excerpt_separator: "<!--more-->"
 ---
-
 
 I have been researching on developing a web app.I have gone through various sites for the technology stack to rely on.It seems using Python Django or Flask is good to go methods since they already have large userbase,documentation and well developed frameworks.
 

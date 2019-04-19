@@ -1,25 +1,23 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Hacker News Bits
+date: 2016-04-12 12:43:00 Z
+categories:
+- reads
+tags:
+- read
+- deep_learning
+- language
+- f#
+- lua
+- resource
+- hacker_news
+- machine_learning
+- python
+- keras
 author: Revanth Revoori
 layout: readpost
-date: "2016-04-12 18:13 +0530"
-tags: 
-  - read
-  - deep_learning
-  - language
-  - "f#"
-  - lua
-  - resource
-  - hacker_news
-  - machine_learning
-  - python
-  - keras
 excerpt_separator: "<!--more-->"
-title: Hacker News Bits
 ---
-
 
 # Hackernews bookmarks - 12th April 2016 :
 

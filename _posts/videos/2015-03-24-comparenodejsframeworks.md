@@ -1,15 +1,14 @@
 ---
-categories: videos
-category: videos
+title: 'Comparing Node.js Frameworks: Express, Hapi, LoopBack, Sailsjs and Meteor'
+date: 2015-03-24 23:14:34 Z
+categories:
+- videos
+tags:
+- video
+- framework
+- nodejs
 author: Revanth Revoori
 layout: videopost
-title: "Comparing Node.js Frameworks: Express, Hapi, LoopBack, Sailsjs and Meteor"
-date: "Tue Mar 24 2015 23:14:34 GMT+0530 (IST)"
-tags: 
-  - video
-  - framework
-  - nodejs
-published: true
 excerpt_separator: "<!--more-->"
 ---
 

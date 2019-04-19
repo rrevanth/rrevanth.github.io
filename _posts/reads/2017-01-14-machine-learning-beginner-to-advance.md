@@ -1,19 +1,19 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Machine Learning Beginner to Advance
+date: 2017-01-14 19:06:00 Z
+categories:
+- reads
+tags:
+- read
+- ml
+- svm
+- series
+- resources
 author: Revanth Revoori
 layout: readpost
-date: '2017-01-14 13:06 -0600'
-excerpt_separator: <!--more-->
-title: Machine Learning Beginner to Advance
-tags:
-  - read
-  - ml
-  - svm
-  - series
-  - resources
+excerpt_separator: "<!--more-->"
 ---
+
 > I will be sharing every post that I read small to big here which deemed interesting and helps me grasp a better understanding on the particulat topic of Machine Learning concept.
 This is like awesome-ml curated list of my own findings :)
 {: .notequote}

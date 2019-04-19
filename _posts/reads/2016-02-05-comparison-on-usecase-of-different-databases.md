@@ -1,20 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Comparison on usecase of different databases
+date: 2016-02-05 16:29:00 Z
+categories:
+- reads
+tags:
+- read
+- database
+- comparison
+- usecase
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-05 21:59 +0530"
-tags: 
-  - read
-  - database
-  - comparison
-  - usecase
 excerpt_separator: "<!--more-->"
-title: Comparison on usecase of different databases
 ---
-
-
 
 This is a really helpful post on all the popular databases,their descriptions and the use cases.
 

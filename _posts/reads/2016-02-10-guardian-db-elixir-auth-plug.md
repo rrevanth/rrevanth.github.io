@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Guardian DB Elixir Auth Plug
+date: 2016-02-10 15:24:00 Z
+categories:
+- reads
+tags:
+- read
+- elixir
+- auth
+- jwt
+- guardian
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-10 20:54 +0530"
-tags: 
-  - read
-  - elixir
-  - auth
-  - jwt
-  - guardian
 excerpt_separator: "<!--more-->"
-title: Guardian DB Elixir Auth Plug
 ---
 
 This is a excellent minimal authentication plug module for elixir goes well with uberauth.

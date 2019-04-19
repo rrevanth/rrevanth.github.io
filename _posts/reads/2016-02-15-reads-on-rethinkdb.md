@@ -1,18 +1,17 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Reads on RethinkDB
+date: 2016-02-15 06:46:00 Z
+categories:
+- reads
+tags:
+- read
+- rethinkdb
+- database
+- postgres
+- plugin
 author: Revanth Revoori
 layout: readpost
-date: "2016-02-15 12:16 +0530"
-tags: 
-  - read
-  - rethinkdb
-  - database
-  - postgres
-  - plugin
 excerpt_separator: "<!--more-->"
-title: Reads on RethinkDB
 ---
 
 RethinkDB is a open source realtime nosql database like Mongo but packed with several interesting features like changefeeds,realtime updates etc.

@@ -1,19 +1,17 @@
 ---
-categories: reads
-category: reads
+title: Onestop for Detailed Tutorials
+date: 2015-12-12 14:23:00 Z
+categories:
+- reads
+tags:
+- read
+- language
+- learning
+- framework
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-12-12 19:53 +0530"
-tags: 
-  - read
-  - language
-  - learning
-  - framework
 excerpt_separator: "<!--more-->"
-title: Onestop for Detailed Tutorials
 ---
-
 
 I always find myself wanting to learn a language or framework.Although they are many enriched blog posts and great docs,I do not know where to start it.
 

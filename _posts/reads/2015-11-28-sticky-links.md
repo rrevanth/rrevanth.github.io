@@ -1,23 +1,18 @@
 ---
-categories: reads
-category: reads
+title: Sticky links
+date: 2015-11-28 09:34:00 Z
+categories:
+- reads
+tags:
+- read
+- es6
+- erlang
+- http2
+- note
 author: Revanth Revoori
 layout: readpost
-published: true
-date: "2015-11-28 15:04 +0530"
-tags: 
-  - read
-  - es6
-  - erlang
-  - http2
-  - note
 excerpt_separator: "<!--more-->"
-title: Sticky links
 ---
-
-
-
-
 
 This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived after some time.
 

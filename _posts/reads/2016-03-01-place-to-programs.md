@@ -1,20 +1,18 @@
 ---
-categories: reads
-category: reads
-published: true
+title: Place to programs
+date: 2016-03-01 05:19:00 Z
+categories:
+- reads
+tags:
+- read
+- language
+- elixir
+- programming
+- practice
 author: Revanth Revoori
 layout: readpost
-date: "2016-03-01 10:49 +0530"
-tags: 
-  - read
-  - language
-  - elixir
-  - programming
-  - practice
 excerpt_separator: "<!--more-->"
-title: Place to programs
 ---
-
 
 Some places to practice for simple problems for grasping patterns in a language
 

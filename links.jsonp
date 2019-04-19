@@ -1,5 +1,6 @@
 ---
 ---
+
 callback([
 {% assign sorted = (site.posts | sort: title) %}
 {% for post in sorted %}

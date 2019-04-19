@@ -1,15 +1,16 @@
 ---
-categories: blog
-category: blog
+title: Machine Learning Series
+date: 2017-10-21 00:31:00 Z
 published: false
+categories:
+- blog
+tags:
+- blog
 author: Revanth Revoori
 layout: blogpost
-date: '2017-10-20 19:31 -0500'
-excerpt_separator: <!--more-->
-title: Machine Learning Series
-tags:
-  - blog
+excerpt_separator: "<!--more-->"
 ---
+
 <!-- ---
 layout: blogpost
 title:  "Machine Learning Introduction"

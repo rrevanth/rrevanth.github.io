@@ -1,22 +1,19 @@
 ---
-categories: blog
-category: blog
+title: Automate Jekyll Blog to Github with Travis CI
+date: 2015-11-11 23:14:34 Z
+categories:
+- blog
+tags:
+- blog
+- jekyll
+- rake
+- travis
+- deploy
+- automate
 author: Revanth Revoori
 layout: blogpost
-published: true
-title: Automate Jekyll Blog to Github with Travis CI
-date: "Wed Nov 11 2015 23:14:34 GMT+0530 (IST)"
-tags: 
-  - blog
-  - jekyll
-  - rake
-  - travis
-  - deploy
-  - automate
 excerpt_separator: "<!--more-->"
 ---
-
-
 
 In addition to supporting regular HTML content, GitHub Pages supports Jekyll, a simple, blog-aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers some other advanced templating features.
 
