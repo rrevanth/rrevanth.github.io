@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/svm/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>SVM</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Machine Learning Beginner to Advance</title><link href="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/"/><published>2017-01-14T19:06:00+00:00</published><updated>2017-01-14T19:06:00+00:00</updated><id>http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/">&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;I will be sharing every post that I read small to big here which deemed interesting and helps me grasp a better understanding on the particulat topic of Machine Learning concept.
+This is like awesome-ml curated list of my own findings :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;understanding-statistics&quot;&gt;Understanding Statistics&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~larry/=stat705/&quot;&gt;Intermediate Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~siva/700/main.html&quot;&gt;Probability and Mathematical Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://work.caltech.edu/telecourse.html#lectures&quot;&gt;Learning from Data  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cs.cmu.edu/~tom/10701_sp11/&quot;&gt;Machine Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;svm-support-vector-machines&quot;&gt;SVM [Support Vector Machines]&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.svm-tutorial.com/2016/09/convex-functions/&quot;&gt;SVM Understanding the math-Series  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://iamtrask.github.io/2017/01/15/pytorch-tutorial/&quot;&gt;Deep Learning in PyTorch  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;course-series-resources&quot;&gt;Course Series Resources&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info&quot;&gt;Stanford Lectures - Statistical Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.quora.com/What-is-the-best-MOOC-to-get-started-in-Machine-Learning/answer/Xavier-Amatriain?srid=3cks&quot;&gt;Quora answer to video series getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;other-resources&quot;&gt;&lt;strong&gt;Other Resources&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://simplystatistics.org/archive/&quot;&gt;Resources on Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/&quot;&gt;Resources on ML &amp;amp; R  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/&quot;&gt;Resources on ML,Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/&quot;&gt;Books to read on ML,AI  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</content></entry></feed>

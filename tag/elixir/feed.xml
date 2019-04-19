@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/elixir/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>ELIXIR</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Place to programs</title><link href="http://rrevanth.github.io/reads/2016/03/place-to-programs/"/><published>2016-03-01T05:19:00+00:00</published><updated>2016-03-01T05:19:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/place-to-programs/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/place-to-programs/">&lt;p&gt;Some places to practice for simple problems for grasping patterns in a language&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://adventofcode.com/&quot;&gt;Advent of Code  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://exercism.io/&quot;&gt;Exercism  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Elixometer - Metrics for Elixr</title><link href="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/"/><published>2016-03-01T03:48:00+00:00</published><updated>2016-03-01T03:48:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/">&lt;p&gt;Elixometer is a metric collector for elixir applications which collects info from various part of the applications and displays nice graphical view of performance.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://alexgaribay.com/2016/02/27/using-elixometer-with-phoenix/&quot;&gt;Using Elixometer With Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+</content></entry><entry><title>Guardian DB Elixir Auth Plug</title><link href="http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/"/><published>2016-02-10T15:24:00+00:00</published><updated>2016-02-10T15:24:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/">&lt;p&gt;This is a excellent minimal authentication plug module for elixir goes well with uberauth.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://hassox.github.io/archive.html&quot;&gt;Guardian Auth Blog Posts  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix - Elixir : Places to look</title><link href="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/"/><published>2016-02-04T04:30:00+00:00</published><updated>2016-02-04T04:30:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/">&lt;p&gt;These are all the best places I can find for the solutions on phoenix and elixir in general.&lt;/p&gt;
+
+&lt;h3 id=&quot;elixir-status&quot;&gt;Elixir Status&lt;/h3&gt;
+
+&lt;p&gt;Here, there will be updates of any new projects,developments and posts related to elixir!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://elixirstatus.com/&quot;&gt;Elixir Status  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;configuring-phoenix-with-webpack-rather-than-brunch&quot;&gt;Configuring phoenix with Webpack rather than Brunch&lt;/h3&gt;
+
+&lt;p&gt;React people like webpack since it goes really well with all of it’s modules with minimal setup.This explains how to replace brunch with webpack&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://manukall.de/2015/05/01/automatically-building-your-phoenix-assets-with-webpack/&quot;&gt;Automatically Building Your Phoenix Assets With Webpack  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://matthewlehner.net/using-webpack-with-phoenix-and-elixir/&quot;&gt;Using Webpack with Phoenix and Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dockyard-articles-exlir-and-phoenix&quot;&gt;Dockyard Articles Exlir and Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Some of these articles are written by Chris McCord who wrote phoenix framework and maintaining it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/phoenix&quot;&gt;Articles on Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/elixir&quot;&gt;Articles on Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-elm-with-phoenix&quot;&gt;Setting up Elm with Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Elm is elixir for frontend and they both go along really well.This is a 3 min read article about how to mix and match both together!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://medium.com/@diamondgfx/setting-up-elm-with-phoenix-be3a9f55bac2#.f0l76zm89&quot;&gt;Setting up Elm with Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;elm-phoenix-and-webpack&quot;&gt;Elm, Phoenix and Webpack&lt;/h3&gt;
+
+&lt;p&gt;This really helps boost your project setting up elm,phoenix and webpack.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://terakilobyte.com/using-webpack-with-phoenix-and-elm/&quot;&gt;Using Webpack with Phoenix and Elm
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-trello-clone-with-phoenx-and-react&quot;&gt;Building Trello clone with Phoenx and React&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1&quot;&gt;Trello clone with Phoenix and React  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-related-blog-posts-&quot;&gt;Other related blog posts :&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://hpbn.co//&quot;&gt;High Performance Browser Networking  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;post-reads&quot;&gt;Post Reads&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html&quot;&gt;Elixir Posts  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-elixir-blog&quot;&gt;Learning Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://learningelixir.joekain.com/posts/&quot;&gt;Learning Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-elixir-blog&quot;&gt;Learn Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elixir.bagwanpankaj.com/&quot;&gt;Learn Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Embed Ejabberd in Phoenix App</title><link href="http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/"/><published>2015-12-11T11:25:00+00:00</published><updated>2015-12-11T11:25:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/">&lt;p&gt;Embedding Ejabberd into phoenix application to have a realtime messaging feature in our App.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.process-one.net/embedding-ejabberd-into-an-elixir-phoenix-web-application/&quot;&gt;Embed Ejabberd in Phoenix App  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix Framework Getting Started</title><link href="http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/"/><published>2015-12-01T11:12:00+00:00</published><updated>2015-12-01T11:12:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/">&lt;div&gt;&lt;p&gt;Phoenix in Action and some introduction videos&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLODEHBWx9Tr6HKczGyCoDWZjsw6G9Ewpw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix with Elm - Alex Gardner</title><link href="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/"/><published>2015-11-19T16:20:00+00:00</published><updated>2015-11-19T16:20:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/">&lt;p&gt;In this video Alex Gardner explains how to integrate Phoenix with Elm both of which are ground breaking frameworks of this era with ambitious benchmarks that are to be set and doing a great.You can also go through detailed series by him on through here &lt;a href=&quot;/reads/2015/11/phoenix-with-elm&quot;&gt;Phoenix with Elm&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/MgFDZx1LmOE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix with Elm</title><link href="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/"/><published>2015-11-19T16:18:00+00:00</published><updated>2015-11-19T16:18:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/">&lt;p&gt;This post series explains how to mix and match Phoenix with Elm and make developing feel great.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cultivatehq.com/posts/phoenix-elm-1/&quot;&gt;Phoenix With Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Using Phoenix with Mongo</title><link href="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/"/><published>2015-11-19T16:04:00+00:00</published><updated>2015-11-19T16:04:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/">&lt;p&gt;If you’re brand new to Phoenix then I would suggest going through &lt;a href=&quot;http://www.phoenixframework.org/&quot;&gt;Phoenix&lt;/a&gt;.You can also read this &lt;a href=&quot;https://pragprog.com/book/phoenix/programming-phoenix&quot;&gt;book&lt;/a&gt; from Pragmatic Bookshelf.&lt;/p&gt;
+
+&lt;p&gt;That said,Phoenix added Mongo Ecto Adapter recently.I have not found any posts that are updated.This post is the most updated that I can found.&lt;/p&gt;
+
+&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;If anyone finds one that is updated,post the link in comment :smile:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://wsmoak.net/2015/08/31/phoenix-ecto-mongodb.html&quot;&gt;Phoenix With Mongo  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry></feed>

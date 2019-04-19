@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/rethinkdb/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>RETHINKDB</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Reads on RethinkDB</title><link href="http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/"/><published>2016-02-15T06:46:00+00:00</published><updated>2016-02-15T06:46:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/">&lt;p&gt;RethinkDB is a open source realtime nosql database like Mongo but packed with several interesting features like changefeeds,realtime updates etc.&lt;/p&gt;
+
+&lt;p&gt;Posts that I find useful for learning and while implementing rethinkdb in different projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://rethinkdb.com/blog/postgres-foreign-data-wrapper/&quot;&gt;Query RethinkDB tables from PostgreSQL with foreign data wrappers
+ &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Simple Chat App with rethinkdb &amp; pheonix</title><link href="http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/"/><published>2016-02-15T06:42:00+00:00</published><updated>2016-02-15T06:42:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/">&lt;p&gt;There is no official rethinkdb adapter for phoenix.But the community plug is very good and ready to be used in production.&lt;/p&gt;
+
+&lt;p&gt;This post illustrates how to create a simple chat application using phoenix and rethinkdb :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://manukall.de/2015/04/25/building-a-simple-chat-app-in-elixir-with-phoenix-and-rethinkdb/&quot;&gt;Simple Chat App in Elixir With Phoenix and RethinkDB  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry></feed>

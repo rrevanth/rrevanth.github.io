@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/read/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>READ</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Machine Learning Beginner to Advance</title><link href="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/"/><published>2017-01-14T19:06:00+00:00</published><updated>2017-01-14T19:06:00+00:00</updated><id>http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance/">&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;I will be sharing every post that I read small to big here which deemed interesting and helps me grasp a better understanding on the particulat topic of Machine Learning concept.
+This is like awesome-ml curated list of my own findings :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;understanding-statistics&quot;&gt;Understanding Statistics&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~larry/=stat705/&quot;&gt;Intermediate Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~siva/700/main.html&quot;&gt;Probability and Mathematical Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://work.caltech.edu/telecourse.html#lectures&quot;&gt;Learning from Data  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cs.cmu.edu/~tom/10701_sp11/&quot;&gt;Machine Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;svm-support-vector-machines&quot;&gt;SVM [Support Vector Machines]&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.svm-tutorial.com/2016/09/convex-functions/&quot;&gt;SVM Understanding the math-Series  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://iamtrask.github.io/2017/01/15/pytorch-tutorial/&quot;&gt;Deep Learning in PyTorch  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;course-series-resources&quot;&gt;Course Series Resources&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info&quot;&gt;Stanford Lectures - Statistical Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.quora.com/What-is-the-best-MOOC-to-get-started-in-Machine-Learning/answer/Xavier-Amatriain?srid=3cks&quot;&gt;Quora answer to video series getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;other-resources&quot;&gt;&lt;strong&gt;Other Resources&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://simplystatistics.org/archive/&quot;&gt;Resources on Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/&quot;&gt;Resources on ML &amp;amp; R  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/&quot;&gt;Resources on ML,Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/&quot;&gt;Books to read on ML,AI  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Bugbounty resources</title><link href="http://rrevanth.github.io/reads/2016/09/bugbounty-resources/"/><published>2016-09-02T04:22:00+00:00</published><updated>2016-09-02T04:22:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/09/bugbounty-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/09/bugbounty-resources/">&lt;h2 id=&quot;herei-am-gonna-list-all-the-resources-im-gonna-find-on-bug-bounty-that-would-be-helpful&quot;&gt;Here,I am gonna list all the resources i’m gonna find on bug bounty that would be helpful&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://introvertmac.wordpress.com/bug-bounty-resources/&quot;&gt;Bug Bounty resources  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Learners Digest</title><link href="http://rrevanth.github.io/reads/2016/07/learners-digest/"/><published>2016-07-31T06:55:00+00:00</published><updated>2016-07-31T06:55:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/07/learners-digest/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/07/learners-digest/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.railstutorial.org/book&quot;&gt;RubyonRails best getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.scipy-lectures.org/&quot;&gt;Python for DataScience (SciPy Lecture Notes)  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+</content></entry><entry><title>Some More Sticky Links</title><link href="http://rrevanth.github.io/reads/2016/06/some-more-sticky-links/"/><published>2016-06-14T04:30:00+00:00</published><updated>2016-06-14T04:30:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/06/some-more-sticky-links/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/06/some-more-sticky-links/">&lt;h3 id=&quot;this-is-collection-of-articles-one-must-read-to-be-a-better-programmer&quot;&gt;This is collection of articles one must read to be a better programmer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://danluu.com/programming-blogs/&quot;&gt;Modest list of programming blogs  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;machine-learning-for-hackers---whats-more-you-need--d&quot;&gt;Machine learning for hackers ;) . What’s more you need :-D&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://autumnai.com/leaf/book/leaf.html&quot;&gt;Leaf - Machine Learning for Hackers  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Hacker News Bits</title><link href="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/"/><published>2016-04-12T12:43:00+00:00</published><updated>2016-04-12T12:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/hacker-news-bits/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/">&lt;h1 id=&quot;hackernews-bookmarks---12th-april-2016-&quot;&gt;Hackernews bookmarks - 12th April 2016 :&lt;/h1&gt;
+
+&lt;h3 id=&quot;keras-deep-learning-library-for-theano-and-tensorflow&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://keras.io/&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://starlight.paulcuth.me.uk/docs/embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-an-os-in-rust&quot;&gt;Writing an OS in Rust&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://os.phil-opp.com/&quot;&gt;Writing an OS in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics-for-software&quot;&gt;Statistics for Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.paypal-engineering.com/2016/04/11/statistics-for-software/&quot;&gt;Statistics for Software  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;free-book-on-deep-learning&quot;&gt;Free Book on Deep Learning&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.deeplearningbook.org/&quot;&gt;Free Book on Deep Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started-with-f&quot;&gt;Getting started with F#&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://jj09.net/getting-started-with-fsharp/&quot;&gt;Getting started with F#  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>References - C++</title><link href="http://rrevanth.github.io/reads/2016/04/references-c/"/><published>2016-04-12T12:32:00+00:00</published><updated>2016-04-12T12:32:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/references-c/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/references-c/">&lt;p&gt;Some reads and references for C++ :&lt;/p&gt;
+
+&lt;h3 id=&quot;bloom-filters-in-c&quot;&gt;Bloom Filters in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/&quot;&gt;How to write a Bloom filter in C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jit-for-c&quot;&gt;JIT for C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.jyt.io/&quot;&gt;Jyt is a just-in-time compiler for C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;32bit-integer-compression-algorithms-in-c&quot;&gt;32bit integer compression algorithms in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://upscaledb.com/0012-32bit-integer-compression-algorithms-part2.html&quot;&gt;32bit integer compression algorithms  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>ML-Stciky Links</title><link href="http://rrevanth.github.io/reads/2016/03/ml-theory/"/><published>2016-03-23T02:03:00+00:00</published><updated>2016-03-23T02:03:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/ml-theory/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/ml-theory/">&lt;p&gt;ML references&lt;/p&gt;
+
+&lt;p&gt;Machine Learning in theory :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide&quot;&gt;Machine Learning: An In-Depth, Non-Technical Guide
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://ml.berkeley.edu/blog/&quot;&gt;Machine Learning - Berkeley Blog
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://yerevann.com/a-guide-to-deep-learning/&quot;&gt;A Guide to Deep Learning
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.r2d3.us/visual-intro-to-machine-learning-part-1/&quot;&gt;A Visual Introduction to Machine Learning
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://dk-techlogic.blogspot.com/2012/05/best-machine-learning-resources.html&quot;&gt;Some more links
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Interface Architecture comparison</title><link href="http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison/"/><published>2016-03-22T16:08:00+00:00</published><updated>2016-03-22T16:08:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison/">&lt;p&gt;This post differentiates different interface languages and their architectures :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://staltz.com/unidirectional-user-interface-architectures.html&quot;&gt;UNIDIRECTIONAL USER INTERFACE ARCHITECTURES
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Place to programs</title><link href="http://rrevanth.github.io/reads/2016/03/place-to-programs/"/><published>2016-03-01T05:19:00+00:00</published><updated>2016-03-01T05:19:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/place-to-programs/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/place-to-programs/">&lt;p&gt;Some places to practice for simple problems for grasping patterns in a language&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://adventofcode.com/&quot;&gt;Advent of Code  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://exercism.io/&quot;&gt;Exercism  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Elixometer - Metrics for Elixr</title><link href="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/"/><published>2016-03-01T03:48:00+00:00</published><updated>2016-03-01T03:48:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/">&lt;p&gt;Elixometer is a metric collector for elixir applications which collects info from various part of the applications and displays nice graphical view of performance.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://alexgaribay.com/2016/02/27/using-elixometer-with-phoenix/&quot;&gt;Using Elixometer With Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+</content></entry><entry><title>Nginx &amp; Varnish Usage</title><link href="http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/"/><published>2016-02-20T13:00:00+00:00</published><updated>2016-02-20T13:00:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/">&lt;p&gt;Posts for using nginx &amp;amp; varnish&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/&quot;&gt;Nginx: a caching, thumbnailing, reverse proxying image server? &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://info.varnish-software.com/blog/using-varnish-cache-secured-aws-s3-gateway&quot;&gt;USING VARNISH CACHE AS A SECURED AWS S3 GATEWAY &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Reads on RethinkDB</title><link href="http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/"/><published>2016-02-15T06:46:00+00:00</published><updated>2016-02-15T06:46:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/reads-on-rethinkdb/">&lt;p&gt;RethinkDB is a open source realtime nosql database like Mongo but packed with several interesting features like changefeeds,realtime updates etc.&lt;/p&gt;
+
+&lt;p&gt;Posts that I find useful for learning and while implementing rethinkdb in different projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://rethinkdb.com/blog/postgres-foreign-data-wrapper/&quot;&gt;Query RethinkDB tables from PostgreSQL with foreign data wrappers
+ &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Simple Chat App with rethinkdb &amp; pheonix</title><link href="http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/"/><published>2016-02-15T06:42:00+00:00</published><updated>2016-02-15T06:42:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/simple-chat-app-with-rethinkdb-pheonix/">&lt;p&gt;There is no official rethinkdb adapter for phoenix.But the community plug is very good and ready to be used in production.&lt;/p&gt;
+
+&lt;p&gt;This post illustrates how to create a simple chat application using phoenix and rethinkdb :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://manukall.de/2015/04/25/building-a-simple-chat-app-in-elixir-with-phoenix-and-rethinkdb/&quot;&gt;Simple Chat App in Elixir With Phoenix and RethinkDB  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Hackernews Bits - 13216</title><link href="http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/"/><published>2016-02-13T13:27:00+00:00</published><updated>2016-02-13T13:27:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/">&lt;p&gt;Interesting bits and frameworks I found on hackernews for future read :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.pitt.edu/~jdnorton/Goodies/Zurich_Notebook/&quot;&gt;Einstein’s Zurich Notebook  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://ethcore.io/parity.html&quot;&gt;Parity - Ethereum client written in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://mjml.io/&quot;&gt;MJML - Responsive Email framework  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>BigchainDB</title><link href="http://rrevanth.github.io/reads/2016/02/bigchaindb/"/><published>2016-02-12T10:04:00+00:00</published><updated>2016-02-12T10:04:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/bigchaindb/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/bigchaindb/">&lt;p&gt;A Database based on blockchain technology with ultra modern features.&lt;/p&gt;
+
+&lt;p&gt;It is said to have the capicity for 1M w/s,linear scaling and others.&lt;/p&gt;
+
+&lt;p&gt;Thing to lookout to in future:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.bigchaindb.com/&quot;&gt;Bigchain Database  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Server Side Elm with Phoenix</title><link href="http://rrevanth.github.io/reads/2016/02/server-side-elm-with-phoenix/"/><published>2016-02-11T18:09:00+00:00</published><updated>2016-02-11T18:09:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/server-side-elm-with-phoenix/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/server-side-elm-with-phoenix/">&lt;p&gt;Server side rendering of view files of elm with phoenix on server&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.overstuffedgorilla.com/server-side-elm-with-phoenix/&quot;&gt;Server side Elm with Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Guardian DB Elixir Auth Plug</title><link href="http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/"/><published>2016-02-10T15:24:00+00:00</published><updated>2016-02-10T15:24:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/guardian-db-elixir-auth-plug/">&lt;p&gt;This is a excellent minimal authentication plug module for elixir goes well with uberauth.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://hassox.github.io/archive.html&quot;&gt;Guardian Auth Blog Posts  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Comparison on usecase of different databases</title><link href="http://rrevanth.github.io/reads/2016/02/comparison-on-usecase-of-different-databases/"/><published>2016-02-05T16:29:00+00:00</published><updated>2016-02-05T16:29:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/comparison-on-usecase-of-different-databases/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/comparison-on-usecase-of-different-databases/">&lt;p&gt;This is a really helpful post on all the popular databases,their descriptions and the use cases.&lt;/p&gt;
+
+&lt;p&gt;These are the databases that are compared in the post:&lt;/p&gt;
+
+&lt;p&gt;Redis , Cassandra , MongoDB , Elastic Search , CouchDB , HBase , Accumulo , Hypertable , OrientDB , Neo4j , Couchbase , Riak , Scalaris , VoltDB , Aerospike , Kyoto Tycoon , RethinkDB&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis/&quot;&gt;Database Comparison &amp;amp; Usecases  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix - Elixir : Places to look</title><link href="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/"/><published>2016-02-04T04:30:00+00:00</published><updated>2016-02-04T04:30:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/">&lt;p&gt;These are all the best places I can find for the solutions on phoenix and elixir in general.&lt;/p&gt;
+
+&lt;h3 id=&quot;elixir-status&quot;&gt;Elixir Status&lt;/h3&gt;
+
+&lt;p&gt;Here, there will be updates of any new projects,developments and posts related to elixir!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://elixirstatus.com/&quot;&gt;Elixir Status  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;configuring-phoenix-with-webpack-rather-than-brunch&quot;&gt;Configuring phoenix with Webpack rather than Brunch&lt;/h3&gt;
+
+&lt;p&gt;React people like webpack since it goes really well with all of it’s modules with minimal setup.This explains how to replace brunch with webpack&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://manukall.de/2015/05/01/automatically-building-your-phoenix-assets-with-webpack/&quot;&gt;Automatically Building Your Phoenix Assets With Webpack  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://matthewlehner.net/using-webpack-with-phoenix-and-elixir/&quot;&gt;Using Webpack with Phoenix and Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dockyard-articles-exlir-and-phoenix&quot;&gt;Dockyard Articles Exlir and Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Some of these articles are written by Chris McCord who wrote phoenix framework and maintaining it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/phoenix&quot;&gt;Articles on Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/elixir&quot;&gt;Articles on Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-elm-with-phoenix&quot;&gt;Setting up Elm with Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Elm is elixir for frontend and they both go along really well.This is a 3 min read article about how to mix and match both together!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://medium.com/@diamondgfx/setting-up-elm-with-phoenix-be3a9f55bac2#.f0l76zm89&quot;&gt;Setting up Elm with Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;elm-phoenix-and-webpack&quot;&gt;Elm, Phoenix and Webpack&lt;/h3&gt;
+
+&lt;p&gt;This really helps boost your project setting up elm,phoenix and webpack.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://terakilobyte.com/using-webpack-with-phoenix-and-elm/&quot;&gt;Using Webpack with Phoenix and Elm
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-trello-clone-with-phoenx-and-react&quot;&gt;Building Trello clone with Phoenx and React&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1&quot;&gt;Trello clone with Phoenix and React  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-related-blog-posts-&quot;&gt;Other related blog posts :&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://hpbn.co//&quot;&gt;High Performance Browser Networking  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;post-reads&quot;&gt;Post Reads&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html&quot;&gt;Elixir Posts  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-elixir-blog&quot;&gt;Learning Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://learningelixir.joekain.com/posts/&quot;&gt;Learning Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-elixir-blog&quot;&gt;Learn Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elixir.bagwanpankaj.com/&quot;&gt;Learn Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Landmark Algorithm for Graph Isomorphism</title><link href="http://rrevanth.github.io/reads/2015/12/landmark-algorithm-for-graph-isomorphism/"/><published>2015-12-19T11:23:00+00:00</published><updated>2015-12-19T11:23:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/landmark-algorithm-for-graph-isomorphism/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/landmark-algorithm-for-graph-isomorphism/">&lt;p&gt;László Babai, of the University of Chicago, announced that he had come up with a new algorithm for the “graph isomorphism” problem, one of the most tantalizing mysteries in computer science. The new algorithm appears to be vastly more efficient than the previous best algorithm, which had held the record for more than 30 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.quantamagazine.org/20151214-graph-isomorphism-algorithm/&quot;&gt;Landmark Algorithm Breaks 30-Year Impasse  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Getting started with GraphQL</title><link href="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/"/><published>2015-12-16T14:43:00+00:00</published><updated>2015-12-16T14:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/">&lt;p&gt;GraphQL makes it easy for fetching the data models for client side developers and easy for server side developers to maintain the endpoints which will also be drastically minimized because of graphQL&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://facebook.github.io/graphql/&quot;&gt;Official Page - GraphQL  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/chentsulin/awesome-graphql&quot;&gt;Awesome GraphQL Repositories  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you prefer videos rather than reading through long posts.You can start here :
+&lt;a class=&quot;embedly-card&quot; href=&quot;/videos/2015/12/graphql-introduction&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Getting Started with Tensorflow</title><link href="http://rrevanth.github.io/reads/2015/12/getting-started-with-tensorflow/"/><published>2015-12-14T14:46:00+00:00</published><updated>2015-12-14T14:46:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/getting-started-with-tensorflow/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/getting-started-with-tensorflow/">&lt;p&gt;Tensor Flow is  AI i.e., artificial intelligence library for numerical computations using data flow graphs.It is opensourced by google recently.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.tensorflow.org/&quot;&gt;Official Page  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/aymericdamien/TensorFlow-Examples&quot;&gt;Github Tensorflow Examples  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Onestop for Detailed Tutorials</title><link href="http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/"/><published>2015-12-12T14:23:00+00:00</published><updated>2015-12-12T14:23:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/">&lt;p&gt;I always find myself wanting to learn a language or framework.Although they are many enriched blog posts and great docs,I do not know where to start it.&lt;/p&gt;
+
+&lt;p&gt;I found this great website which will have a brief tutorials of several language by people who are either deeply involved in development of the language or by the creator of the language themself.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://howistart.org/&quot;&gt;How I start a Language  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Embed Ejabberd in Phoenix App</title><link href="http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/"/><published>2015-12-11T11:25:00+00:00</published><updated>2015-12-11T11:25:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/embed-ejabberd-in-phoenix-app/">&lt;p&gt;Embedding Ejabberd into phoenix application to have a realtime messaging feature in our App.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.process-one.net/embedding-ejabberd-into-an-elixir-phoenix-web-application/&quot;&gt;Embed Ejabberd in Phoenix App  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Elm Resources</title><link href="http://rrevanth.github.io/reads/2015/11/elm-resources/"/><published>2015-11-30T09:26:00+00:00</published><updated>2015-11-30T09:26:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/elm-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/elm-resources/">&lt;p&gt;Some resources I read for learning Elm&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm&quot;&gt;Pragmatic Studio - Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/isRuslan/awesome-elm&quot;&gt;Awesome-Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://planet.elm-lang.org/&quot;&gt;Planet Elm Feed Aggregator  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/&quot;&gt;Codecentric Blog on Starting with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/evancz/elm-architecture-tutorial&quot;&gt;Elm Architecture Tutorial - Evancz  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elm-by-example.org/index.html&quot;&gt;Elm By Example  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app&quot;&gt;No RedInk-Intro Elm to a JS WebApp  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html&quot;&gt;University of Chicago course on Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://prezi.com/c_vpoc2ufhkx/structuring-interactive-applications-with-elm/&quot;&gt;Prezi -Structuring Interactive applications with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Sticky links</title><link href="http://rrevanth.github.io/reads/2015/11/sticky-links/"/><published>2015-11-28T09:34:00+00:00</published><updated>2015-11-28T09:34:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/sticky-links/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/sticky-links/">&lt;p&gt;This post will have all interesting things that I would like to read and recommend other people.All the links are aggregated from various sources that I find and will be archived after some time.&lt;/p&gt;
+
+&lt;h3 id=&quot;alternative-erlang-syntax-language&quot;&gt;Alternative Erlang Syntax Language&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://efene.org/index.html#&quot;&gt;Efene-Alternate Erlang  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://medium.com/this-is-not-a-monad-tutorial/efene-an-erlang-vm-language-that-embraces-the-python-zen-db9b4d840614#.vv5esdiye&quot;&gt;Talk with Author  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;es6-bullet-points&quot;&gt;ES6 Bullet Points&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/bevacqua/es6#weakmaps&quot;&gt;ES6 Quickread  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-for-http2&quot;&gt;Building for HTTP/2&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://rmurphey.com/blog/2015/11/25/building-for-http2&quot;&gt;Building for HTTP/2  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Alchemy-Opensource AI</title><link href="http://rrevanth.github.io/reads/2015/11/alchemy-opensource-ai/"/><published>2015-11-27T13:32:00+00:00</published><updated>2015-11-27T13:32:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/alchemy-opensource-ai/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/alchemy-opensource-ai/">&lt;p&gt;Alchemy is opensource AI project from washington edu.You can read more about Alchemy here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://alchemy.cs.washington.edu/&quot;&gt;Alchemy AI  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Javascript References</title><link href="http://rrevanth.github.io/reads/2015/11/javascript-references/"/><published>2015-11-26T13:45:00+00:00</published><updated>2015-11-26T13:45:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/javascript-references/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/javascript-references/">&lt;p&gt;All the popular javascript resources and when to use which.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/&quot;&gt;Javascript references and usecases  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix Resources</title><link href="http://rrevanth.github.io/reads/2015/11/phoenix-resources/"/><published>2015-11-22T10:13:00+00:00</published><updated>2015-11-22T10:13:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/phoenix-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/phoenix-resources/">&lt;p&gt;Collection of All Resources for learning Phoenix.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/h4cc/awesome-elixir&quot;&gt;Awesome Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/seven1m/30-days-of-elixir&quot;&gt;30 Days of Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;tipquote centerquote&quot;&gt;
+  &lt;p&gt;These are for Elixir which is phoenix based on and written in&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.phoenixframework.org/docs/resources&quot;&gt;Nothing Better than Official :smile:  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.jordan-dimov.com/&quot;&gt;Blog posts only on Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cultivatehq.com/posts/&quot;&gt;Cultivate Blog with Elm frontend  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://hashnuke.com/&quot;&gt;HashNuke Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://groups.google.com/forum/#!forum/phoenix-talk&quot;&gt;Phoenix Google Group  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix with Elm</title><link href="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/"/><published>2015-11-19T16:18:00+00:00</published><updated>2015-11-19T16:18:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/">&lt;p&gt;This post series explains how to mix and match Phoenix with Elm and make developing feel great.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cultivatehq.com/posts/phoenix-elm-1/&quot;&gt;Phoenix With Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Using Phoenix with Mongo</title><link href="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/"/><published>2015-11-19T16:04:00+00:00</published><updated>2015-11-19T16:04:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/">&lt;p&gt;If you’re brand new to Phoenix then I would suggest going through &lt;a href=&quot;http://www.phoenixframework.org/&quot;&gt;Phoenix&lt;/a&gt;.You can also read this &lt;a href=&quot;https://pragprog.com/book/phoenix/programming-phoenix&quot;&gt;book&lt;/a&gt; from Pragmatic Bookshelf.&lt;/p&gt;
+
+&lt;p&gt;That said,Phoenix added Mongo Ecto Adapter recently.I have not found any posts that are updated.This post is the most updated that I can found.&lt;/p&gt;
+
+&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;If anyone finds one that is updated,post the link in comment :smile:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://wsmoak.net/2015/08/31/phoenix-ecto-mongodb.html&quot;&gt;Phoenix With Mongo  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Facebook open sources Augmented Traffic Control</title><link href="http://rrevanth.github.io/reads/2015/03/facebookltesimulate/"/><published>2015-03-23T23:14:34+00:00</published><updated>2015-03-23T23:14:34+00:00</updated><id>http://rrevanth.github.io/reads/2015/03/facebookltesimulate/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/03/facebookltesimulate/">&lt;p&gt;Facebook developed a mind boggling tech that they opensourced on Github.&lt;br /&gt;Facebook today open-sourced Augmented Traffic Control (ATC), a Wi-Fi tool for testing how mobile phones and their apps handle networks of varying strength, over on GitHub. ATC simulates 2G, Edge, 3G, and LTE networks, and allows engineers to switch quickly between various simulated network connections.Read more at&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://venturebeat.com/2015/03/23/facebook-open-sources-augmented-traffic-control-a-wi-fi-tool-for-simulating-2g-edge-3g-and-lte-networks/&quot;&gt;Facebook open sources Augmented Traffic Control, a Wi-Fi tool for simulating 2G, Edge, 3G, and LTE networks  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Sql join queries - Interview questions</title><link href="http://rrevanth.github.io/reads/2015/02/joinssqlinterview/"/><published>2015-02-27T23:14:35+00:00</published><updated>2015-02-27T23:14:35+00:00</updated><id>http://rrevanth.github.io/reads/2015/02/joinssqlinterview/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/02/joinssqlinterview/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.interviewquestionspdf.com/2014/07/complex-joins-sql-joins-queries.html&quot;&gt;COMPLEX JOINS : SQL SERVER JOINS QUERIES INTERVIEW QUESTIONS AND ANSWERS EXAMPLES FOR EXPERIENCED SET-7  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Tags in Jekyll by Charlie Park</title><link href="http://rrevanth.github.io/reads/2015/02/tagsinjekyllcharlieparker/"/><published>2015-02-27T23:14:34+00:00</published><updated>2015-02-27T23:14:34+00:00</updated><id>http://rrevanth.github.io/reads/2015/02/tagsinjekyllcharlieparker/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/02/tagsinjekyllcharlieparker/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;Tags In Jekyll  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>SQL Queries - Reference</title><link href="http://rrevanth.github.io/reads/2015/02/sqlqueriescomplete/"/><published>2015-02-27T23:14:34+00:00</published><updated>2015-02-27T23:14:34+00:00</updated><id>http://rrevanth.github.io/reads/2015/02/sqlqueriescomplete/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/02/sqlqueriescomplete/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.bullraider.com/database/sql-tutorial&quot;&gt;SQL Tutorial Home  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Using Jekyll Plugins on Github Pages</title><link href="http://rrevanth.github.io/reads/2015/02/jekyllpluginsongithub/"/><published>2015-02-27T23:14:34+00:00</published><updated>2015-02-27T23:14:34+00:00</updated><id>http://rrevanth.github.io/reads/2015/02/jekyllpluginsongithub/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/02/jekyllpluginsongithub/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.nitrous.io/2013/08/30/using-jekyll-plugins-on-github-pages.html&quot;&gt;Using Jekyll Plugins on Github Pages  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Java Interview Questions</title><link href="http://rrevanth.github.io/reads/2015/02/javainterviewset/"/><published>2015-02-27T23:14:34+00:00</published><updated>2015-02-27T23:14:34+00:00</updated><id>http://rrevanth.github.io/reads/2015/02/javainterviewset/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/02/javainterviewset/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.bullraider.com/java/core-java/33-interview-questions&quot;&gt;Java Programming Interview Questions  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry></feed>

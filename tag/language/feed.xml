@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/language/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>LANGUAGE</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Learners Digest</title><link href="http://rrevanth.github.io/reads/2016/07/learners-digest/"/><published>2016-07-31T06:55:00+00:00</published><updated>2016-07-31T06:55:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/07/learners-digest/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/07/learners-digest/">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.railstutorial.org/book&quot;&gt;RubyonRails best getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.scipy-lectures.org/&quot;&gt;Python for DataScience (SciPy Lecture Notes)  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+</content></entry><entry><title>Hacker News Bits</title><link href="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/"/><published>2016-04-12T12:43:00+00:00</published><updated>2016-04-12T12:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/hacker-news-bits/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/">&lt;h1 id=&quot;hackernews-bookmarks---12th-april-2016-&quot;&gt;Hackernews bookmarks - 12th April 2016 :&lt;/h1&gt;
+
+&lt;h3 id=&quot;keras-deep-learning-library-for-theano-and-tensorflow&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://keras.io/&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://starlight.paulcuth.me.uk/docs/embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-an-os-in-rust&quot;&gt;Writing an OS in Rust&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://os.phil-opp.com/&quot;&gt;Writing an OS in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics-for-software&quot;&gt;Statistics for Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.paypal-engineering.com/2016/04/11/statistics-for-software/&quot;&gt;Statistics for Software  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;free-book-on-deep-learning&quot;&gt;Free Book on Deep Learning&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.deeplearningbook.org/&quot;&gt;Free Book on Deep Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started-with-f&quot;&gt;Getting started with F#&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://jj09.net/getting-started-with-fsharp/&quot;&gt;Getting started with F#  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>References - C++</title><link href="http://rrevanth.github.io/reads/2016/04/references-c/"/><published>2016-04-12T12:32:00+00:00</published><updated>2016-04-12T12:32:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/references-c/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/references-c/">&lt;p&gt;Some reads and references for C++ :&lt;/p&gt;
+
+&lt;h3 id=&quot;bloom-filters-in-c&quot;&gt;Bloom Filters in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/&quot;&gt;How to write a Bloom filter in C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jit-for-c&quot;&gt;JIT for C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.jyt.io/&quot;&gt;Jyt is a just-in-time compiler for C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;32bit-integer-compression-algorithms-in-c&quot;&gt;32bit integer compression algorithms in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://upscaledb.com/0012-32bit-integer-compression-algorithms-part2.html&quot;&gt;32bit integer compression algorithms  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Place to programs</title><link href="http://rrevanth.github.io/reads/2016/03/place-to-programs/"/><published>2016-03-01T05:19:00+00:00</published><updated>2016-03-01T05:19:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/place-to-programs/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/place-to-programs/">&lt;p&gt;Some places to practice for simple problems for grasping patterns in a language&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://adventofcode.com/&quot;&gt;Advent of Code  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://exercism.io/&quot;&gt;Exercism  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Hackernews Bits - 13216</title><link href="http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/"/><published>2016-02-13T13:27:00+00:00</published><updated>2016-02-13T13:27:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/hackernews-bits-13216/">&lt;p&gt;Interesting bits and frameworks I found on hackernews for future read :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.pitt.edu/~jdnorton/Goodies/Zurich_Notebook/&quot;&gt;Einstein’s Zurich Notebook  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://ethcore.io/parity.html&quot;&gt;Parity - Ethereum client written in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://mjml.io/&quot;&gt;MJML - Responsive Email framework  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Getting started with GraphQL</title><link href="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/"/><published>2015-12-16T14:43:00+00:00</published><updated>2015-12-16T14:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/">&lt;p&gt;GraphQL makes it easy for fetching the data models for client side developers and easy for server side developers to maintain the endpoints which will also be drastically minimized because of graphQL&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://facebook.github.io/graphql/&quot;&gt;Official Page - GraphQL  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/chentsulin/awesome-graphql&quot;&gt;Awesome GraphQL Repositories  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you prefer videos rather than reading through long posts.You can start here :
+&lt;a class=&quot;embedly-card&quot; href=&quot;/videos/2015/12/graphql-introduction&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Onestop for Detailed Tutorials</title><link href="http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/"/><published>2015-12-12T14:23:00+00:00</published><updated>2015-12-12T14:23:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/onestop-for-detailed-tutorials/">&lt;p&gt;I always find myself wanting to learn a language or framework.Although they are many enriched blog posts and great docs,I do not know where to start it.&lt;/p&gt;
+
+&lt;p&gt;I found this great website which will have a brief tutorials of several language by people who are either deeply involved in development of the language or by the creator of the language themself.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://howistart.org/&quot;&gt;How I start a Language  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>GraphQL introduction</title><link href="http://rrevanth.github.io/videos/2015/12/graphql-introduction/"/><published>2015-12-09T14:30:00+00:00</published><updated>2015-12-09T14:30:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/12/graphql-introduction/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/12/graphql-introduction/">&lt;p&gt;GraphQL is a data query language designed for product developers. This talk will discuss where it came from, why it’s powerful, and how it as a horizontal platform fits into the open source ecosystem of software that Facebook is building.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/LQFQl8EsV3k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;you-can-also-look-for-further-references-in-this-post-&quot;&gt;You can also look for further references in this post :&lt;/h5&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;/reads/2015/12/getting-started-with-graphql&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix Framework Getting Started</title><link href="http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/"/><published>2015-12-01T11:12:00+00:00</published><updated>2015-12-01T11:12:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/12/phoenix-elixir-gettingstarted/">&lt;div&gt;&lt;p&gt;Phoenix in Action and some introduction videos&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLODEHBWx9Tr6HKczGyCoDWZjsw6G9Ewpw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry><entry><title>Elm Resources</title><link href="http://rrevanth.github.io/reads/2015/11/elm-resources/"/><published>2015-11-30T09:26:00+00:00</published><updated>2015-11-30T09:26:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/elm-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/elm-resources/">&lt;p&gt;Some resources I read for learning Elm&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm&quot;&gt;Pragmatic Studio - Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/isRuslan/awesome-elm&quot;&gt;Awesome-Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://planet.elm-lang.org/&quot;&gt;Planet Elm Feed Aggregator  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/&quot;&gt;Codecentric Blog on Starting with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/evancz/elm-architecture-tutorial&quot;&gt;Elm Architecture Tutorial - Evancz  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elm-by-example.org/index.html&quot;&gt;Elm By Example  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app&quot;&gt;No RedInk-Intro Elm to a JS WebApp  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html&quot;&gt;University of Chicago course on Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://prezi.com/c_vpoc2ufhkx/structuring-interactive-applications-with-elm/&quot;&gt;Prezi -Structuring Interactive applications with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix with Elm - Alex Gardner</title><link href="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/"/><published>2015-11-19T16:20:00+00:00</published><updated>2015-11-19T16:20:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/11/phoenix-with-elm-alex-gardner/">&lt;p&gt;In this video Alex Gardner explains how to integrate Phoenix with Elm both of which are ground breaking frameworks of this era with ambitious benchmarks that are to be set and doing a great.You can also go through detailed series by him on through here &lt;a href=&quot;/reads/2015/11/phoenix-with-elm&quot;&gt;Phoenix with Elm&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/MgFDZx1LmOE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix with Elm</title><link href="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/"/><published>2015-11-19T16:18:00+00:00</published><updated>2015-11-19T16:18:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/phoenix-with-elm/">&lt;p&gt;This post series explains how to mix and match Phoenix with Elm and make developing feel great.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cultivatehq.com/posts/phoenix-elm-1/&quot;&gt;Phoenix With Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Using Phoenix with Mongo</title><link href="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/"/><published>2015-11-19T16:04:00+00:00</published><updated>2015-11-19T16:04:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/using-phoenix-with-mongo/">&lt;p&gt;If you’re brand new to Phoenix then I would suggest going through &lt;a href=&quot;http://www.phoenixframework.org/&quot;&gt;Phoenix&lt;/a&gt;.You can also read this &lt;a href=&quot;https://pragprog.com/book/phoenix/programming-phoenix&quot;&gt;book&lt;/a&gt; from Pragmatic Bookshelf.&lt;/p&gt;
+
+&lt;p&gt;That said,Phoenix added Mongo Ecto Adapter recently.I have not found any posts that are updated.This post is the most updated that I can found.&lt;/p&gt;
+
+&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;If anyone finds one that is updated,post the link in comment :smile:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://wsmoak.net/2015/08/31/phoenix-ecto-mongodb.html&quot;&gt;Phoenix With Mongo  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Learning Elm-Playlist</title><link href="http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/"/><published>2015-11-17T08:44:00+00:00</published><updated>2015-11-17T08:44:00+00:00</updated><id>http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/</id><content type="html" xml:base="http://rrevanth.github.io/videos/2015/11/learning-elm-playlist/">&lt;div&gt;&lt;p&gt;Some playlists I found for learning Elm language by building a game.It explains in a step by step manner from noob mode to gawd mode.It is a little out dated and uses a older version of Elm but it helps for a solid understanding&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLtdCJGSpculbDT_p4ED9oLTJQrzoM1QEL&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+</content></entry></feed>

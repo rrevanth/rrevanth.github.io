@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://rrevanth.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Revanth Revoori</title><subtitle>I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me.</subtitle><author><name>Revanth Revoori</name></author><entry><title>Machine Learning Beginner to Advance</title><link href="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance" rel="alternate" type="text/html" title="Machine Learning Beginner to Advance"/><published>2017-01-14T19:06:00+00:00</published><updated>2017-01-14T19:06:00+00:00</updated><id>http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance</id><content type="html" xml:base="http://rrevanth.github.io/reads/2017/01/machine-learning-beginner-to-advance">&lt;blockquote class=&quot;notequote&quot;&gt;
+  &lt;p&gt;I will be sharing every post that I read small to big here which deemed interesting and helps me grasp a better understanding on the particulat topic of Machine Learning concept.
+This is like awesome-ml curated list of my own findings :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;understanding-statistics&quot;&gt;Understanding Statistics&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~larry/=stat705/&quot;&gt;Intermediate Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.stat.cmu.edu/~siva/700/main.html&quot;&gt;Probability and Mathematical Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://work.caltech.edu/telecourse.html#lectures&quot;&gt;Learning from Data  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cs.cmu.edu/~tom/10701_sp11/&quot;&gt;Machine Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;svm-support-vector-machines&quot;&gt;SVM [Support Vector Machines]&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.svm-tutorial.com/2016/09/convex-functions/&quot;&gt;SVM Understanding the math-Series  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://iamtrask.github.io/2017/01/15/pytorch-tutorial/&quot;&gt;Deep Learning in PyTorch  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;course-series-resources&quot;&gt;Course Series Resources&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info&quot;&gt;Stanford Lectures - Statistical Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.quora.com/What-is-the-best-MOOC-to-get-started-in-Machine-Learning/answer/Xavier-Amatriain?srid=3cks&quot;&gt;Quora answer to video series getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;other-resources&quot;&gt;&lt;strong&gt;Other Resources&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://simplystatistics.org/archive/&quot;&gt;Resources on Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/&quot;&gt;Resources on ML &amp;amp; R  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/&quot;&gt;Resources on ML,Statistics  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/&quot;&gt;Books to read on ML,AI  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="ml"/><category term="svm"/><category term="series"/><category term="resources"/><summary>I will be sharing every post that I read small to big here which deemed interesting and helps me grasp a better understanding on the particulat topic of Machine Learning concept.
+This is like awesome-ml curated list of my own findings :)
+
+
+
+Understanding Statistics
+
+
+Intermediate Statistics  
+
+Probability and Mathematical Statistics  
+
+
+Machine Learning
+
+
+Learning from Data  
+
+Machine Learning  
+
+
+SVM [Support Vector Machines]
+
+
+SVM Understanding the math-Series  
+
+
+Deep Learning
+
+
+Deep Learning in PyTorch  
+
+
+Course Series Resources
+
+
+Stanford Lectures - Statistical Learning  
+
+Quora answer to video series getting started  
+
+
+Other Resources
+
+
+Resources on Statistics  
+
+Resources on ML &amp;amp; R  
+
+Resources on ML,Statistics  
+
+Books to read on ML,AI</summary></entry><entry><title>Bugbounty resources</title><link href="http://rrevanth.github.io/reads/2016/09/bugbounty-resources" rel="alternate" type="text/html" title="Bugbounty resources"/><published>2016-09-02T04:22:00+00:00</published><updated>2016-09-02T04:22:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/09/bugbounty-resources</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/09/bugbounty-resources">&lt;h2 id=&quot;herei-am-gonna-list-all-the-resources-im-gonna-find-on-bug-bounty-that-would-be-helpful&quot;&gt;Here,I am gonna list all the resources i’m gonna find on bug bounty that would be helpful&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://introvertmac.wordpress.com/bug-bounty-resources/&quot;&gt;Bug Bounty resources  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="bug_bounty"/><category term="resources"/><category term="learning"/><summary>Here,I am gonna list all the resources i’m gonna find on bug bounty that would be helpful
+
+Bug Bounty resources</summary></entry><entry><title>Learners Digest</title><link href="http://rrevanth.github.io/reads/2016/07/learners-digest" rel="alternate" type="text/html" title="Learners Digest"/><published>2016-07-31T06:55:00+00:00</published><updated>2016-07-31T06:55:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/07/learners-digest</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/07/learners-digest">&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.railstutorial.org/book&quot;&gt;RubyonRails best getting started  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.scipy-lectures.org/&quot;&gt;Python for DataScience (SciPy Lecture Notes)  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="python"/><category term="rails"/><category term="ruby"/><category term="reference"/><category term="language"/><summary>RubyonRails best getting started  
+
+Python for DataScience (SciPy Lecture Notes)</summary></entry><entry><title>Some More Sticky Links</title><link href="http://rrevanth.github.io/reads/2016/06/some-more-sticky-links" rel="alternate" type="text/html" title="Some More Sticky Links"/><published>2016-06-14T04:30:00+00:00</published><updated>2016-06-14T04:30:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/06/some-more-sticky-links</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/06/some-more-sticky-links">&lt;h3 id=&quot;this-is-collection-of-articles-one-must-read-to-be-a-better-programmer&quot;&gt;This is collection of articles one must read to be a better programmer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://danluu.com/programming-blogs/&quot;&gt;Modest list of programming blogs  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;machine-learning-for-hackers---whats-more-you-need--d&quot;&gt;Machine learning for hackers ;) . What’s more you need :-D&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://autumnai.com/leaf/book/leaf.html&quot;&gt;Leaf - Machine Learning for Hackers  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="leaf"/><category term="machine_learning"/><category term="ml"/><category term="data_science"/><category term="sticky_link"/><category term="link"/><summary>This is collection of articles one must read to be a better programmer
+
+Modest list of programming blogs  
+
+Machine learning for hackers ;) . What’s more you need :-D
+
+Leaf - Machine Learning for Hackers</summary></entry><entry><title>Hacker News Bits</title><link href="http://rrevanth.github.io/reads/2016/04/hacker-news-bits" rel="alternate" type="text/html" title="Hacker News Bits"/><published>2016-04-12T12:43:00+00:00</published><updated>2016-04-12T12:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/hacker-news-bits</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/hacker-news-bits">&lt;h1 id=&quot;hackernews-bookmarks---12th-april-2016-&quot;&gt;Hackernews bookmarks - 12th April 2016 :&lt;/h1&gt;
+
+&lt;h3 id=&quot;keras-deep-learning-library-for-theano-and-tensorflow&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://keras.io/&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://starlight.paulcuth.me.uk/docs/embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-an-os-in-rust&quot;&gt;Writing an OS in Rust&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://os.phil-opp.com/&quot;&gt;Writing an OS in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics-for-software&quot;&gt;Statistics for Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.paypal-engineering.com/2016/04/11/statistics-for-software/&quot;&gt;Statistics for Software  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;free-book-on-deep-learning&quot;&gt;Free Book on Deep Learning&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.deeplearningbook.org/&quot;&gt;Free Book on Deep Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started-with-f&quot;&gt;Getting started with F#&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://jj09.net/getting-started-with-fsharp/&quot;&gt;Getting started with F#  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="deep_learning"/><category term="language"/><category term="f#"/><category term="lua"/><category term="resource"/><category term="hacker_news"/><category term="machine_learning"/><category term="python"/><category term="keras"/><summary>Hackernews bookmarks - 12th April 2016 :
+
+Keras: Deep Learning library for Theano and TensorFlow
+
+Keras: Deep Learning library for Theano and TensorFlow  
+
+Embedding Lua in the Web
+
+Embedding Lua in the Web  
+
+Writing an OS in Rust
+
+Writing an OS in Rust  
+
+Statistics for Software
+
+Statistics for Software  
+
+Free Book on Deep Learning
+
+Free Book on Deep Learning  
+
+Getting started with F#
+
+Getting started with F#</summary></entry><entry><title>References - C++</title><link href="http://rrevanth.github.io/reads/2016/04/references-c" rel="alternate" type="text/html" title="References - C++"/><published>2016-04-12T12:32:00+00:00</published><updated>2016-04-12T12:32:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/references-c</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/references-c">&lt;p&gt;Some reads and references for C++ :&lt;/p&gt;
+
+&lt;h3 id=&quot;bloom-filters-in-c&quot;&gt;Bloom Filters in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/&quot;&gt;How to write a Bloom filter in C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jit-for-c&quot;&gt;JIT for C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.jyt.io/&quot;&gt;Jyt is a just-in-time compiler for C++  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;32bit-integer-compression-algorithms-in-c&quot;&gt;32bit integer compression algorithms in C++&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://upscaledb.com/0012-32bit-integer-compression-algorithms-part2.html&quot;&gt;32bit integer compression algorithms  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="C++"/><category term="reference"/><category term="algorithm"/><category term="language"/><summary>Some reads and references for C++ :
+
+Bloom Filters in C++
+
+How to write a Bloom filter in C++  
+
+JIT for C++
+
+Jyt is a just-in-time compiler for C++  
+
+32bit integer compression algorithms in C++
+
+32bit integer compression algorithms</summary></entry><entry><title>ML-Stciky Links</title><link href="http://rrevanth.github.io/reads/2016/03/ml-theory" rel="alternate" type="text/html" title="ML-Stciky Links"/><published>2016-03-23T02:03:00+00:00</published><updated>2016-03-23T02:03:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/ml-theory</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/ml-theory">&lt;p&gt;ML references&lt;/p&gt;
+
+&lt;p&gt;Machine Learning in theory :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide&quot;&gt;Machine Learning: An In-Depth, Non-Technical Guide
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://ml.berkeley.edu/blog/&quot;&gt;Machine Learning - Berkeley Blog
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://yerevann.com/a-guide-to-deep-learning/&quot;&gt;A Guide to Deep Learning
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.r2d3.us/visual-intro-to-machine-learning-part-1/&quot;&gt;A Visual Introduction to Machine Learning
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://dk-techlogic.blogspot.com/2012/05/best-machine-learning-resources.html&quot;&gt;Some more links
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="machine_learning"/><category term="ml"/><category term="series"/><summary>ML references
+
+Machine Learning in theory :
+
+Machine Learning: An In-Depth, Non-Technical Guide
+  
+
+Machine Learning - Berkeley Blog
+  
+
+A Guide to Deep Learning
+  
+
+A Visual Introduction to Machine Learning
+  
+
+Some more links</summary></entry><entry><title>Interface Architecture comparison</title><link href="http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison" rel="alternate" type="text/html" title="Interface Architecture comparison"/><published>2016-03-22T16:08:00+00:00</published><updated>2016-03-22T16:08:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/interface-architecture-comparison">&lt;p&gt;This post differentiates different interface languages and their architectures :&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://staltz.com/unidirectional-user-interface-architectures.html&quot;&gt;UNIDIRECTIONAL USER INTERFACE ARCHITECTURES
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;!--more--&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="architecture"/><category term="interface"/><category term="elm"/><category term="cyclejs"/><category term="react"/><summary>This post differentiates different interface languages and their architectures :
+
+UNIDIRECTIONAL USER INTERFACE ARCHITECTURES</summary></entry><entry><title>Place to programs</title><link href="http://rrevanth.github.io/reads/2016/03/place-to-programs" rel="alternate" type="text/html" title="Place to programs"/><published>2016-03-01T05:19:00+00:00</published><updated>2016-03-01T05:19:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/place-to-programs</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/place-to-programs">&lt;p&gt;Some places to practice for simple problems for grasping patterns in a language&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://adventofcode.com/&quot;&gt;Advent of Code  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://exercism.io/&quot;&gt;Exercism  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="language"/><category term="elixir"/><category term="programming"/><category term="practice"/><summary>Some places to practice for simple problems for grasping patterns in a language
+
+Project Euler  
+
+Advent of Code  
+
+Exercism</summary></entry><entry><title>Elixometer - Metrics for Elixr</title><link href="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr" rel="alternate" type="text/html" title="Elixometer - Metrics for Elixr"/><published>2016-03-01T03:48:00+00:00</published><updated>2016-03-01T03:48:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr">&lt;p&gt;Elixometer is a metric collector for elixir applications which collects info from various part of the applications and displays nice graphical view of performance.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://alexgaribay.com/2016/02/27/using-elixometer-with-phoenix/&quot;&gt;Using Elixometer With Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;</content><author><name>Revanth Revoori</name></author><category term="read"/><category term="elixir"/><category term="elixometer"/><category term="resource"/><summary>Elixometer is a metric collector for elixir applications which collects info from various part of the applications and displays nice graphical view of performance.
+
+This tutorial explains everything pretty much and pretty well
+
+Using Elixometer With Phoenix</summary></entry></feed>

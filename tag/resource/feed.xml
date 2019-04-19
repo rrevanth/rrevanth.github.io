@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/resource/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>RESOURCE</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Hacker News Bits</title><link href="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/"/><published>2016-04-12T12:43:00+00:00</published><updated>2016-04-12T12:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/04/hacker-news-bits/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/04/hacker-news-bits/">&lt;h1 id=&quot;hackernews-bookmarks---12th-april-2016-&quot;&gt;Hackernews bookmarks - 12th April 2016 :&lt;/h1&gt;
+
+&lt;h3 id=&quot;keras-deep-learning-library-for-theano-and-tensorflow&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://keras.io/&quot;&gt;Keras: Deep Learning library for Theano and TensorFlow  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://starlight.paulcuth.me.uk/docs/embedding-lua-in-the-web&quot;&gt;Embedding Lua in the Web  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-an-os-in-rust&quot;&gt;Writing an OS in Rust&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://os.phil-opp.com/&quot;&gt;Writing an OS in Rust  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics-for-software&quot;&gt;Statistics for Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.paypal-engineering.com/2016/04/11/statistics-for-software/&quot;&gt;Statistics for Software  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;free-book-on-deep-learning&quot;&gt;Free Book on Deep Learning&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.deeplearningbook.org/&quot;&gt;Free Book on Deep Learning  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started-with-f&quot;&gt;Getting started with F#&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://jj09.net/getting-started-with-fsharp/&quot;&gt;Getting started with F#  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Elixometer - Metrics for Elixr</title><link href="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/"/><published>2016-03-01T03:48:00+00:00</published><updated>2016-03-01T03:48:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/elixometer-metrics-for-elixr/">&lt;p&gt;Elixometer is a metric collector for elixir applications which collects info from various part of the applications and displays nice graphical view of performance.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains everything pretty much and pretty well&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://alexgaribay.com/2016/02/27/using-elixometer-with-phoenix/&quot;&gt;Using Elixometer With Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+</content></entry><entry><title>Nginx &amp; Varnish Usage</title><link href="http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/"/><published>2016-02-20T13:00:00+00:00</published><updated>2016-02-20T13:00:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/nginx-varnish-usage/">&lt;p&gt;Posts for using nginx &amp;amp; varnish&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/&quot;&gt;Nginx: a caching, thumbnailing, reverse proxying image server? &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://info.varnish-software.com/blog/using-varnish-cache-secured-aws-s3-gateway&quot;&gt;USING VARNISH CACHE AS A SECURED AWS S3 GATEWAY &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Phoenix - Elixir : Places to look</title><link href="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/"/><published>2016-02-04T04:30:00+00:00</published><updated>2016-02-04T04:30:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/02/phoenix-elixir-places-to-look/">&lt;p&gt;These are all the best places I can find for the solutions on phoenix and elixir in general.&lt;/p&gt;
+
+&lt;h3 id=&quot;elixir-status&quot;&gt;Elixir Status&lt;/h3&gt;
+
+&lt;p&gt;Here, there will be updates of any new projects,developments and posts related to elixir!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://elixirstatus.com/&quot;&gt;Elixir Status  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;configuring-phoenix-with-webpack-rather-than-brunch&quot;&gt;Configuring phoenix with Webpack rather than Brunch&lt;/h3&gt;
+
+&lt;p&gt;React people like webpack since it goes really well with all of it’s modules with minimal setup.This explains how to replace brunch with webpack&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://manukall.de/2015/05/01/automatically-building-your-phoenix-assets-with-webpack/&quot;&gt;Automatically Building Your Phoenix Assets With Webpack  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://matthewlehner.net/using-webpack-with-phoenix-and-elixir/&quot;&gt;Using Webpack with Phoenix and Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dockyard-articles-exlir-and-phoenix&quot;&gt;Dockyard Articles Exlir and Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Some of these articles are written by Chris McCord who wrote phoenix framework and maintaining it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/phoenix&quot;&gt;Articles on Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://dockyard.com/blog/categories/elixir&quot;&gt;Articles on Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-elm-with-phoenix&quot;&gt;Setting up Elm with Phoenix&lt;/h3&gt;
+
+&lt;p&gt;Elm is elixir for frontend and they both go along really well.This is a 3 min read article about how to mix and match both together!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://medium.com/@diamondgfx/setting-up-elm-with-phoenix-be3a9f55bac2#.f0l76zm89&quot;&gt;Setting up Elm with Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;elm-phoenix-and-webpack&quot;&gt;Elm, Phoenix and Webpack&lt;/h3&gt;
+
+&lt;p&gt;This really helps boost your project setting up elm,phoenix and webpack.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://terakilobyte.com/using-webpack-with-phoenix-and-elm/&quot;&gt;Using Webpack with Phoenix and Elm
+  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building-trello-clone-with-phoenx-and-react&quot;&gt;Building Trello clone with Phoenx and React&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1&quot;&gt;Trello clone with Phoenix and React  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-related-blog-posts-&quot;&gt;Other related blog posts :&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://hpbn.co//&quot;&gt;High Performance Browser Networking  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;post-reads&quot;&gt;Post Reads&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://ruby2elixir.github.io/posts/2015/12-29-what-makes-elixir-so-attractive-for-some-developers.html&quot;&gt;Elixir Posts  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-elixir-blog&quot;&gt;Learning Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://learningelixir.joekain.com/posts/&quot;&gt;Learning Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-elixir-blog&quot;&gt;Learn Elixir Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elixir.bagwanpankaj.com/&quot;&gt;Learn Elixir Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content></entry><entry><title>Getting started with GraphQL</title><link href="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/"/><published>2015-12-16T14:43:00+00:00</published><updated>2015-12-16T14:43:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/12/getting-started-with-graphql/">&lt;p&gt;GraphQL makes it easy for fetching the data models for client side developers and easy for server side developers to maintain the endpoints which will also be drastically minimized because of graphQL&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://facebook.github.io/graphql/&quot;&gt;Official Page - GraphQL  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/chentsulin/awesome-graphql&quot;&gt;Awesome GraphQL Repositories  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you prefer videos rather than reading through long posts.You can start here :
+&lt;a class=&quot;embedly-card&quot; href=&quot;/videos/2015/12/graphql-introduction&quot;&gt;GraphQL references  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Elm Resources</title><link href="http://rrevanth.github.io/reads/2015/11/elm-resources/"/><published>2015-11-30T09:26:00+00:00</published><updated>2015-11-30T09:26:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/elm-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/elm-resources/">&lt;p&gt;Some resources I read for learning Elm&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm&quot;&gt;Pragmatic Studio - Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/isRuslan/awesome-elm&quot;&gt;Awesome-Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://planet.elm-lang.org/&quot;&gt;Planet Elm Feed Aggregator  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/&quot;&gt;Codecentric Blog on Starting with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/evancz/elm-architecture-tutorial&quot;&gt;Elm Architecture Tutorial - Evancz  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://elm-by-example.org/index.html&quot;&gt;Elm By Example  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app&quot;&gt;No RedInk-Intro Elm to a JS WebApp  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html&quot;&gt;University of Chicago course on Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://prezi.com/c_vpoc2ufhkx/structuring-interactive-applications-with-elm/&quot;&gt;Prezi -Structuring Interactive applications with Elm  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Javascript References</title><link href="http://rrevanth.github.io/reads/2015/11/javascript-references/"/><published>2015-11-26T13:45:00+00:00</published><updated>2015-11-26T13:45:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/javascript-references/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/javascript-references/">&lt;p&gt;All the popular javascript resources and when to use which.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/&quot;&gt;Javascript references and usecases  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry><entry><title>Phoenix Resources</title><link href="http://rrevanth.github.io/reads/2015/11/phoenix-resources/"/><published>2015-11-22T10:13:00+00:00</published><updated>2015-11-22T10:13:00+00:00</updated><id>http://rrevanth.github.io/reads/2015/11/phoenix-resources/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2015/11/phoenix-resources/">&lt;p&gt;Collection of All Resources for learning Phoenix.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/h4cc/awesome-elixir&quot;&gt;Awesome Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://github.com/seven1m/30-days-of-elixir&quot;&gt;30 Days of Elixir  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;tipquote centerquote&quot;&gt;
+  &lt;p&gt;These are for Elixir which is phoenix based on and written in&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.phoenixframework.org/docs/resources&quot;&gt;Nothing Better than Official :smile:  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://blog.jordan-dimov.com/&quot;&gt;Blog posts only on Phoenix  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://www.cultivatehq.com/posts/&quot;&gt;Cultivate Blog with Elm frontend  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://hashnuke.com/&quot;&gt;HashNuke Blog  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://groups.google.com/forum/#!forum/phoenix-talk&quot;&gt;Phoenix Google Group  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry></feed>

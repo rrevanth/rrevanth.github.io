@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><link href="http://rrevanth.github.io/tag/programming/feed.xml" rel="self" type="application/atom+xml"/><link href="http://rrevanth.github.io/" rel="alternate" type="text/html"/><updated>2019-04-19T01:15:50+00:00</updated><id>http://rrevanth.github.io/</id><title>Feed tagged <b>PROGRAMMING</b> - Revanth's Blog</title><subtitle> I am a developer, photography enthusiast, and self-proclaimed music connoisseur.This is where I write about awesome things that intrigue me. </subtitle><author><name>Revanth Revoori</name></author><entry><title>Place to programs</title><link href="http://rrevanth.github.io/reads/2016/03/place-to-programs/"/><published>2016-03-01T05:19:00+00:00</published><updated>2016-03-01T05:19:00+00:00</updated><id>http://rrevanth.github.io/reads/2016/03/place-to-programs/</id><content type="html" xml:base="http://rrevanth.github.io/reads/2016/03/place-to-programs/">&lt;p&gt;Some places to practice for simple problems for grasping patterns in a language&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://adventofcode.com/&quot;&gt;Advent of Code  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;embedly-card&quot; href=&quot;http://exercism.io/&quot;&gt;Exercism  &lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+</content></entry></feed>
