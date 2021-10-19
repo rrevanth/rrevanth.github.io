@@ -46,7 +46,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-5pt}}
+    \textbf{#1}{: #2 \vspace{-3pt}}
   }
 }
 
@@ -61,7 +61,7 @@
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-10pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -81,83 +81,87 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://revanthrevoori.com}{\Large Revanth Revoori}} & \href{mailto:revanth@revanthrevoori.com}{\faEnvelope\hspace{.1cm}\textbf{revanth@revanthrevoori.com}}\\
-  \href{http://revanthrevoori.com}{\faGlobe}\hspace{.2cm}
+  \textbf{\Large Revanth Revoori} & \href{mailto:revanth001reva@gmail.com}{\faEnvelope\hspace{.1cm}\textbf{revanth001reva@gmail.com}}\\
+  \href{http://rrevanth.github.io}{\faGlobe}\hspace{.2cm}
   \href{https://github.com/rrevanth}{\faGithubSquare}\hspace{.2cm}
   \href{https://www.linkedin.com/in/revanthrevoori/}{\faLinkedinSquare}\hspace{.2cm}
   & \href{tel:16089603424}{\faPhone\hspace{.1cm}+1-608-960-3424} \\
 \end{tabular*}
 
 %-----------SUMMARY-----------------
-\section{Summary}
-      {An engineer at heart, passionate about emerging technological solutions and scaling products. A strong team player and an individual contributor on the lookout for a role that makes me a better engineer and value creator.}
+%\section{Summary}
+%      {An engineer at heart, passionate about emerging technological solutions and scaling products. A strong team player and an individual contributor on the lookout for a role that makes me a better engineer and value creator.}
 
-%-----------SUMMARY-----------------
-\section{Programming Skills}
-    \resumeItemListStart
-        \techItem{Languages}
-          {Python, Java, C++, C\#, Javascript, Elixir, Cache[akin to Python]}
-        \techItem{Databases}
-          {HBase, MySQL, Postgres, MongoDB}
-        \techItem{Technologies}
-          {Hadoop 2.0, Spark, Cascalog, Thrift, Kafka, Redis, AWS, Angular, Phoenix, GraphQL}
-    \resumeItemListEnd
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+          {Indian Institute of Technology Kharagpur}{Kharagpur, India}
+      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{July. 2009 -- May. 2013}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Epic Systems}{Madison, WI}
-      {Software Engineer, Tech Lead}{Oct 2016 - Present}
+      {Microsoft}{Seattle, WA}
+      {Software Engineer II}{Jun 2019 - Present}
       \resumeItemListStart
-        \resumeItem{UCL Transport}
-          {Developed a new sync mechanism in \textbf{Cache} which enables incoming transactions to be synced between deployments effectively eliminating manual edits on 70k transactions/day in Kaiser's installation. Developed rollback, resync triggers for admin to control the workflow. Enabled metric logging for better tracking transaction status.}
-        \resumeItem{Recommendations}
-          {Developing Active learning \textbf{ML} model using \textbf{Python, Cache} for suggesting charges for providers based on their past data. Built preference lists based on recommendation for easy access.}
-        \resumeItem{Social Care Financials}
-          {Responsible for all router modules in \$500M project for Finland integration of Epic. Developed a new web service with SLA in \textbf{Cache} to enable integration with third party vendors to improve latency. Doubled utilization in 4 months. This project made a big leap in making system open to other systems and received significant recognition in community.}
-        \resumeItem{Web Migration}
-          {Migrated admin work-flows from VB to web using \textbf{C\#, Typescript}. Customized internal framework modules to improve latency in data-binding mechanism.}
+        \resumeItem{SubHub}
+          {\textbf{Leading a team} that handles lifecycle management of Azure subscriptions that are used by all of Microsoft products.}
+        \resumeItem{Secure Edits}
+          {\textbf{Lead a four person team} to enable policy driven guarded edits in the system \textbf{reducing error rate by 20\% in the system}. The engine is being expanded to support all critical workflows in the system.}
+        \resumeItem{JEDI}
+          {As part of \textbf{\$10B} US government project, owned and developed automatic data migration across deployments with \textbf{99.9999\% SLA} and resilient to dependency system failures.}
+        \resumeItem{Frontend Rewrite}
+          {Designed and built frontend component library using React \& MobX creating extensible, reusable components with built-in telemetry which is used for revamping the frontend.}
+        \resumeItem{Validation Engine}
+          {Developed a plug and play validation framework that will enable to extend the data validations of the metadata in the system.}
+        \resumeItem{Productivity Optimizations}
+          {Developed a test automation and API catalog using Postman \textbf{boosting productivity by 40\%}.
+          
+          developed configurable metric framework and improved logging using structured logging \& application insights cutting \textbf{incident mitigation time by 100\%}.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Epic Systems}{Madison, WI}
+      {Software Engineer, Project Lead}{Oct 2016 - Jun 2019}
+      \resumeItemListStart
+        \resumeItem{Belgium Integration}
+          {\textbf{Tech lead responsible for Belgium Integration}, directly coordinating with cross functional teams including the CFO and the Finance team.}
+        \resumeItem{Smart Favorites}
+          {Developed and rolled out an Active learning model for procedure recommendations for doctors.  This learning model works on the recent patient history, season of the year, doctor’s specialization to recommend suitable codes for patient diagnosis to save time.}
+        \resumeItem{Charge Transport}
+          {Developed a pipeline to enable cross deployment transfer of transactions \textbf{automating manual edits of 70K transactions a day} in Kaiser Permanente.}
+        \resumeItem{Social Care Financial}
+          {\textbf{Represented team in \$500M project} to deploy Epic in Finland. Designed a web service to send out charges to third party billing systems serving 15\% of Finland charges.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Livastar}{Hyderabad, India}
       {Senior Software Engineer}{May 2015 - August 2016}
       \resumeItemListStart
-        \resumeItem{Scaling}
-          {Scaled the architecture leveraging \textbf{AWS} and re-wrote modules to be more efficient at runtime, and take advantage of static type checking provided by Facebook \textbf{Hack}.}
-      \resumeItem{Marketing}
-          {Built product in \textbf{PHP, React} to get overviews of revenue, delivery optimisation. 
-          Built marketing modules that enabled customer retention like service notifications, email marketing tools and batch campaigns.}
-        \resumeItem{Delivery}
-            {Developed a plug-and-play system for integration delivery network easing integration of new delivery vendor in few clicks. Automated tracking mechanism and sending revenue report to respective people for follow up and credits. Created service that automates network matching so end user can create delivery label at button click}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Livastar using \textbf{Python, Collaborative filtering}, used on the homepage and throughout the content discovery process of user.}
-        \resumeItem{Mobile API}
-          {Built a core service for complete e-commerce api including recommendations which is used for mobile app development. Features include delivery time optimization, order tracking, product availability notifications.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {\href{https://www.livemint.com/Companies/BRloDferl057Vh4EcuXffM/Myntra-acquires-Bangalorebased-startup-Cubeit.html}{GridAnts/Cubeit}}{Bangalore, India}
-      {Full Stack Developer}{Dec 2014 - Febuary 2015}
-      \resumeItemListStart
-        \resumeItem{Mac App}
-          {Developed Mac application by building a wrapper around product based on the \textbf{Python, Django}.}
-        \resumeItem{Pivot}
-          {Involved in various brain storming sessions \& product development during pivot.}
+        \resumeItem{Mobile Application}
+          {\textbf{Lead mobile release of product} including features such as recommendations, delivery time, order tracking, product availability notifications.}
+        \resumeItem{Delivery Network Plugin}
+          {Developed a plug-and-play integration to automate adding new delivery network. Created service to improve network matching for shipping cost optimization, auto tracking, credit reconciliation \textbf{decreasing the COF by 30\%}}
+      \resumeItem{Product Improvements}
+          {Built modules for revenue overview, delivery optimization, Improved product recommendations, Mini-CRM and batch campaigns. The helped us \textbf{increase the revenue by 200\%}}
+        \resumeItem{Backend Improvements}
+          {Replaced the compiler using Facebook Hack and reverse proxy systems \textbf{achieving <500ms page load times} across the product.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Digital Quotient}{Gurgaon, India}
-      {Data Scientist}{May 2014 - Dec 2014}
+      {Data Scientist}{May 2014 - Apr 2015}
       \resumeItemListStart
-        \resumeItem{Core Architecture}
-          {Worked on \textbf{Hadoop 2.0 architecture} to develop mobile analytics platform for Android, iOS \& windows mobile applications using \textbf{NodeJS, Thrift, Java}. Improved cluster security using \textbf{Kerberos \& Nagios}.}
         \resumeItem{Uninstall Source}
-        {Developed a patented tech for mobile analytics which is first to track uninstall source for an app in addition to implementing generic feature set.}
-        \resumeItem{Schema Redesign}
-          {Designed schema in \textbf{Apache Thrift} \& Implemented Map Reduce jobs to store \textbf{Big Data} in {HDFS}. Improved the execution speed of \textbf{Jcascalog} queries by four fold from redesigned layered queries, removing the redundant computations.}
+          {\textbf{Developed patented mobile analytics product} for tracking uninstall source for an app using Lambda architecture, Hadoop 2.0, NodeJS, Thrift, Kafka, Java.}
+        \resumeItem{Pipeline Optimization}
+          {\textbf{Improved the Map Reduce jobs by 400\%} by removing redundant computations in JCascalog queries.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -171,6 +175,13 @@
 %       {Among the 99.99 percentile in IIT-JEE 2009 with 509 All India Rank out of 0.4 million.}
 %   \resumeSubHeadingListEnd
 
+%-----------SUMMARY-----------------
+\section{Programming Skills}
+    \resumeItemListStart
+        \techItem{Technologies}
+          { Python, C\#, React, Java, C++, Flutter, Big Data }
+    \resumeItemListEnd
+
 %
 %--------PROGRAMMING SKILLS------------
 %\section{Programming Skills}
@@ -182,13 +193,4 @@
 %    }
 %  \resumeSubHeadingListEnd
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-          {Indian Institute of Technology Kharagpur}{Kharagpur, India}
-      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{July. 2009 -- May. 2013}
-  \resumeSubHeadingListEnd
-
-%-------------------------------------------
 \end{document}
