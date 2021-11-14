@@ -1,6 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Revanth Revoori
+% Author : Revanth
+% Based off of: https://github.com/jakeryang/resume
 % License : MIT
 %------------------------
 
@@ -8,14 +9,48 @@
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
-\usepackage{titlesec}
+\usepackage{titlesec}https://www.overleaf.com/download/project/616e09d49687f4291abc4a99/build/17d1c4ec01a-24dc927c17f5fc74/output/output.pdf?compileGroup=standard&clsiserverid=clsi-reg-e2-d-fnmk&popupDownload=true
 \usepackage{marvosym}
-\usepackage{fontawesome}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% only for pdflatex
+% \input{glyphtounicode}
+
+% fontawesome
+\usepackage{fontawesome5}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underilne
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+%% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
 
 
 \pagestyle{fancy}
@@ -25,8 +60,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
@@ -37,158 +72,161 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Sections formatting - serif
+% \titleformat{\section}{
+%   \vspace{2pt} \scshape \raggedright\large % header section
+% }{}{0em}{}[\color{black} \titlerule \vspace{-5pt}]
+
+% TODO EBSERIES
+% sans serif sections
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \scshape \raggedright \large % header section
+}{}{0em}{}[\color{black} \titlerule \vspace{-4pt}]
+
+% only for pdflatex
+% Ensure that generate pdf is machine readable/ATS parsable
+% \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
+\newcommand{\resumeItem}[1]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-5pt}}
-  }
-}
-
-\newcommand{\techItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-6pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-10pt}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\textsc{#2}}\vspace{1pt}\\ % top row of resume entry
+      \textit{#3} & {\color{dark-grey} {#4}}\\ % second row of resume entry
+    \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
 
-\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}} \\
+    \end{tabular*}\vspace{-4pt}
+}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% CHANGED default leftmargin  0.15 in
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
 
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://revanthrevoori.com}{\Large Revanth Revoori}} & \href{mailto:revanth@revanthrevoori.com}{\faEnvelope\hspace{.1cm}\textbf{revanth@revanthrevoori.com}}\\
-  \href{http://revanthrevoori.com}{\faGlobe}\hspace{.2cm}
-  \href{https://github.com/rrevanth}{\faGithubSquare}\hspace{.2cm}
-  \href{https://www.linkedin.com/in/revanthrevoori/}{\faLinkedinSquare}\hspace{.2cm}
-  & \href{tel:16089603424}{\faPhone\hspace{.1cm}+1-608-960-3424} \\
-\end{tabular*}
-
-%-----------SUMMARY-----------------
-\section{Summary}
-      {An engineer at heart, passionate about emerging technological solutions and scaling products. A strong team player and an individual contributor on the lookout for a role that makes me a better engineer and value creator.}
-
-%-----------SUMMARY-----------------
-\section{Programming Skills}
-    \resumeItemListStart
-        \techItem{Languages}
-          {Python, Java, C++, C\#, Javascript, Elixir, Cache[akin to Python]}
-        \techItem{Databases}
-          {HBase, MySQL, Postgres, MongoDB}
-        \techItem{Technologies}
-          {Hadoop 2.0, Spark, Cascalog, Thrift, Kafka, Redis, AWS, Angular, Phoenix, GraphQL}
-    \resumeItemListEnd
-
-%-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Epic Systems}{Madison, WI}
-      {Software Engineer, Tech Lead}{Oct 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{UCL Transport}
-          {Developed a new sync mechanism in \textbf{Cache} which enables incoming transactions to be synced between deployments effectively eliminating manual edits on 70k transactions/day in Kaiser's installation. Developed rollback, resync triggers for admin to control the workflow. Enabled metric logging for better tracking transaction status.}
-        \resumeItem{Recommendations}
-          {Developing Active learning \textbf{ML} model using \textbf{Python, Cache} for suggesting charges for providers based on their past data. Built preference lists based on recommendation for easy access.}
-        \resumeItem{Social Care Financials}
-          {Responsible for all router modules in \$500M project for Finland integration of Epic. Developed a new web service with SLA in \textbf{Cache} to enable integration with third party vendors to improve latency. Doubled utilization in 4 months. This project made a big leap in making system open to other systems and received significant recognition in community.}
-        \resumeItem{Web Migration}
-          {Migrated admin work-flows from VB to web using \textbf{C\#, Typescript}. Customized internal framework modules to improve latency in data-binding mechanism.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Livastar}{Hyderabad, India}
-      {Senior Software Engineer}{May 2015 - August 2016}
-      \resumeItemListStart
-        \resumeItem{Scaling}
-          {Scaled the architecture leveraging \textbf{AWS} and re-wrote modules to be more efficient at runtime, and take advantage of static type checking provided by Facebook \textbf{Hack}.}
-      \resumeItem{Marketing}
-          {Built product in \textbf{PHP, React} to get overviews of revenue, delivery optimisation. 
-          Built marketing modules that enabled customer retention like service notifications, email marketing tools and batch campaigns.}
-        \resumeItem{Delivery}
-            {Developed a plug-and-play system for integration delivery network easing integration of new delivery vendor in few clicks. Automated tracking mechanism and sending revenue report to respective people for follow up and credits. Created service that automates network matching so end user can create delivery label at button click}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Livastar using \textbf{Python, Collaborative filtering}, used on the homepage and throughout the content discovery process of user.}
-        \resumeItem{Mobile API}
-          {Built a core service for complete e-commerce api including recommendations which is used for mobile app development. Features include delivery time optimization, order tracking, product availability notifications.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {\href{https://www.livemint.com/Companies/BRloDferl057Vh4EcuXffM/Myntra-acquires-Bangalorebased-startup-Cubeit.html}{GridAnts/Cubeit}}{Bangalore, India}
-      {Full Stack Developer}{Dec 2014 - Febuary 2015}
-      \resumeItemListStart
-        \resumeItem{Mac App}
-          {Developed Mac application by building a wrapper around product based on the \textbf{Python, Django}.}
-        \resumeItem{Pivot}
-          {Involved in various brain storming sessions \& product development during pivot.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Digital Quotient}{Gurgaon, India}
-      {Data Scientist}{May 2014 - Dec 2014}
-      \resumeItemListStart
-        \resumeItem{Core Architecture}
-          {Worked on \textbf{Hadoop 2.0 architecture} to develop mobile analytics platform for Android, iOS \& windows mobile applications using \textbf{NodeJS, Thrift, Java}. Improved cluster security using \textbf{Kerberos \& Nagios}.}
-        \resumeItem{Uninstall Source}
-        {Developed a patented tech for mobile analytics which is first to track uninstall source for an app in addition to implementing generic feature set.}
-        \resumeItem{Schema Redesign}
-          {Designed schema in \textbf{Apache Thrift} \& Implemented Map Reduce jobs to store \textbf{Big Data} in {HDFS}. Improved the execution speed of \textbf{Jcascalog} queries by four fold from redesigned layered queries, removing the redundant computations.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
-% %-----------PROJECTS-----------------
-% \section{Projects \& Achievements}
-%   \resumeSubHeadingListStart
-%     \resumeSubItem{Recommendation System}
-%       {Built product recommender systems using collaborative filtering on public datasets as side project during Livastar which later integrated in to Nucleus.}
-%     \resumeSubItem{Merits}
-%       {Among the 99.99 percentile in IIT-JEE 2009 with 509 All India Rank out of 0.4 million.}
-%   \resumeSubHeadingListEnd
-
-%
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Revanth Revoori} \\ \vspace{5pt}
+    \small \href{tel:16089603424}{\faPhone* \texttt{608.960.3424}} \hspace{1pt} $|$
+    \hspace{1pt} \href{mailto:revanth001reva@gmail.com}{\faEnvelope \hspace{2pt} \texttt{revanth001reva@gmail.com}} \hspace{1pt} $|$ 
+    \hspace{1pt} \href{https://github.com/rrevanth}{\faGithub \hspace{2pt} \texttt{rrevanth}} \hspace{1pt} $|$ 
+    \hspace{1pt} \href{https://www.linkedin.com/in/revanthrevoori}{\faLinkedin \hspace{2pt} \texttt{revanth}} \hspace{1pt} $|$ 
+    \\ \vspace{-3pt}
+\end{center}
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
           {Indian Institute of Technology Kharagpur}{Kharagpur, India}
-      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{July. 2009 -- May. 2013}
+      {\href{http://cse.iitkgp.ac.in/~rrevanth/}{Bachelor of Engineering in Computer Science}}{Jul 2009 -- May 2013}
   \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Microsoft}{Seattle, WA}
+      {Software Engineer II}{Jun 2019 - Present}
+      \resumeItemListStart
+        \resumeItem
+          {Working in a team that is responsible for managing and discovery of services \& subscriptions in Azure \& Microsoft.}
+        \resumeItem
+          {\textbf{Responsible for team} that handles lifecycle management of Azure subscriptions used by all of Microsoft.}
+        \resumeItem
+          {\textbf{Lead 3 person team} and developed enable policy driven configurable guarded edits in the system. The system powers \textbf{20\% edits in the system} and being \textbf{expanded to other critical workflows} in the product.}
+        \resumeItem
+          {Developed a \textbf{flexible validation framework} with support for easily extending supporting macros, data providers and extensions.}
+        \resumeItem
+          {Designed \& automated data migration pipeline across instances with \textbf{99.9999\% SLA}.}
+        \resumeItem
+          {Contributed to \textbf{frontend component library using React \& MobX} creating extensible, reusable components with built-in telemetry which is used for revamping the frontend.}
+        \resumeItem
+          {\textbf{Reduced On-Call effort by 80\%} automating alert mitigation workflows and one click scripts for manual tasks to mitigate the issues.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Epic Systems}{Madison, WI}
+      {Software Engineer, Project Lead}{Oct 2016 - Jun 2019}
+      \resumeItemListStart
+        \resumeItem
+          {Delivered Epic installation in Belguim, developing charge integration module \& directly coordinating with cross functional teams and \textbf{working closely with CFO}.}
+        \resumeItem
+          {Improved the procedure recommendations for doctors using \textbf{Active learning ML model with 95\% accuracy}.}
+        \resumeItem
+          {Devised a pipeline to automate \textbf{cross deployment transfer eliminating 100\% manual labor} in Kaiser’s installation with logging, feature tracking, rollback, re-sync triggers of the workflow.}
+        \resumeItem
+          {\textbf{Spearheaded \$500M project} to deploy Epic in Finland. Designed a web service to send out charges to third party billing systems serving 15\% of Finland charges.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Livastar}{Hyderabad, India}
+      {Senior Software Engineer}{May 2015 - August 2016}
+      \resumeItemListStart
+        \resumeItem
+          {\textbf{Lead mobile release of product} including features such as recommendations, delivery time, order tracking, product availability notifications.}
+      \resumeItem
+          {Developed a plug-and-play integration to automate adding new delivery network. Created service to improve network matching for shipping cost optimization, auto tracking, credit reconciliation \textbf{decreasing the COF by 30\%}}
+        \resumeItem
+            {Built modules for revenue overview, delivery optimization, better ML recommendations, Mini-CRM and batch campaigns helping \textbf{increase revenue by 2x and reducing CCA by 30\%}.}
+        \resumeItem
+          {Improved product performance leveraging AWS, Facebook Hack and HAProxy \textbf{achieving <500ms page load times} across the product.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Digital Quotient}{Gurgaon, India}
+      {Data Scientist}{May 2014 - Apr 2015}
+      \resumeItemListStart
+        \resumeItem
+          {Developed \textbf{patented tech} for tracking uninstalls of an app using Lambda architecture, Hadoop 2.0, Thrift, Kafka.}
+        \resumeItem
+          {\textbf{Improved the Map Reduce jobs 4x} by removing redundant computations in JCascalog queries.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages \& Technologies} {: Python, C\#, React, Java, C++, Flutter, Big Data, ML }
+    }}
+ \end{itemize}
+
 
 %-------------------------------------------
 \end{document}
